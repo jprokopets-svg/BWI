@@ -36,7 +36,7 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 | 3 | The 25 occupations with the highest exposure in 2026 | [table03_top25.csv](tables/table03_top25.csv) |
 | 4 | The ten most- and ten least-exposed occupations in 2026 | [table04_top_bottom10.csv](tables/table04_top_bottom10.csv) |
 | 5 | The 25 occupations whose exposure grew most from 2020 to 2026 | [table05_fastest_growing.csv](tables/table05_fastest_growing.csv) |
-| 6 | Rank correlation between the 2023, 2024, and 2025 exposure vintages and observed AI use (Anthropic Economic Index, measured in 2025) | [table06_rank_association.csv](tables/table06_rank_association.csv) |
+| 6 | Rank correlation between each exposure vintage (2023 to 2026) and observed AI use (Anthropic Economic Index, measured in 2025) | [table06_rank_association.csv](tables/table06_rank_association.csv) |
 | 7 | Occupations where 2026 exposure and observed use agree or diverge, in four quadrants | [table07_quadrants.csv](tables/table07_quadrants.csv) |
 | 8 | All 52 abilities with their 2026 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
 | 9 | How the 2026 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
@@ -54,7 +54,7 @@ Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `m
 
 ## Tables that need more than this data
 
-All tables are anchored on 2026, the latest vintage. Table 6 reports the 2023, 2024, and 2025 vintages against observed AI use measured in 2025; a 2026 row would need a later release of the usage data. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
+All tables are anchored on 2026, the latest vintage. Table 6 reports the 2023 to 2026 vintages against observed AI use measured in 2025; the 2026 row post-dates the usage data and should be read as a consistency check rather than a validation. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
 
 ## Citation
 
