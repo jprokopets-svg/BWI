@@ -26,11 +26,24 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 **prompts/**. The three prompts used by the version 2 pipeline.
 
-**tables/**. One script per data table in the paper (Tables 3 to 10), each reading only `data/` and writing a `.csv` and a `.tex` to `output/`, in the paper's format with version 2 values. Tables 2, 11, and 12 are descriptive; their `.tex` files in `tables/static/` describe the version 1 pipeline as printed in the paper.
+**tables/**. The paper's tables with version 2 values, as CSV files (LaTeX versions in `tables/tex/`, generating scripts in `tables/scripts/`). Each script reads only `data/`.
+
+| Table | What it shows | CSV |
+|---|---|---|
+| 3 | The 25 occupations with the highest exposure in 2025 | [table03_top25.csv](tables/table03_top25.csv) |
+| 4 | The ten most- and ten least-exposed occupations in 2025 | [table04_top_bottom10.csv](tables/table04_top_bottom10.csv) |
+| 5 | The 25 occupations whose exposure grew most from 2020 to 2025 | [table05_fastest_growing.csv](tables/table05_fastest_growing.csv) |
+| 6 | Rank correlation between the 2023 and 2024 exposure vintages and observed AI use (Anthropic Economic Index) | [table06_rank_association.csv](tables/table06_rank_association.csv) |
+| 7 | Occupations where exposure and observed use agree or diverge, in four quadrants | [table07_quadrants.csv](tables/table07_quadrants.csv) |
+| 8 | All 52 abilities with their 2025 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
+| 9 | How the 2025 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
+| 10 | The 38 abilities with a 2025 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
+
+Tables 2, 11, and 12 are descriptive and exist only as LaTeX in `tables/tex/`; they describe the version 1 pipeline as printed in the paper.
 
 ## Rerunning the tables
 
-Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `make tables` writes every table to `output/`.
+Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `make tables` regenerates every CSV in `tables/` and every LaTeX file in `tables/tex/`.
 
 ## Tables that need more than this data
 

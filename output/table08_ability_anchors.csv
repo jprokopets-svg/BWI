@@ -1,0 +1,53 @@
+Ability,Exposure 2025,Benchmark Anchor
+Control Precision,59.50,A2RL Drone Championship
+Memorization,52.50,LongMemEval
+Speech Recognition,45.50,Open ASR Leaderboard
+Written Expression,45.50,WritingBench
+Category Flexibility,44.00,Extended NYT Connections
+Auditory Attention,42.00,WHAMR!
+Written Comprehension,42.00,LongBench v2
+Oral Expression,39.00,VocalBench
+Problem Sensitivity,38.50,ProcessBench
+Originality,35.75,LiveIdeaBench
+Mathematical Reasoning,34.00,FrontierMath
+Speech Clarity,33.00,Seed-TTS-eval
+Oral Comprehension,32.50,MMSU
+Explosive Strength,31.50,World Humanoid Robot Games
+Deductive Reasoning,30.00,KOR-Bench
+Selective Attention,30.00,Vending-Bench 2
+Depth Perception,27.50,DA-2K
+Information Ordering,27.50,Sudoku-Bench
+Near Vision,27.00,HR-Bench
+Sound Localization,26.00,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)"
+Multilimb Coordination,24.50,RoboTwin 2.0
+Number Facility,24.00,ORCA
+Rate Control,24.00,Arcade Learning Environment
+Hearing Sensitivity,22.75,STAR-Bench
+Far Vision,22.00,HR-Bench
+Spatial Orientation,22.00,VSI-Bench
+Fluency of Ideas,20.00,NoveltyBench
+Stamina,20.00,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon)
+Visualization,19.50,SpatialViz-Bench
+Manual Dexterity,19.25,RoboTwin 2.0
+Visual Color Discrimination,19.25,ColorBench
+Inductive Reasoning,18.00,ARC-AGI-2
+Glare Sensitivity,17.50,GLARE
+Speed of Limb Movement,16.50,World Humanoid Robot Games 100m sprint
+Gross Body Equilibrium,13.75,HumanoidBench
+Perceptual Speed,12.25,BLINK
+Time Sharing,12.25,StreamingBench
+Speed of Closure,11.25,ARC-AGI-2
+Flexibility of Closure,,
+Gross Body Coordination,,
+Night Vision,,
+Arm-Hand Steadiness,,
+Dynamic Flexibility,,
+Dynamic Strength,,
+Extent Flexibility,,
+Finger Dexterity,,
+Peripheral Vision,,
+Reaction Time,,
+Response Orientation,,
+Static Strength,,
+Trunk Strength,,
+Wrist-Finger Speed,,

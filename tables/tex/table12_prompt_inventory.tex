@@ -1,0 +1,12 @@
+% Table 12 is descriptive (no data input). Text reproduced from the paper; the prompt files are in prompts/.
+\begin{table}[htbp]\centering
+\caption{Prompt inventory for the LLM-assisted stages of the BAIOE pipeline.}\label{tab:prompts}
+\begin{tabular}{llp{8cm}}\toprule
+Prompt & Used in & Role in the pipeline \\ \midrule
+Benchmark selection prompt & Step 1 & Identifies the best historically valid benchmark for each O*NET ability-year cell, or returns ``no adequate benchmark'' when no credible benchmark exists. \\
+Primary score-extraction prompt & Step 2 & Extracts the best publicly reported AI or ML performance score for each benchmark from 2020 to 2025. \\
+Web-search supplementation prompt & Step 2 & Fills missing benchmark-year observations when the primary extraction prompt does not identify a score. \\
+Capability-rating prompt, v1 & Step 3 development & Trial prompt using sub-skill decomposition and human anchors. This version was used during development but not in the final cascade. \\
+Capability-rating prompt, v2 & Step 3 final & Final prompt used in the BAIOE results. It applies hard precondition gates and assigns direct 0--10 human-comparative capability scores. \\
+Transferability prompt & Step 4 & Rates benchmark-to-workplace transferability using five factors: task realism, evaluation conditions, construct coverage, format match, and transfer evidence. \\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,12 @@
+% Table 2 is descriptive (no data input). Text reproduced from the paper.
+\begin{table}[htbp]\centering
+\caption{Overview of the BAIOE measurement pipeline.}\label{tab:pipeline}
+\begin{tabular}{clp{9cm}}\toprule
+Step & Stage & Description \\ \midrule
+1 & Benchmark selection & Map public AI benchmarks to the 52 O*NET abilities, separately for each year 2020--2025, using three independent LLM judges. \\
+2 & Score extraction & Extract the best publicly reported AI performance score for each benchmark and year. \\
+3 & Capability rating & Convert each benchmark-year score into a human-comparative capability score on a 0--10 scale. \\
+4 & Transferability rating & Rate how strongly benchmark performance transfers to real workplace capability for the mapped ability. \\
+5 & Ability-year exposure & Combine human-comparative capability and transferability to construct an exposure score for each O*NET ability--year. \\
+6 & Occupational exposure & Aggregate ability-level exposure to occupations using O*NET importance and level weights. \\
+\bottomrule\end{tabular}\end{table}

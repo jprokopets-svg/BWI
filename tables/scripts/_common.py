@@ -1,8 +1,8 @@
 """Shared loaders and writers for the BAIOE table scripts. Reads only files under data/."""
 import csv, os
 from collections import defaultdict
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, 'data'); OUT = os.path.join(ROOT, 'output')
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATA = os.path.join(ROOT, 'data'); OUT = os.path.join(ROOT, 'tables'); TEX = os.path.join(OUT, 'tex')
 YEARS = ['2020', '2021', '2022', '2023', '2024', '2025']
 
 def read(name):
@@ -41,8 +41,8 @@ def write_csv(name, header, rows):
         w = csv.writer(f); w.writerow(header); w.writerows(rows)
 
 def write_tex(name, text):
-    os.makedirs(OUT, exist_ok=True)
-    with open(os.path.join(OUT, name), 'w', encoding='utf-8') as f: f.write(text.rstrip() + '\n')
+    os.makedirs(TEX, exist_ok=True)
+    with open(os.path.join(TEX, name), 'w', encoding='utf-8') as f: f.write(text.rstrip() + '\n')
 
 def rank_desc(values):
     """Descending ranks (1 = highest) with fractional ties. values: {key: number}."""
