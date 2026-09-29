@@ -4,6 +4,14 @@ from collections import defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, 'data'); OUT = os.path.join(ROOT, 'tables'); TEX = os.path.join(OUT, 'tex')
 YEARS = ['2020', '2021', '2022', '2023', '2024', '2025', '2026']
+LATEST = '2026'; BASE = '2020'; CUTOFF = '28 September 2026'
+
+def carried_count(year=LATEST):
+    """Number of abilities whose value for `year` was carried forward from the previous year."""
+    return sum(1 for r in read('ability_year_exposure.csv') if r['year'] == year and r['resolution'].startswith('carry_forward'))
+
+def vintage_note():
+    return f' The {LATEST} vintage uses benchmark results published up to {CUTOFF}; {carried_count()} abilities without a verifiable {LATEST} result carry their 2025 value forward.'
 
 def read(name):
     with open(os.path.join(DATA, name), encoding='utf-8') as f: return list(csv.DictReader(f))

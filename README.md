@@ -19,7 +19,7 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 **data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `carry_forward_2025`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
 
-**data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2025 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
+**data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2026 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
 
 **data/onet_ability_weights.csv**. Normalized O*NET importance and level ratings and their product for every occupation and ability. Derived from the O*NET 30.3 Database; no raw O*NET files are included.
 
@@ -29,24 +29,22 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 **prompts/**. The three prompts used by the version 2 pipeline.
 
-**tables/**. The paper's tables with version 2 values, as CSV files (LaTeX versions in `tables/tex/`, generating scripts in `tables/scripts/`). Each script reads only `data/`.
+**tables/**. The paper's tables with version 2 values, anchored on the 2026 vintage (benchmark results up to 28 September 2026), as CSV files (LaTeX versions in `tables/tex/`, generating scripts in `tables/scripts/`). Each script reads only `data/`.
 
 | Table | What it shows | CSV |
 |---|---|---|
-| 3 | The 25 occupations with the highest exposure in 2025 | [table03_top25.csv](tables/table03_top25.csv) |
-| 4 | The ten most- and ten least-exposed occupations in 2025 | [table04_top_bottom10.csv](tables/table04_top_bottom10.csv) |
-| 5 | The 25 occupations whose exposure grew most from 2020 to 2025 | [table05_fastest_growing.csv](tables/table05_fastest_growing.csv) |
-| 6 | Rank correlation between the 2023 and 2024 exposure vintages and observed AI use (Anthropic Economic Index) | [table06_rank_association.csv](tables/table06_rank_association.csv) |
-| 7 | Occupations where exposure and observed use agree or diverge, in four quadrants | [table07_quadrants.csv](tables/table07_quadrants.csv) |
-| 8 | All 52 abilities with their 2025 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
-| 9 | How the 2025 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
-| 10 | The 38 abilities with a 2025 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
-| extra | Top 25 by 2025 exposure with the 35 postsecondary teaching occupations (SOC 25-1xxx) removed | [table_top25_no_teachers.csv](tables/table_top25_no_teachers.csv) |
-| extra | Top 25 by 2020-2025 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
-| extra | Top 25 by 2025 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |
+| 3 | The 25 occupations with the highest exposure in 2026 | [table03_top25.csv](tables/table03_top25.csv) |
+| 4 | The ten most- and ten least-exposed occupations in 2026 | [table04_top_bottom10.csv](tables/table04_top_bottom10.csv) |
+| 5 | The 25 occupations whose exposure grew most from 2020 to 2026 | [table05_fastest_growing.csv](tables/table05_fastest_growing.csv) |
+| 6 | Rank correlation between the 2023, 2024, and 2025 exposure vintages and observed AI use (Anthropic Economic Index, measured in 2025) | [table06_rank_association.csv](tables/table06_rank_association.csv) |
+| 7 | Occupations where 2026 exposure and observed use agree or diverge, in four quadrants | [table07_quadrants.csv](tables/table07_quadrants.csv) |
+| 8 | All 52 abilities with their 2026 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
+| 9 | How the 2026 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
+| 10 | The abilities with a 2026 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
+| extra | Top 25 by 2026 exposure with the 35 postsecondary teaching occupations (SOC 25-1xxx) removed | [table_top25_no_teachers.csv](tables/table_top25_no_teachers.csv) |
+| extra | Top 25 by 2020-2026 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
+| extra | Top 25 by 2026 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |
 | extra | Top 25 by growth with the same teacher bundle | [table_fastest25_teachers_bundled.csv](tables/table_fastest25_teachers_bundled.csv) |
-| extra | Top 25 by 2026 exposure (cutoff 28 September 2026) | [table_top25_2026.csv](tables/table_top25_2026.csv) |
-| extra | Top 25 by 2020-2026 growth | [table_fastest25_2020_2026.csv](tables/table_fastest25_2020_2026.csv) |
 
 Tables 2, 11, and 12 are descriptive and exist only as LaTeX in `tables/tex/`; they describe the version 1 pipeline as printed in the paper.
 
@@ -56,7 +54,7 @@ Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `m
 
 ## Tables that need more than this data
 
-All eight data tables can be produced because version 2 covers all years; the paper's tables use 2025 as the latest year, and the 2026 vintage appears only in the two extra tables. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
+All tables are anchored on 2026, the latest vintage. Table 6 reports the 2023, 2024, and 2025 vintages against observed AI use measured in 2025; a 2026 row would need a later release of the usage data. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
 
 ## Citation
 

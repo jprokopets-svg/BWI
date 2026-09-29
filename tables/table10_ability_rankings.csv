@@ -1,39 +1,42 @@
-Rank,Ability,Category,Exposure 2025
-1,Control Precision,Psychomotor,59.5
-2,Memorization,Cognitive,52.5
-3,Speech Recognition,Sensory,45.5
-4,Written Expression,Cognitive,45.5
-5,Category Flexibility,Cognitive,44.0
-6,Auditory Attention,Sensory,42.0
-7,Written Comprehension,Cognitive,42.0
-8,Oral Expression,Cognitive,39.0
-9,Problem Sensitivity,Cognitive,38.5
-10,Originality,Cognitive,35.75
-11,Mathematical Reasoning,Cognitive,34.0
-12,Speech Clarity,Sensory,33.0
-13,Oral Comprehension,Cognitive,32.5
-14,Explosive Strength,Physical,31.5
-15,Deductive Reasoning,Cognitive,30.0
-16,Selective Attention,Cognitive,30.0
-17,Depth Perception,Sensory,27.5
-18,Information Ordering,Cognitive,27.5
-19,Near Vision,Sensory,27.0
-20,Sound Localization,Sensory,26.0
-21,Multilimb Coordination,Psychomotor,24.5
-22,Number Facility,Cognitive,24.0
-23,Rate Control,Psychomotor,24.0
-24,Hearing Sensitivity,Sensory,22.75
-25,Far Vision,Sensory,22.0
-26,Spatial Orientation,Cognitive,22.0
-27,Fluency of Ideas,Cognitive,20.0
-28,Stamina,Physical,20.0
-29,Visualization,Cognitive,19.5
-30,Manual Dexterity,Psychomotor,19.25
-31,Visual Color Discrimination,Sensory,19.25
-32,Inductive Reasoning,Cognitive,18.0
-33,Glare Sensitivity,Sensory,17.5
-34,Speed of Limb Movement,Psychomotor,16.5
-35,Gross Body Equilibrium,Physical,13.75
-36,Perceptual Speed,Cognitive,12.25
-37,Time Sharing,Cognitive,12.25
-38,Speed of Closure,Cognitive,11.25
+Rank,Ability,Category,Exposure 2026
+1,Explosive Strength,Physical,66.5
+2,Control Precision,Psychomotor,63.0
+3,Category Flexibility,Cognitive,49.5
+4,Speech Recognition,Sensory,49.0
+5,Written Expression,Cognitive,49.0
+6,Written Comprehension,Cognitive,42.0
+7,Problem Sensitivity,Cognitive,41.25
+8,Memorization,Cognitive,40.0
+9,Near Vision,Sensory,39.0
+10,Oral Expression,Cognitive,39.0
+11,Auditory Attention,Sensory,38.5
+12,Manual Dexterity,Psychomotor,38.25
+13,Speed of Limb Movement,Psychomotor,38.0
+14,Inductive Reasoning,Cognitive,36.0
+15,Mathematical Reasoning,Cognitive,36.0
+16,Rate Control,Psychomotor,36.0
+17,Selective Attention,Cognitive,36.0
+18,Speech Clarity,Sensory,30.25
+19,Deductive Reasoning,Cognitive,29.25
+20,Oral Comprehension,Cognitive,29.25
+21,Multilimb Coordination,Psychomotor,28.0
+22,Depth Perception,Sensory,27.5
+23,Fluency of Ideas,Cognitive,25.0
+24,Hearing Sensitivity,Sensory,24.5
+25,Time Sharing,Cognitive,24.5
+26,Night Vision,Sensory,24.0
+27,Number Facility,Cognitive,24.0
+28,Sound Localization,Sensory,22.75
+29,Visualization,Cognitive,22.75
+30,Far Vision,Sensory,22.0
+31,Spatial Orientation,Cognitive,22.0
+32,Visual Color Discrimination,Sensory,22.0
+33,Stamina,Physical,20.0
+34,Gross Body Coordination,Physical,19.5
+35,Glare Sensitivity,Sensory,17.5
+36,Gross Body Equilibrium,Physical,16.5
+37,Originality,Cognitive,16.5
+38,Static Strength,Physical,16.5
+39,Information Ordering,Cognitive,16.25
+40,Speed of Closure,Cognitive,15.75
+41,Perceptual Speed,Cognitive,14.0
