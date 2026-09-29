@@ -3,7 +3,7 @@ import csv, os
 from collections import defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, 'data'); OUT = os.path.join(ROOT, 'tables'); TEX = os.path.join(OUT, 'tex')
-YEARS = ['2020', '2021', '2022', '2023', '2024', '2025']
+YEARS = ['2020', '2021', '2022', '2023', '2024', '2025', '2026']
 
 def read(name):
     with open(os.path.join(DATA, name), encoding='utf-8') as f: return list(csv.DictReader(f))

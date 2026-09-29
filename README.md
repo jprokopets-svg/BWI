@@ -1,6 +1,6 @@
 # BAIOE replication package, version 2 pipeline
 
-BAIOE (Benchmark-based AI Occupational Exposure) measures how far demonstrated AI capability, as recorded on public AI benchmarks, overlaps with the abilities each U.S. occupation requires. It scores public benchmarks against the 52 O*NET abilities for every year from 2020 to 2025, then rolls the ability scores up to 894 occupations.
+BAIOE (Benchmark-based AI Occupational Exposure) measures how far demonstrated AI capability, as recorded on public AI benchmarks, overlaps with the abilities each U.S. occupation requires. It scores public benchmarks against the 52 O*NET abilities for every year from 2020 to 2026, then rolls the ability scores up to 894 occupations. The 2026 vintage uses benchmark results published up to 28 September 2026, the date of the run.
 
 This repository holds the **version 2** pipeline: a single judge model selects one benchmark per ability and year and extracts its score in the same call, a second pass rates the AI result against the median human who uses that ability at work, and a third pass rates how well the benchmark transfers to real work. The version 1 pipeline behind the released paper (three judges, up to three benchmarks per cell) is on the `v1-release` branch of this repository.
 
@@ -14,11 +14,11 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 ## What is in each file
 
-**data/benchmark_ability_year.csv** (312 rows, 52 abilities × 6 years). The selected benchmark for each ability and year, its selection rubric score, the extracted result (system, score, metric, provenance), the capability score with the human reference group the rater used, the transferability weight, and the resulting ability exposure. Rows with no benchmark are empty beyond the year.
+**data/benchmark_ability_year.csv** (364 rows, 52 abilities × 7 years). The selected benchmark for each ability and year, its selection rubric score, the extracted result (system, score, metric, provenance), the capability score with the human reference group the rater used, the transferability weight, and the resulting ability exposure. Rows with no benchmark are empty beyond the year.
 
-**data/ability_year_exposure.csv** (312 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
+**data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
 
-**data/occupation_exposure.csv** (5,364 rows, 894 occupations × 6 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2025 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
+**data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2025 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
 
 **data/onet_ability_weights.csv**. Normalized O*NET importance and level ratings and their product for every occupation and ability. Derived from the O*NET 30.3 Database; no raw O*NET files are included.
 
@@ -44,6 +44,8 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 | extra | Top 25 by 2020-2025 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
 | extra | Top 25 by 2025 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |
 | extra | Top 25 by growth with the same teacher bundle | [table_fastest25_teachers_bundled.csv](tables/table_fastest25_teachers_bundled.csv) |
+| extra | Top 25 by 2026 exposure (cutoff 28 September 2026) | [table_top25_2026.csv](tables/table_top25_2026.csv) |
+| extra | Top 25 by 2020-2026 growth | [table_fastest25_2020_2026.csv](tables/table_fastest25_2020_2026.csv) |
 
 Tables 2, 11, and 12 are descriptive and exist only as LaTeX in `tables/tex/`; they describe the version 1 pipeline as printed in the paper.
 
@@ -53,7 +55,7 @@ Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `m
 
 ## Tables that need more than this data
 
-All eight data tables can be produced because version 2 covers all six years. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
+All eight data tables can be produced because version 2 covers all years; the paper's tables use 2025 as the latest year, and the 2026 vintage appears only in the two extra tables. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
 
 ## Citation
 
