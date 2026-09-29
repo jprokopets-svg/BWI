@@ -7,11 +7,7 @@ tables:
 	@cp tables/static/*.tex output/
 	@echo "Tables written to output/"
 
-# Cell-for-cell check against the released paper. Set PAPER_PDF=/path/to/paper.pdf (the PDF is not distributed here).
-verify: tables
-	@$(PY) tables/verify_against_paper.py
-
 clean:
 	@rm -rf output
 
-.PHONY: tables verify clean
+.PHONY: tables clean

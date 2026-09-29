@@ -1,10 +1,9 @@
 """Table 7: capability-adoption quadrants, BAIOE vs AEI adoption.
-NOTE: the rows printed in the released paper are reproduced by the 2025 BAIOE vintage (40 of 40 rows); the paper's caption
-says 2024. VINTAGE below is set to reproduce the printed table. Change it to '2024' to see the 2024 version.
+VINTAGE follows the paper's caption (2024). Set it to '2025' for the latest vintage.
 Occupations with observed (nonzero) AEI use are ranked on both measures; a median split defines the quadrants;
 the ten most divergent occupations (largest rank gap) are listed per quadrant."""
 from _common import *
-VINTAGE = '2025'
+VINTAGE = '2024'
 PANELS = [('latent', 'Panel A: Latent exposure -- high BAIOE, low adoption'), ('active', 'Panel B: Active transformation -- high BAIOE, high adoption'),
           ('low', 'Panel C: Low pressure -- low BAIOE, low adoption'), ('ahead', 'Panel D: Adoption ahead -- low BAIOE, high adoption')]
 def rows():

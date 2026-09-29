@@ -1,259 +1,313 @@
-onet_ability,ability_id,ability_category,year,exposure,benchmark_count,transferability_weight_sum,resolution,resolved_benchmark,anchor_benchmark,benchmarks_mapped
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2020,,0,0.0,no_picks,,,
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2021,,0,0.0,no_picks,,,
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2022,,0,0.0,no_picks,,,
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2023,,0,0.0,full_split_fallback,,,
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2024,,0,0.0,no_picks,,,
-Arm-Hand Steadiness,arm_hand_steadiness,psychomotor,2025,,0,0.0,full_split_fallback,,,
-Auditory Attention,auditory_attention,sensory,2020,30.0,1,6.0,majority,chime_6_challenge,CHiME-6 Challenge,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Auditory Attention,auditory_attention,sensory,2021,42.0,1,6.0,majority,chime_6_challenge,CHiME-6 Challenge,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Auditory Attention,auditory_attention,sensory,2022,36.0,1,6.0,majority,chime_6_challenge,CHiME-6 Challenge,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Auditory Attention,auditory_attention,sensory,2023,37.33,3,13.5,full_split_top3,,Libri2Mix,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Auditory Attention,auditory_attention,sensory,2024,39.0,1,6.5,full_split_top3,,CHiME,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Auditory Attention,auditory_attention,sensory,2025,33.95,3,11.0,majority_fallback,,LibriCSS,chime;chime_6_challenge;libri2mix;libricss;librimix;wsj0_2mix;wsj0_2mix_two_speaker_speech_separation_benchmark
-Category Flexibility,category_flexibility,cognitive,2020,4.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Category Flexibility,category_flexibility,cognitive,2021,4.0,1,2.0,full_agreement,abstraction_and_reasoning_corpus_arc,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Category Flexibility,category_flexibility,cognitive,2022,6.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Category Flexibility,category_flexibility,cognitive,2023,6.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Category Flexibility,category_flexibility,cognitive,2024,21.6,2,5.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Category Flexibility,category_flexibility,cognitive,2025,23.4,2,5.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;big_bench_hard_bbh
-Control Precision,control_precision,psychomotor,2020,18.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Control Precision,control_precision,psychomotor,2021,27.0,1,3.0,majority,deepmind_control_suite,DeepMind Control Suite,deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Control Precision,control_precision,psychomotor,2022,27.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Control Precision,control_precision,psychomotor,2023,30.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Control Precision,control_precision,psychomotor,2024,18.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Control Precision,control_precision,psychomotor,2025,23.82,2,5.5,full_agreement_fallback,,DeepMind Control Suite (Humanoid),deepmind_control_suite;deepmind_control_suite_humanoid;deepmind_control_suite_humanoid_domain
-Deductive Reasoning,deductive_reasoning,cognitive,2020,24.0,1,3.0,majority,ruletaker,RuleTaker,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Deductive Reasoning,deductive_reasoning,cognitive,2021,13.0,3,9.0,full_split_top3,,LogiQA,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Deductive Reasoning,deductive_reasoning,cognitive,2022,21.0,1,3.0,majority,proofwriter,ProofWriter,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Deductive Reasoning,deductive_reasoning,cognitive,2023,28.0,1,4.0,majority,folio,FOLIO,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Deductive Reasoning,deductive_reasoning,cognitive,2024,32.0,1,4.0,majority,folio,FOLIO,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Deductive Reasoning,deductive_reasoning,cognitive,2025,31.93,3,10.5,full_split_top3,,FOLIO,agieval_lsat_analytical_reasoning_lsat_ar_subset;big_bench_hard_bbh;folio;logiqa;mmlu;proofwriter;ruletaker
-Depth Perception,depth_perception,sensory,2020,38.5,1,5.5,majority,kitti_depth_prediction,KITTI Depth Prediction,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Depth Perception,depth_perception,sensory,2021,38.5,1,5.5,majority,kitti_depth_prediction,KITTI Depth Prediction,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Depth Perception,depth_perception,sensory,2022,44.0,1,5.5,majority,kitti_depth_prediction,KITTI Depth Prediction,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Depth Perception,depth_perception,sensory,2023,37.59,3,14.5,full_split_top3,,NYU Depth V2,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Depth Perception,depth_perception,sensory,2024,43.82,2,9.5,full_split_top3,,NYU Depth V2,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Depth Perception,depth_perception,sensory,2025,36.0,1,4.0,full_split_top3,,NYU Depth V2,kitti_depth_prediction;kitti_depth_prediction_depth_completion_benchmark;nyu_depth_v2
-Explosive Strength,explosive_strength,physical,2020,,0,0.0,full_split_fallback,,,
-Explosive Strength,explosive_strength,physical,2021,,0,0.0,full_split_fallback,,,
-Explosive Strength,explosive_strength,physical,2022,,0,0.0,no_picks,,,
-Explosive Strength,explosive_strength,physical,2023,,0,0.0,full_split_fallback,,,
-Explosive Strength,explosive_strength,physical,2024,,0,0.0,full_split_fallback,,,
-Explosive Strength,explosive_strength,physical,2025,,0,0.0,full_split_fallback,,,
-Far Vision,far_vision,sensory,2020,27.5,2,10.0,full_split_top3,,MS COCO Object Detection,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Far Vision,far_vision,sensory,2021,31.5,1,4.5,full_split_top3,,KITTI Object Detection Benchmark,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Far Vision,far_vision,sensory,2022,36.0,1,4.5,full_split_top3,,Waymo Open Dataset 3D Detection Benchmark,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Far Vision,far_vision,sensory,2023,35.06,2,8.5,full_split_top3,,Waymo Open Dataset,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Far Vision,far_vision,sensory,2024,45.0,1,5.0,full_split_top3,,Waymo Open Dataset,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Far Vision,far_vision,sensory,2025,30.62,2,8.5,full_split_fallback,,VisDrone,dota;kitti_object_detection_benchmark;ms_coco_object_detection;visdrone;waymo_open_dataset;waymo_open_dataset_3d_detection_benchmark
-Finger Dexterity,finger_dexterity,psychomotor,2020,33.0,1,5.5,full_split_top3,,YCB Benchmarks,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Finger Dexterity,finger_dexterity,psychomotor,2021,27.38,2,6.5,full_split_top3,,D4RL Adroit dexterous manipulation benchmark,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Finger Dexterity,finger_dexterity,psychomotor,2022,18.54,2,6.0,full_split_top3,,D4RL Adroit dexterous manipulation benchmark,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Finger Dexterity,finger_dexterity,psychomotor,2023,37.28,2,8.0,full_split_top3,,D4RL Adroit dexterous manipulation benchmark,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Finger Dexterity,finger_dexterity,psychomotor,2024,21.25,2,5.0,full_split_fallback,,D4RL Adroit dexterous manipulation benchmark,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Finger Dexterity,finger_dexterity,psychomotor,2025,17.5,1,2.5,full_split_fallback,,D4RL Adroit dexterous manipulation benchmark,bi_dexhands;d4rl_adroit_dexterous_manipulation_benchmark;d4rl_adroit_hand;real_robot_challenge_trifinger_platform_2020_2021;ycb_benchmarks
-Flexibility of Closure,flexibility_of_closure,cognitive,2020,29.4,3,14.5,full_split_top3,,CAMO,camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Flexibility of Closure,flexibility_of_closure,cognitive,2021,35.97,3,14.5,full_split_top3,,COD10K,camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Flexibility of Closure,flexibility_of_closure,cognitive,2022,42.5,2,10.0,full_split_top3,,COD10K,camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Flexibility of Closure,flexibility_of_closure,cognitive,2023,35.97,2,9.5,full_split_top3,,COD10K,camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Flexibility of Closure,flexibility_of_closure,cognitive,2024,40.0,1,5.0,majority,cod10k,COD10K,camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Flexibility of Closure,flexibility_of_closure,cognitive,2025,28.5,2,7.5,full_split_top3,,"Needle In A Haystack (NIAH) and its multimodal variants (e.g., MM-NIAH)",camo;cod10k;lasot_large_scale_single_object_tracking;ms_coco_object_detection;needle_in_a_haystack_niah_and_its_multimodal_variants_e_g_mm
-Fluency of Ideas,fluency_of_ideas,cognitive,2020,,0,0.0,full_split_fallback,,,alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Fluency of Ideas,fluency_of_ideas,cognitive,2021,,0,0.0,full_split_fallback,,,alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Fluency of Ideas,fluency_of_ideas,cognitive,2022,31.5,1,4.5,full_split_fallback,,Alternative Uses Task (AUT) adapted for LLMs (Stevenson et al. 2022 and successors),alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Fluency of Ideas,fluency_of_ideas,cognitive,2023,40.5,1,4.5,full_split_fallback,,Alternative Uses Task (AUT) adapted for LLMs (Stevenson et al. 2022 and successors),alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Fluency of Ideas,fluency_of_ideas,cognitive,2024,36.0,1,4.5,full_split_top3,,Alternative Uses Task (AUT) adapted for LLMs (Stevenson et al. 2022 and successors),alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Fluency of Ideas,fluency_of_ideas,cognitive,2025,36.0,0,0.0,carry_forward_2024,,Alternative Uses Task (AUT) adapted for LLMs (Stevenson et al. 2022 and successors) (2024),alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2
-Glare Sensitivity,glare_sensitivity,sensory,2020,20.0,1,4.0,full_split_fallback,,"CULane lane detection benchmark, especially the 'dazzle light' test category",culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Glare Sensitivity,glare_sensitivity,sensory,2021,28.0,1,4.0,full_split_top3,,"CULane lane detection benchmark, especially the 'dazzle light' test category",culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Glare Sensitivity,glare_sensitivity,sensory,2022,17.5,1,2.5,full_split_top3,,ImageNet-C,culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Glare Sensitivity,glare_sensitivity,sensory,2023,22.5,1,2.5,full_split_top3,,ImageNet-C,culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Glare Sensitivity,glare_sensitivity,sensory,2024,32.0,1,4.0,full_split_fallback,,"CULane lane detection benchmark, especially the 'dazzle light' test category",culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Glare Sensitivity,glare_sensitivity,sensory,2025,22.5,1,2.5,full_split_top3,,ImageNet-C,culane_lane_detection_benchmark_especially_the_dazzle_light_;imagenet_c
-Gross Body Coordination,gross_body_coordination,physical,2020,21.0,2,6.0,full_split_top3,,OpenAI Gym MuJoCo Continuous Control,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Coordination,gross_body_coordination,physical,2021,22.41,3,8.5,full_split_fallback,,OpenAI Gym MuJoCo Continuous Control,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Coordination,gross_body_coordination,physical,2022,27.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Coordination,gross_body_coordination,physical,2023,30.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Coordination,gross_body_coordination,physical,2024,18.92,5,16.5,full_split_fallback,,HumanoidBench,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Coordination,gross_body_coordination,physical,2025,23.67,2,6.0,full_split_fallback,,HumanoidBench humanoid locomotion/control tasks,deepmind_control_suite;humanoidbench;humanoidbench_humanoid_locomotion_control_tasks;openai_gym_mujoco_continuous_control;openai_gym_mujoco_humanoid;openai_gym_mujoco_humanoid_walker2d
-Gross Body Equilibrium,gross_body_equilibrium,physical,2020,18.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Gross Body Equilibrium,gross_body_equilibrium,physical,2021,27.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Gross Body Equilibrium,gross_body_equilibrium,physical,2022,27.0,1,3.0,full_split_top3,,DeepMind Control Suite,deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Gross Body Equilibrium,gross_body_equilibrium,physical,2023,22.28,3,8.0,full_split_fallback,,OpenAI Gym MuJoCo Humanoid / HumanoidStandup,deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Gross Body Equilibrium,gross_body_equilibrium,physical,2024,22.5,1,2.5,full_split_top3,,OpenAI Gym / Gymnasium MuJoCo HumanoidStandup,deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Gross Body Equilibrium,gross_body_equilibrium,physical,2025,22.5,0,0.0,carry_forward_2024,,OpenAI Gym / Gymnasium MuJoCo HumanoidStandup (2024),deepmind_control_suite;openai_gym_gymnasium_mujoco_humanoidstandup;openai_gym_mujoco_humanoid_humanoidstandup;openai_gym_mujoco_humanoidstandup_v2
-Hearing Sensitivity,hearing_sensitivity,sensory,2020,36.0,1,4.0,full_split_top3,,MAESTRO automatic piano transcription benchmark,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Hearing Sensitivity,hearing_sensitivity,sensory,2021,32.0,1,4.0,full_split_top3,,MAESTRO,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Hearing Sensitivity,hearing_sensitivity,sensory,2022,30.67,3,10.5,full_split_fallback,,MAESTRO automatic piano transcription benchmark,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Hearing Sensitivity,hearing_sensitivity,sensory,2023,33.71,3,10.5,no_picks,,MAESTRO automatic piano transcription benchmark,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Hearing Sensitivity,hearing_sensitivity,sensory,2024,34.67,3,9.0,no_picks,,MAESTRO automatic piano transcription benchmark,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Hearing Sensitivity,hearing_sensitivity,sensory,2025,8.0,1,1.0,full_split_fallback,,TTS-Arena,maestro;maestro_automatic_piano_transcription_benchmark;tts_arena;voicemos_challenge
-Inductive Reasoning,inductive_reasoning,cognitive,2020,4.0,1,2.0,majority,abstraction_and_reasoning_corpus_arc,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Inductive Reasoning,inductive_reasoning,cognitive,2021,4.0,1,2.0,majority,abstraction_and_reasoning_corpus_arc,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Inductive Reasoning,inductive_reasoning,cognitive,2022,6.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Inductive Reasoning,inductive_reasoning,cognitive,2023,6.0,1,2.0,majority,abstraction_and_reasoning_corpus_arc,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Inductive Reasoning,inductive_reasoning,cognitive,2024,18.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Inductive Reasoning,inductive_reasoning,cognitive,2025,18.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc
-Information Ordering,information_ordering,cognitive,2020,11.0,2,4.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Information Ordering,information_ordering,cognitive,2021,19.29,3,7.0,full_split_top3,,Mathematics Dataset (Saxton et al. 2019),abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Information Ordering,information_ordering,cognitive,2022,3.41,2,5.5,full_split_top3,,BIG-bench / BIG-Bench Hard: Word Sorting,abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Information Ordering,information_ordering,cognitive,2023,15.0,2,5.0,full_split_top3,,BIG-bench Hard (BBH),abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Information Ordering,information_ordering,cognitive,2024,21.6,2,5.0,full_split_top3,,BIG-bench Hard (BBH),abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Information Ordering,information_ordering,cognitive,2025,23.4,2,5.0,full_split_top3,,BIG-bench Hard (BBH),abstraction_and_reasoning_corpus_arc;bbh;big_bench_big_bench_hard_word_sorting;big_bench_hard_bbh;listops;mathematics_dataset_saxton_et_al_2019;scan
-Manual Dexterity,manual_dexterity,psychomotor,2020,33.0,1,5.5,majority_top3,,YCB Benchmarks,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Manual Dexterity,manual_dexterity,psychomotor,2021,12.0,1,4.0,full_agreement,rlbench,RLBench,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Manual Dexterity,manual_dexterity,psychomotor,2022,20.0,1,4.0,full_agreement,rlbench,RLBench,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Manual Dexterity,manual_dexterity,psychomotor,2023,27.35,3,11.5,full_split_top3,,ManiSkill2,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Manual Dexterity,manual_dexterity,psychomotor,2024,25.88,2,6.5,full_split_top3,,RLBench,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Manual Dexterity,manual_dexterity,psychomotor,2025,32.0,1,4.0,full_split_top3,,RLBench,maniskill2;meta_world;meta_world_ml45_mt50;rlbench;ycb_benchmarks
-Mathematical Reasoning,mathematical_reasoning,cognitive,2020,31.5,1,3.5,full_split_top3,,Mathematics Dataset (Saxton et al. 2019),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Mathematical Reasoning,mathematical_reasoning,cognitive,2021,8.0,1,4.0,majority,math_hendrycks_et_al_2021,MATH (Hendrycks et al. 2021),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Mathematical Reasoning,mathematical_reasoning,cognitive,2022,24.0,1,4.0,majority,math_hendrycks_et_al_2021,MATH (Hendrycks et al. 2021),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Mathematical Reasoning,mathematical_reasoning,cognitive,2023,32.0,1,4.0,majority,math_hendrycks_et_al_2021,MATH (Hendrycks et al. 2021),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Mathematical Reasoning,mathematical_reasoning,cognitive,2024,36.0,1,4.0,full_agreement,math_hendrycks_et_al_2021,MATH (Hendrycks et al. 2021),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Mathematical Reasoning,mathematical_reasoning,cognitive,2025,36.03,2,7.5,full_split_top3,,MATH (Hendrycks et al. 2021),math_hendrycks_et_al_2021;mathematics_dataset_saxton_et_al_2019;omni_math
-Memorization,memorization,cognitive,2020,14.72,3,8.0,full_split_top3,,LAMA (LAnguage Model Analysis),babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Memorization,memorization,cognitive,2021,15.0,2,4.5,full_split_top3,,bAbI tasks,babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Memorization,memorization,cognitive,2022,15.0,2,4.5,full_split_top3,,Facebook bAbI tasks,babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Memorization,memorization,cognitive,2023,18.0,1,3.0,majority,longbench,LongBench,babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Memorization,memorization,cognitive,2024,20.0,1,2.5,full_agreement,ruler,RULER,babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Memorization,memorization,cognitive,2025,20.0,1,2.5,full_agreement,ruler,RULER,babi_tasks;facebook_babi_tasks;lama_language_model_analysis;longbench;mmlu;natural_questions_closed_book_setting;ruler
-Multilimb Coordination,multilimb_coordination,psychomotor,2020,,0,0.0,full_split_fallback,,,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Multilimb Coordination,multilimb_coordination,psychomotor,2021,,0,0.0,full_split_fallback,,,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Multilimb Coordination,multilimb_coordination,psychomotor,2022,17.5,1,3.5,full_split_top3,,Bi-DexHands,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Multilimb Coordination,multilimb_coordination,psychomotor,2023,11.25,2,6.0,full_split_top3,,FurnitureBench,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Multilimb Coordination,multilimb_coordination,psychomotor,2024,35.0,1,5.0,full_split_top3,,ALOHA fine-grained bimanual manipulation task suite,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Multilimb Coordination,multilimb_coordination,psychomotor,2025,28.29,3,14.0,full_split_fallback,,ALOHA fine-grained bimanual manipulation task suite,aloha_fine_grained_bimanual_manipulation_task_suite;aloha_simulated_bimanual_tasks;bi_dexhands;furniturebench;robotwin_dual_arm_robot_benchmark
-Near Vision,near_vision,sensory,2020,26.87,2,7.5,full_split_top3,,TextVQA,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Near Vision,near_vision,sensory,2021,36.0,1,4.0,full_split_top3,,ICDAR 2015,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Near Vision,near_vision,sensory,2022,31.5,1,4.5,full_agreement,docvqa,DocVQA,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Near Vision,near_vision,sensory,2023,20.0,1,4.0,majority,ocrbench,OCRBench,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Near Vision,near_vision,sensory,2024,24.0,1,3.0,full_split_top3,,V* Bench,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Near Vision,near_vision,sensory,2025,36.0,2,8.5,full_split_top3,,DocVQA,docvqa;icdar_2015;ocrbench;textvqa;v_bench
-Night Vision,night_vision,sensory,2020,27.0,1,4.5,majority,exdark,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Night Vision,night_vision,sensory,2021,27.0,1,4.5,majority,exdark,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Night Vision,night_vision,sensory,2022,27.0,1,4.5,majority,exdark,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Night Vision,night_vision,sensory,2023,29.85,2,8.5,full_split_top3,,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Night Vision,night_vision,sensory,2024,36.0,1,4.5,full_split_top3,,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Night Vision,night_vision,sensory,2025,36.0,1,4.5,full_split_top3,,ExDark,exdark;exdark_exclusively_dark_image_dataset_object_recognition_det
-Number Facility,number_facility,cognitive,2020,21.58,3,13.0,full_split_top3,,Mathematics Dataset (Saxton et al. 2019),big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Number Facility,number_facility,cognitive,2021,35.0,1,3.5,majority,mathematics_dataset_saxton_et_al_2019,Mathematics Dataset (Saxton et al. 2019),big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Number Facility,number_facility,cognitive,2022,32.45,2,10.5,full_split_top3,,BIG-Bench Arithmetic,big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Number Facility,number_facility,cognitive,2023,27.5,1,5.5,full_split_top3,,BIG-Bench Arithmetic,big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Number Facility,number_facility,cognitive,2024,38.5,1,5.5,full_split_top3,,BIG-Bench Arithmetic,big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Number Facility,number_facility,cognitive,2025,43.98,2,10.5,full_split_top3,,BIG-Bench Arithmetic,big_bench_arithmetic;deepmind_mathematics_dataset_arithmetic_modules;gpt_3_arithmetic_evaluation_suite_brown_et_al_2020;mathematics_dataset_saxton_et_al_2019
-Oral Comprehension,oral_comprehension,cognitive,2020,32.02,3,12.0,full_split_top3,,LibriSpeech,librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Comprehension,oral_comprehension,cognitive,2021,22.75,2,7.0,full_split_top3,,SLURP (Spoken Language Understanding Resource Package),librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Comprehension,oral_comprehension,cognitive,2022,25.85,3,11.5,full_split_top3,,SUPERB (Speech processing Universal PERformance Benchmark),librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Comprehension,oral_comprehension,cognitive,2023,28.0,1,3.5,majority,superb_speech_processing_universal_performance_benchmark,SUPERB (Speech processing Universal PERformance Benchmark),librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Comprehension,oral_comprehension,cognitive,2024,31.5,1,3.5,full_split_top3,,SUPERB (Speech processing Universal PERformance Benchmark),librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Comprehension,oral_comprehension,cognitive,2025,21.0,1,3.0,full_split_top3,,MMLU (Massive Multitask Language Understanding) — Audio variant via Dynamic-SUPERB / MMAU,librispeech;mmlu_massive_multitask_language_understanding_audio_variant_;slue_spoken_language_understanding_evaluation;slurp_spoken_language_understanding_resource_package;spoken_squad;superb_speech_processing_universal_performance_benchmark
-Oral Expression,oral_expression,cognitive,2020,31.5,1,3.5,full_split_top3,,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Oral Expression,oral_expression,cognitive,2021,28.04,2,6.5,full_split_top3,,Blizzard Challenge 2021,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Oral Expression,oral_expression,cognitive,2022,21.0,1,3.5,full_split_top3,,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Oral Expression,oral_expression,cognitive,2023,24.5,1,3.5,full_split_top3,,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Oral Expression,oral_expression,cognitive,2024,25.75,5,14.0,full_split_fallback,,LibriTTS,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Oral Expression,oral_expression,cognitive,2025,31.5,1,3.5,full_split_top3,,LibriTTS,blizzard_challenge;blizzard_challenge_2021;libritts;libritts_based_mos_evaluation;libritts_mos;libritts_score_9;voicebench
-Originality,originality,cognitive,2020,4.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Originality,originality,cognitive,2021,12.0,1,3.0,full_split_fallback,,Divergent Association Task (DAT),abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Originality,originality,cognitive,2022,31.5,1,4.5,full_split_top3,,Alternative Uses Task (AUT) adapted for LLMs (Stevenson et al. 2022 and successors),abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Originality,originality,cognitive,2023,21.5,2,4.5,full_split_fallback,,Divergent Association Task (DAT),abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Originality,originality,cognitive,2024,52.0,1,6.5,full_split_top3,,Chatbot Arena,abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Originality,originality,cognitive,2025,18.0,1,2.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;alternative_uses_task_aut_adapted_for_llms_stevenson_et_al_2;brainteaser;chatbot_arena;divergent_association_task_dat
-Perceptual Speed,perceptual_speed,cognitive,2020,19.64,7,19.5,full_split_fallback,,Stanford Online Products (SOP),blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Perceptual Speed,perceptual_speed,cognitive,2021,36.0,1,4.0,full_split_top3,,MVTec AD,blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Perceptual Speed,perceptual_speed,cognitive,2022,15.0,1,2.5,full_split_top3,,Meta-Dataset,blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Perceptual Speed,perceptual_speed,cognitive,2023,3.0,1,1.5,full_split_top3,,Winoground,blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Perceptual Speed,perceptual_speed,cognitive,2024,15.64,2,5.5,full_split_top3,,BLINK,blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Perceptual Speed,perceptual_speed,cognitive,2025,12.0,1,3.0,full_split_top3,,BLINK,blink;cub_200_2011;got_10k;lpips_bapps;meta_dataset;mvtec_ad;nlvr2_natural_language_for_visual_reasoning_for_real;omniglot;stanford_online_products_sop;winoground
-Problem Sensitivity,problem_sensitivity,cognitive,2020,29.39,2,9.5,full_split_top3,,MVTec AD,halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Problem Sensitivity,problem_sensitivity,cognitive,2021,36.47,2,9.5,full_split_top3,,MVTec Anomaly Detection Dataset (MVTec AD),halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Problem Sensitivity,problem_sensitivity,cognitive,2022,29.05,2,5.5,full_split_top3,,MVTec AD,halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Problem Sensitivity,problem_sensitivity,cognitive,2023,21.0,1,3.5,majority,halueval,HaluEval,halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Problem Sensitivity,problem_sensitivity,cognitive,2024,31.3,3,10.0,full_split_top3,,RewardBench,halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Problem Sensitivity,problem_sensitivity,cognitive,2025,27.0,1,3.0,full_split_top3,,RewardBench,halueval;mvtec_ad;mvtec_anomaly_detection_dataset_mvtec_ad;numenta_anomaly_benchmark_nab;rewardbench;swe_bench_verified;truthfulqa;ucf_crime
-Rate Control,rate_control,psychomotor,2020,13.47,2,8.5,full_split_top3,,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Rate Control,rate_control,psychomotor,2021,16.5,1,5.5,majority,carla_autonomous_driving_leaderboard,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Rate Control,rate_control,psychomotor,2022,27.5,1,5.5,full_split_top3,,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Rate Control,rate_control,psychomotor,2023,27.5,1,5.5,full_agreement,carla_autonomous_driving_leaderboard,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Rate Control,rate_control,psychomotor,2024,38.5,1,5.5,full_split_top3,,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Rate Control,rate_control,psychomotor,2025,38.5,1,5.5,full_agreement,carla_autonomous_driving_leaderboard,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard;deepmind_control_suite
-Reaction Time,reaction_time,psychomotor,2020,,0,0.0,no_picks,,,
-Reaction Time,reaction_time,psychomotor,2021,,0,0.0,no_picks,,,
-Reaction Time,reaction_time,psychomotor,2022,,0,0.0,no_picks,,,
-Reaction Time,reaction_time,psychomotor,2023,,0,0.0,no_picks,,,
-Reaction Time,reaction_time,psychomotor,2024,,0,0.0,no_picks,,,
-Reaction Time,reaction_time,psychomotor,2025,,0,0.0,no_picks,,,
-Response Orientation,response_orientation,psychomotor,2020,,0,0.0,no_picks,,,
-Response Orientation,response_orientation,psychomotor,2021,,0,0.0,no_picks,,,
-Response Orientation,response_orientation,psychomotor,2022,,0,0.0,full_split_fallback,,,
-Response Orientation,response_orientation,psychomotor,2023,,0,0.0,no_picks,,,
-Response Orientation,response_orientation,psychomotor,2024,,0,0.0,no_picks,,,
-Response Orientation,response_orientation,psychomotor,2025,,0,0.0,no_picks,,,
-Selective Attention,selective_attention,cognitive,2020,24.0,1,3.0,full_split_top3,,VOT2020 Visual Object Tracking Challenge,distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Selective Attention,selective_attention,cognitive,2021,28.0,1,4.0,full_split_top3,,LaSOT (Large-scale Single Object Tracking),distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Selective Attention,selective_attention,cognitive,2022,26.42,2,6.5,full_split_top3,,LaSOT (Large-scale Single Object Tracking),distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Selective Attention,selective_attention,cognitive,2023,19.5,2,6.0,full_split_top3,,Needle In A Haystack (NIAH),distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Selective Attention,selective_attention,cognitive,2024,20.0,1,2.5,full_split_top3,,RULER,distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Selective Attention,selective_attention,cognitive,2025,20.0,1,2.5,majority,ruler,RULER,distracting_control_suite;lasot_large_scale_single_object_tracking;longbench;needle_in_a_haystack_niah;ruler;vot2020_visual_object_tracking_challenge
-Sound Localization,sound_localization,sensory,2020,38.5,1,5.5,full_split_top3,,DCASE 2020 Task 3 (Sound Event Localization and Detection),dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Sound Localization,sound_localization,sensory,2021,38.5,1,5.5,full_split_top3,,DCASE 2021 Task 3: Sound Event Localization and Detection,dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Sound Localization,sound_localization,sensory,2022,42.0,2,12.0,full_split_top3,,"DCASE Sound Event Localization and Detection Challenge (STARSS22, Task 3, 2022)",dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Sound Localization,sound_localization,sensory,2023,40.33,2,11.5,full_split_top3,,DCASE 2023 Challenge Task 3: Sound Event Localization and Detection with Audio and Audiovisual Input,dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Sound Localization,sound_localization,sensory,2024,42.0,4,24.0,full_split_fallback,,DCASE SELD Challenge,dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Sound Localization,sound_localization,sensory,2025,42.0,0,0.0,carry_forward_2024,,DCASE SELD Challenge (2024),dcase_2020_task_3_sound_event_localization_and_detection;dcase_2021_task_3_sound_event_localization_and_detection;dcase_2022_task_3_sound_event_localization_and_detection_eva;dcase_2023_challenge_task_3_sound_event_localization_and_det;dcase_seld_challenge;dcase_sound_event_localization_and_detection_challenge_stars;dcase_sound_event_localization_and_detection_seld_challenge_
-Spatial Orientation,spatial_orientation,cognitive,2020,40.0,1,5.0,full_split_top3,,Habitat Challenge (PointNav and ObjectNav),ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Spatial Orientation,spatial_orientation,cognitive,2021,18.05,2,9.5,full_split_top3,,Habitat Challenge (PointNav and ObjectNav),ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Spatial Orientation,spatial_orientation,cognitive,2022,23.24,3,14.5,full_split_top3,,Habitat Challenge (PointNav and ObjectNav),ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Spatial Orientation,spatial_orientation,cognitive,2023,25.93,3,15.0,full_split_top3,,SQA3D (Situated Question Answering in 3D Scenes),ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Spatial Orientation,spatial_orientation,cognitive,2024,30.96,3,14.0,full_split_top3,,OpenEQA,ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Spatial Orientation,spatial_orientation,cognitive,2025,32.34,4,17.5,full_split_fallback,,Room-to-Room (R2R),ai_habitat_navigation_benchmark_suite_especially_pointgoal_n;habitat_challenge_pointnav_and_objectnav;habitat_objectnav_challenge;habitat_pointgoal_navigation;openeqa;room_to_room_r2r;room_to_room_r2r_benchmark;sqa3d_situated_question_answering_in_3d_scenes
-Speech Clarity,speech_clarity,sensory,2020,36.5,2,8.5,full_split_top3,,Blizzard Challenge 2020,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Clarity,speech_clarity,sensory,2021,31.5,1,3.5,majority,blizzard_challenge,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Clarity,speech_clarity,sensory,2022,21.0,1,3.5,majority,blizzard_challenge,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Clarity,speech_clarity,sensory,2023,24.5,1,3.5,majority,blizzard_challenge,Blizzard Challenge,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Clarity,speech_clarity,sensory,2024,40.71,5,21.5,full_agreement_fallback,,LJSpeech,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Clarity,speech_clarity,sensory,2025,50.0,1,5.0,majority_top3,,LibriSpeech,blizzard_challenge;blizzard_challenge_2020;hugging_face_tts_arena_sum_10;librispeech;ljspeech;ljspeech_dataset_mos_and_intelligibility_evaluation;ljspeech_dataset_mos_wer_evaluation;ljspeech_with_mos_evaluation_protocol
-Speech Recognition,speech_recognition,sensory,2020,45.0,1,5.0,majority,librispeech,LibriSpeech,esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speech Recognition,speech_recognition,sensory,2021,50.0,1,5.0,majority,librispeech,LibriSpeech,esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speech Recognition,speech_recognition,sensory,2022,42.64,3,14.5,full_split_top3,,SUPERB (Speech processing Universal PERformance Benchmark),esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speech Recognition,speech_recognition,sensory,2023,42.1,2,10.5,full_split_top3,,FLEURS ASR benchmark,esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speech Recognition,speech_recognition,sensory,2024,54.8,2,11.5,full_split_top3,,ESB,esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speech Recognition,speech_recognition,sensory,2025,43.37,6,27.0,full_split_fallback,,Mozilla Common Voice ASR benchmark/dataset,esb;fleurs;fleurs_asr_benchmark;librispeech;librispeech_asr_corpus_benchmark;librispeech_test_other;mozilla_common_voice_asr_benchmark_dataset;superb_speech_processing_universal_performance_benchmark;vctk
-Speed of Closure,speed_of_closure,cognitive,2020,17.5,1,2.5,majority,imagenet_c,ImageNet-C,abstraction_and_reasoning_corpus_arc;imagenet_c
-Speed of Closure,speed_of_closure,cognitive,2021,17.5,1,2.5,majority,imagenet_c,ImageNet-C,abstraction_and_reasoning_corpus_arc;imagenet_c
-Speed of Closure,speed_of_closure,cognitive,2022,17.5,1,2.5,majority,imagenet_c,ImageNet-C,abstraction_and_reasoning_corpus_arc;imagenet_c
-Speed of Closure,speed_of_closure,cognitive,2023,15.17,2,4.5,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;imagenet_c
-Speed of Closure,speed_of_closure,cognitive,2024,20.5,2,4.5,full_split_top3,,ImageNet-C,abstraction_and_reasoning_corpus_arc;imagenet_c
-Speed of Closure,speed_of_closure,cognitive,2025,20.5,2,4.5,full_split_top3,,ImageNet-C,abstraction_and_reasoning_corpus_arc;imagenet_c
-Time Sharing,time_sharing,cognitive,2020,,0,0.0,full_split_fallback,,,carla_autonomous_driving_leaderboard
-Time Sharing,time_sharing,cognitive,2021,,0,0.0,full_split_fallback,,,carla_autonomous_driving_leaderboard
-Time Sharing,time_sharing,cognitive,2022,,0,0.0,full_split_fallback,,,carla_autonomous_driving_leaderboard
-Time Sharing,time_sharing,cognitive,2023,27.5,1,5.5,full_split_top3,,CARLA Autonomous Driving Leaderboard,carla_autonomous_driving_leaderboard
-Time Sharing,time_sharing,cognitive,2024,,0,0.0,full_split_fallback,,,carla_autonomous_driving_leaderboard
-Time Sharing,time_sharing,cognitive,2025,,0,0.0,full_split_fallback,,,carla_autonomous_driving_leaderboard
-Visual Color Discrimination,visual_color_discrimination,sensory,2020,14.0,1,2.0,full_split_top3,,Gehler-Shi Color Constancy Dataset,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visual Color Discrimination,visual_color_discrimination,sensory,2021,14.0,1,2.0,full_split_top3,,NUS 8-Camera Color Constancy Dataset,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visual Color Discrimination,visual_color_discrimination,sensory,2022,18.5,3,6.5,no_picks,,iNaturalist,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visual Color Discrimination,visual_color_discrimination,sensory,2023,12.0,1,1.5,full_split_top3,,MME color perception subtask,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visual Color Discrimination,visual_color_discrimination,sensory,2024,18.08,3,6.0,full_split_fallback,,iNaturalist,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visual Color Discrimination,visual_color_discrimination,sensory,2025,9.0,1,3.0,full_split_top3,,ColorBench,colorbench;gehler_shi_color_constancy_dataset;inaturalist;mme_color_perception_subtask;nus_8_camera_color_constancy_dataset
-Visualization,visualization,cognitive,2020,17.33,2,6.0,full_split_top3,,ShapeNet (Novel View Synthesis and 3D Reconstruction tasks),abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Visualization,visualization,cognitive,2021,5.0,2,4.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Visualization,visualization,cognitive,2022,12.0,2,4.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Visualization,visualization,cognitive,2023,9.0,2,4.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Visualization,visualization,cognitive,2024,14.4,2,5.0,full_split_top3,,Abstraction and Reasoning Corpus (ARC),abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Visualization,visualization,cognitive,2025,12.0,2,6.0,full_split_top3,,BLINK,abstraction_and_reasoning_corpus_arc;blink;i_raven;i_raven_impartial_raven;pgm_barrett_et_al_2018;shapenet_novel_view_synthesis_and_3d_reconstruction_tasks;vsi_bench_visual_spatial_intelligence_benchmark
-Written Comprehension,written_comprehension,cognitive,2020,36.0,1,4.5,full_agreement,superglue,SuperGLUE,longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Comprehension,written_comprehension,cognitive,2021,40.5,1,4.5,full_agreement,superglue,SuperGLUE,longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Comprehension,written_comprehension,cognitive,2022,24.0,1,3.0,majority,race_reading_comprehension_dataset_from_examinations,RACE (ReAding Comprehension Dataset from Examinations),longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Comprehension,written_comprehension,cognitive,2023,35.1,2,7.5,full_split_top3,,RACE (ReAding Comprehension Dataset from Examinations),longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Comprehension,written_comprehension,cognitive,2024,30.0,3,10.5,full_split_top3,,QuALITY,longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Comprehension,written_comprehension,cognitive,2025,30.82,3,10.0,full_split_top3,,QuALITY,longbench;mmlu;mmlu_pro;quality;race_reading_comprehension_dataset_from_examinations;superglue
-Written Expression,written_expression,cognitive,2020,24.5,1,3.5,full_split_top3,,XSum,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
-Written Expression,written_expression,cognitive,2021,27.19,4,15.5,full_split_fallback,,WMT News Translation Shared Task,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
-Written Expression,written_expression,cognitive,2022,28.98,4,15.5,full_split_fallback,,WMT News Translation Shared Task,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
-Written Expression,written_expression,cognitive,2023,52.0,1,6.5,full_split_top3,,Chatbot Arena,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
-Written Expression,written_expression,cognitive,2024,52.96,2,12.5,full_split_top3,,Chatbot Arena,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
-Written Expression,written_expression,cognitive,2025,58.5,1,6.5,full_split_top3,,Chatbot Arena,alpacaeval_2_0;chatbot_arena;cnn_dailymail_summarization_benchmark;webnlg;wmt_news_translation_shared_task;xsum
+onet_ability,ability_category,year,exposure,selected_benchmark,resolution,anchor_benchmark
+Oral Comprehension,cognitive,2020,22.0,Spoken-SQuAD,single judge,Spoken-SQuAD
+Written Comprehension,cognitive,2020,32.5,RACE,single judge,RACE
+Oral Expression,cognitive,2020,,,no adequate benchmark,
+Written Expression,cognitive,2020,27.5,CNN/DailyMail,single judge,CNN/DailyMail
+Fluency of Ideas,cognitive,2020,,,no adequate benchmark,
+Originality,cognitive,2020,,,no adequate benchmark,
+Problem Sensitivity,cognitive,2020,27.5,MVTec AD,single judge,MVTec AD
+Deductive Reasoning,cognitive,2020,10.0,LogiQA,single judge,LogiQA
+Inductive Reasoning,cognitive,2020,6.0,ARC,single judge,ARC
+Information Ordering,cognitive,2020,9.0,ARC,single judge,ARC
+Category Flexibility,cognitive,2020,9.0,ARC,single judge,ARC
+Mathematical Reasoning,cognitive,2020,22.0,Math23K,single judge,Math23K
+Number Facility,cognitive,2020,,GPT-3 Arithmetic,no extracted score,
+Memorization,cognitive,2020,12.25,Memory Task Suite,single judge,Memory Task Suite
+Speed of Closure,cognitive,2020,9.0,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2020,22.0,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2020,12.5,HPatches,single judge,HPatches
+Spatial Orientation,cognitive,2020,24.0,Habitat Challenge 2020 PointNav,single judge,Habitat Challenge 2020 PointNav
+Visualization,cognitive,2020,18.0,ShapeNet-SRN,single judge,ShapeNet-SRN
+Selective Attention,cognitive,2020,20.0,Adversarial SQuAD,single judge,Adversarial SQuAD
+Time Sharing,cognitive,2020,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2020,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2020,34.0,Robotic Grasping and Manipulation Competition,single judge,Robotic Grasping and Manipulation Competition
+Finger Dexterity,psychomotor,2020,26.0,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,single judge,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track
+Control Precision,psychomotor,2020,,DeepMind Control Suite,no extracted score,
+Multilimb Coordination,psychomotor,2020,,,no adequate benchmark,
+Response Orientation,psychomotor,2020,,,no adequate benchmark,
+Rate Control,psychomotor,2020,,,no adequate benchmark,
+Reaction Time,psychomotor,2020,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2020,,,no adequate benchmark,
+Speed of Limb Movement,psychomotor,2020,,,no adequate benchmark,
+Static Strength,physical,2020,,,no adequate benchmark,
+Explosive Strength,physical,2020,,,no adequate benchmark,
+Dynamic Strength,physical,2020,,,no adequate benchmark,
+Trunk Strength,physical,2020,,,no adequate benchmark,
+Stamina,physical,2020,,,no adequate benchmark,
+Extent Flexibility,physical,2020,,,no adequate benchmark,
+Dynamic Flexibility,physical,2020,,,no adequate benchmark,
+Gross Body Coordination,physical,2020,14.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Equilibrium,physical,2020,,,no adequate benchmark,
+Near Vision,sensory,2020,27.5,MVTec AD,single judge,MVTec AD
+Far Vision,sensory,2020,15.75,TinyPerson,single judge,TinyPerson
+Visual Color Discrimination,sensory,2020,15.75,Colors in Context,single judge,Colors in Context
+Night Vision,sensory,2020,19.5,Dark Zurich,single judge,Dark Zurich
+Peripheral Vision,sensory,2020,,,no adequate benchmark,
+Depth Perception,sensory,2020,45.5,KITTI Depth Prediction Benchmark,single judge,KITTI Depth Prediction Benchmark
+Glare Sensitivity,sensory,2020,,,no adequate benchmark,
+Hearing Sensitivity,sensory,2020,,,no adequate benchmark,
+Auditory Attention,sensory,2020,31.5,WSJ0-2mix,single judge,WSJ0-2mix
+Sound Localization,sensory,2020,45.0,DCASE2020 Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Task 3 (Sound Event Localization and Detection)
+Speech Recognition,sensory,2020,40.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2020,35.75,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2021,22.0,Spoken SQuAD,single judge,Spoken SQuAD
+Written Comprehension,cognitive,2021,35.0,RACE,single judge,RACE
+Oral Expression,cognitive,2021,20.0,Blizzard Challenge,single judge,Blizzard Challenge
+Written Expression,cognitive,2021,27.5,CNN/DailyMail,single judge,CNN/DailyMail
+Fluency of Ideas,cognitive,2021,,,no adequate benchmark,
+Originality,cognitive,2021,,,no adequate benchmark,
+Problem Sensitivity,cognitive,2021,30.0,MVTec AD,single judge,MVTec AD
+Deductive Reasoning,cognitive,2021,15.0,LogiQA,single judge,LogiQA
+Inductive Reasoning,cognitive,2021,6.0,ARC,single judge,ARC
+Information Ordering,cognitive,2021,9.0,ARC,single judge,ARC
+Category Flexibility,cognitive,2021,15.75,Bongard-LOGO,single judge,Bongard-LOGO
+Mathematical Reasoning,cognitive,2021,15.0,MATH,single judge,MATH
+Number Facility,cognitive,2021,,GPT-3 Arithmetic,no extracted score,
+Memorization,cognitive,2021,13.75,LAMA,single judge,LAMA
+Speed of Closure,cognitive,2021,7.5,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2021,22.0,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2021,,,no adequate benchmark,
+Spatial Orientation,cognitive,2021,36.0,Habitat Challenge 2021 PointNav,single judge,Habitat Challenge 2021 PointNav
+Visualization,cognitive,2021,,SPARE3D,no extracted score,
+Selective Attention,cognitive,2021,,Distracting Control Suite,no extracted score,
+Time Sharing,cognitive,2021,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2021,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2021,,D4RL,no extracted score,
+Finger Dexterity,psychomotor,2021,,World Robot Summit Assembly Challenge,no extracted score,
+Control Precision,psychomotor,2021,18.0,CARLA Leaderboard,single judge,CARLA Leaderboard
+Multilimb Coordination,psychomotor,2021,,,no adequate benchmark,
+Response Orientation,psychomotor,2021,,,no adequate benchmark,
+Rate Control,psychomotor,2021,24.0,Arcade Learning Environment,single judge,Arcade Learning Environment
+Reaction Time,psychomotor,2021,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2021,,,no adequate benchmark,
+Speed of Limb Movement,psychomotor,2021,,,no adequate benchmark,
+Static Strength,physical,2021,,,no adequate benchmark,
+Explosive Strength,physical,2021,,,no adequate benchmark,
+Dynamic Strength,physical,2021,,,no adequate benchmark,
+Trunk Strength,physical,2021,,,no adequate benchmark,
+Stamina,physical,2021,,,no adequate benchmark,
+Extent Flexibility,physical,2021,,,no adequate benchmark,
+Dynamic Flexibility,physical,2021,,,no adequate benchmark,
+Gross Body Coordination,physical,2021,14.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Equilibrium,physical,2021,,,no adequate benchmark,
+Near Vision,sensory,2021,33.0,MVTec AD,single judge,MVTec AD
+Far Vision,sensory,2021,18.0,TinyPerson,single judge,TinyPerson
+Visual Color Discrimination,sensory,2021,,,no adequate benchmark,
+Night Vision,sensory,2021,19.5,Dark Zurich,single judge,Dark Zurich
+Peripheral Vision,sensory,2021,,,no adequate benchmark,
+Depth Perception,sensory,2021,24.75,NYU Depth V2,single judge,NYU Depth V2
+Glare Sensitivity,sensory,2021,22.75,WildDash,single judge,WildDash
+Hearing Sensitivity,sensory,2021,,,no adequate benchmark,
+Auditory Attention,sensory,2021,42.25,WHAM!,single judge,WHAM!
+Sound Localization,sensory,2021,52.5,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection)
+Speech Recognition,sensory,2021,35.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2021,32.5,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2022,16.0,SLURP,single judge,SLURP
+Written Comprehension,cognitive,2022,16.5,QuALITY,single judge,QuALITY
+Oral Expression,cognitive,2022,,,no adequate benchmark,
+Written Expression,cognitive,2022,18.0,XSum,single judge,XSum
+Fluency of Ideas,cognitive,2022,,,no adequate benchmark,
+Originality,cognitive,2022,,,no adequate benchmark,
+Problem Sensitivity,cognitive,2022,22.0,MVTec LOCO AD,single judge,MVTec LOCO AD
+Deductive Reasoning,cognitive,2022,20.0,FOLIO,single judge,FOLIO
+Inductive Reasoning,cognitive,2022,6.0,ARC,single judge,ARC
+Information Ordering,cognitive,2022,14.0,word_sorting,single judge,word_sorting
+Category Flexibility,cognitive,2022,9.0,ARC,single judge,ARC
+Mathematical Reasoning,cognitive,2022,35.0,MATH,single judge,MATH
+Number Facility,cognitive,2022,25.0,BIG-Bench Hard (Multistep Arithmetic Two),single judge,BIG-Bench Hard (Multistep Arithmetic Two)
+Memorization,cognitive,2022,12.0,Memory Maze,single judge,Memory Maze
+Speed of Closure,cognitive,2022,,,no adequate benchmark,
+Flexibility of Closure,cognitive,2022,24.75,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2022,11.25,NLVR2,single judge,NLVR2
+Spatial Orientation,cognitive,2022,45.0,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)",single judge,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)"
+Visualization,cognitive,2022,20.25,CLEVR-MRT,single judge,CLEVR-MRT
+Selective Attention,cognitive,2022,,,no adequate benchmark,
+Time Sharing,cognitive,2022,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2022,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2022,22.75,MyoChallenge,single judge,MyoChallenge
+Finger Dexterity,psychomotor,2022,24.75,World Robot Summit Assembly Challenge,single judge,World Robot Summit Assembly Challenge
+Control Precision,psychomotor,2022,,DeepMind Control Suite,no extracted score,
+Multilimb Coordination,psychomotor,2022,,,no adequate benchmark,
+Response Orientation,psychomotor,2022,,,no adequate benchmark,
+Rate Control,psychomotor,2022,,,no adequate benchmark,
+Reaction Time,psychomotor,2022,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2022,,,no adequate benchmark,
+Speed of Limb Movement,psychomotor,2022,,,no adequate benchmark,
+Static Strength,physical,2022,,,no adequate benchmark,
+Explosive Strength,physical,2022,,,no adequate benchmark,
+Dynamic Strength,physical,2022,,,no adequate benchmark,
+Trunk Strength,physical,2022,,,no adequate benchmark,
+Stamina,physical,2022,,,no adequate benchmark,
+Extent Flexibility,physical,2022,,,no adequate benchmark,
+Dynamic Flexibility,physical,2022,,,no adequate benchmark,
+Gross Body Coordination,physical,2022,12.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Equilibrium,physical,2022,,,no adequate benchmark,
+Near Vision,sensory,2022,16.0,DocVQA,single judge,DocVQA
+Far Vision,sensory,2022,18.0,VisDrone,single judge,VisDrone
+Visual Color Discrimination,sensory,2022,,,no adequate benchmark,
+Night Vision,sensory,2022,26.0,Dark Zurich,single judge,Dark Zurich
+Peripheral Vision,sensory,2022,,,no adequate benchmark,
+Depth Perception,sensory,2022,33.0,NYU Depth V2,single judge,NYU Depth V2
+Glare Sensitivity,sensory,2022,,,no adequate benchmark,
+Hearing Sensitivity,sensory,2022,28.0,HEAR,single judge,HEAR
+Auditory Attention,sensory,2022,33.75,WSJ0-2mix,single judge,WSJ0-2mix
+Sound Localization,sensory,2022,,STARSS22,no extracted score,
+Speech Recognition,sensory,2022,35.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2022,35.75,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2023,,SLUE Phase-2 (SLUE-SQA-5),no extracted score,
+Written Comprehension,cognitive,2023,27.0,DROP,single judge,DROP
+Oral Expression,cognitive,2023,22.0,Blizzard Challenge 2023,single judge,Blizzard Challenge 2023
+Written Expression,cognitive,2023,28.0,MT-Bench,single judge,MT-Bench
+Fluency of Ideas,cognitive,2023,,,no adequate benchmark,
+Originality,cognitive,2023,9.0,BRAINTEASER,single judge,BRAINTEASER
+Problem Sensitivity,cognitive,2023,12.25,BIG-Bench Mistake,single judge,BIG-Bench Mistake
+Deductive Reasoning,cognitive,2023,30.0,FOLIO,single judge,FOLIO
+Inductive Reasoning,cognitive,2023,6.0,ARC,single judge,ARC
+Information Ordering,cognitive,2023,9.0,ARC,single judge,ARC
+Category Flexibility,cognitive,2023,13.75,OCW,single judge,OCW
+Mathematical Reasoning,cognitive,2023,40.0,MATH,single judge,MATH
+Number Facility,cognitive,2023,38.5,MATH 401,single judge,MATH 401
+Memorization,cognitive,2023,,,no adequate benchmark,
+Speed of Closure,cognitive,2023,10.5,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2023,24.75,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2023,,,no adequate benchmark,
+Spatial Orientation,cognitive,2023,18.0,SQA3D,single judge,SQA3D
+Visualization,cognitive,2023,20.25,SPARE3D,single judge,SPARE3D
+Selective Attention,cognitive,2023,,GSM-IC,no extracted score,
+Time Sharing,cognitive,2023,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2023,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2023,13.75,ManiSkill2,single judge,ManiSkill2
+Finger Dexterity,psychomotor,2023,29.25,NIST Assembly Task Boards,single judge,NIST Assembly Task Boards
+Control Precision,psychomotor,2023,24.0,CARLA Leaderboard,single judge,CARLA Leaderboard
+Multilimb Coordination,psychomotor,2023,,Bi-DexHands,no extracted score,
+Response Orientation,psychomotor,2023,,,no adequate benchmark,
+Rate Control,psychomotor,2023,36.0,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
+Reaction Time,psychomotor,2023,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2023,,,no adequate benchmark,
+Speed of Limb Movement,psychomotor,2023,,,no adequate benchmark,
+Static Strength,physical,2023,,,no adequate benchmark,
+Explosive Strength,physical,2023,,,no adequate benchmark,
+Dynamic Strength,physical,2023,,,no adequate benchmark,
+Trunk Strength,physical,2023,,,no adequate benchmark,
+Stamina,physical,2023,,,no adequate benchmark,
+Extent Flexibility,physical,2023,,,no adequate benchmark,
+Dynamic Flexibility,physical,2023,,,no adequate benchmark,
+Gross Body Coordination,physical,2023,,,no adequate benchmark,
+Gross Body Equilibrium,physical,2023,,,no adequate benchmark,
+Near Vision,sensory,2023,15.75,V*Bench,single judge,V*Bench
+Far Vision,sensory,2023,18.0,TinyPerson,single judge,TinyPerson
+Visual Color Discrimination,sensory,2023,,,no adequate benchmark,
+Night Vision,sensory,2023,26.0,Dark Zurich,single judge,Dark Zurich
+Peripheral Vision,sensory,2023,,,no adequate benchmark,
+Depth Perception,sensory,2023,38.5,NYU Depth V2,single judge,NYU Depth V2
+Glare Sensitivity,sensory,2023,17.5,GLARE,single judge,GLARE
+Hearing Sensitivity,sensory,2023,21.0,MARBLE,single judge,MARBLE
+Auditory Attention,sensory,2023,33.75,WSJ0-2mix,single judge,WSJ0-2mix
+Sound Localization,sensory,2023,60.0,LOCATA,single judge,LOCATA
+Speech Recognition,sensory,2023,37.5,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2023,35.75,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2024,19.25,MMAU,single judge,MMAU
+Written Comprehension,cognitive,2024,33.0,DROP,single judge,DROP
+Oral Expression,cognitive,2024,15.0,Big Bench Audio,single judge,Big Bench Audio
+Written Expression,cognitive,2024,33.0,HelloBench,single judge,HelloBench
+Fluency of Ideas,cognitive,2024,,,no adequate benchmark,
+Originality,cognitive,2024,27.0,MacGyver,single judge,MacGyver
+Problem Sensitivity,cognitive,2024,41.25,ProcessBench,single judge,ProcessBench
+Deductive Reasoning,cognitive,2024,26.0,ZebraLogic,single judge,ZebraLogic
+Inductive Reasoning,cognitive,2024,21.0,ARC-AGI,single judge,ARC-AGI
+Information Ordering,cognitive,2024,35.75,PlanBench,single judge,PlanBench
+Category Flexibility,cognitive,2024,38.5,NYT Connections,single judge,NYT Connections
+Mathematical Reasoning,cognitive,2024,45.0,MATH,single judge,MATH
+Number Facility,cognitive,2024,,NUPA Test,no extracted score,
+Memorization,cognitive,2024,42.0,LongMemEval,single judge,LongMemEval
+Speed of Closure,cognitive,2024,18.0,ARC-AGI,single judge,ARC-AGI
+Flexibility of Closure,cognitive,2024,27.5,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2024,10.5,BLINK,single judge,BLINK
+Spatial Orientation,cognitive,2024,16.5,VSI-Bench,single judge,VSI-Bench
+Visualization,cognitive,2024,15.0,SPACE,single judge,SPACE
+Selective Attention,cognitive,2024,30.0,RULER,single judge,RULER
+Time Sharing,cognitive,2024,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2024,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2024,21.0,FurnitureBench,single judge,FurnitureBench
+Finger Dexterity,psychomotor,2024,,Robotic Grasping and Manipulation Competition: Manufacturing Track,no extracted score,
+Control Precision,psychomotor,2024,13.75,CARLA Leaderboard 2.0,single judge,CARLA Leaderboard 2.0
+Multilimb Coordination,psychomotor,2024,13.75,RLBench2,single judge,RLBench2
+Response Orientation,psychomotor,2024,,,no adequate benchmark,
+Rate Control,psychomotor,2024,36.0,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
+Reaction Time,psychomotor,2024,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2024,22.0,RoboPianist,single judge,RoboPianist
+Speed of Limb Movement,psychomotor,2024,,,no adequate benchmark,
+Static Strength,physical,2024,,,no adequate benchmark,
+Explosive Strength,physical,2024,,,no adequate benchmark,
+Dynamic Strength,physical,2024,,,no adequate benchmark,
+Trunk Strength,physical,2024,,,no adequate benchmark,
+Stamina,physical,2024,,,no adequate benchmark,
+Extent Flexibility,physical,2024,,,no adequate benchmark,
+Dynamic Flexibility,physical,2024,,,no adequate benchmark,
+Gross Body Coordination,physical,2024,,HumanoidBench,no extracted score,
+Gross Body Equilibrium,physical,2024,16.5,HumanoidBench,single judge,HumanoidBench
+Near Vision,sensory,2024,15.75,V* Bench,single judge,V* Bench
+Far Vision,sensory,2024,13.5,V* Bench,single judge,V* Bench
+Visual Color Discrimination,sensory,2024,,,no adequate benchmark,
+Night Vision,sensory,2024,26.0,Dark Zurich,single judge,Dark Zurich
+Peripheral Vision,sensory,2024,,,no adequate benchmark,
+Depth Perception,sensory,2024,38.5,KITTI Depth Prediction,single judge,KITTI Depth Prediction
+Glare Sensitivity,sensory,2024,,,no adequate benchmark,
+Hearing Sensitivity,sensory,2024,,DeafTest,no extracted score,
+Auditory Attention,sensory,2024,39.0,WHAMR!,single judge,WHAMR!
+Sound Localization,sensory,2024,36.0,DCASE2023 Task 3,single judge,DCASE2023 Task 3
+Speech Recognition,sensory,2024,42.0,Open ASR Leaderboard,single judge,Open ASR Leaderboard
+Speech Clarity,sensory,2024,30.25,Seed-TTS-eval,single judge,Seed-TTS-eval
+Oral Comprehension,cognitive,2025,32.5,MMSU,single judge,MMSU
+Written Comprehension,cognitive,2025,42.0,LongBench v2,single judge,LongBench v2
+Oral Expression,cognitive,2025,39.0,VocalBench,single judge,VocalBench
+Written Expression,cognitive,2025,45.5,WritingBench,single judge,WritingBench
+Fluency of Ideas,cognitive,2025,20.0,NoveltyBench,single judge,NoveltyBench
+Originality,cognitive,2025,35.75,LiveIdeaBench,single judge,LiveIdeaBench
+Problem Sensitivity,cognitive,2025,38.5,ProcessBench,single judge,ProcessBench
+Deductive Reasoning,cognitive,2025,30.0,KOR-Bench,single judge,KOR-Bench
+Inductive Reasoning,cognitive,2025,18.0,ARC-AGI-2,single judge,ARC-AGI-2
+Information Ordering,cognitive,2025,27.5,Sudoku-Bench,single judge,Sudoku-Bench
+Category Flexibility,cognitive,2025,44.0,Extended NYT Connections,single judge,Extended NYT Connections
+Mathematical Reasoning,cognitive,2025,34.0,FrontierMath,single judge,FrontierMath
+Number Facility,cognitive,2025,24.0,ORCA,single judge,ORCA
+Memorization,cognitive,2025,52.5,LongMemEval,single judge,LongMemEval
+Speed of Closure,cognitive,2025,11.25,ARC-AGI-2,single judge,ARC-AGI-2
+Flexibility of Closure,cognitive,2025,,VisFactor,no extracted score,
+Perceptual Speed,cognitive,2025,12.25,BLINK,single judge,BLINK
+Spatial Orientation,cognitive,2025,22.0,VSI-Bench,single judge,VSI-Bench
+Visualization,cognitive,2025,19.5,SpatialViz-Bench,single judge,SpatialViz-Bench
+Selective Attention,cognitive,2025,30.0,Vending-Bench 2,single judge,Vending-Bench 2
+Time Sharing,cognitive,2025,12.25,StreamingBench,single judge,StreamingBench
+Arm-Hand Steadiness,psychomotor,2025,,,no adequate benchmark,
+Manual Dexterity,psychomotor,2025,19.25,RoboTwin 2.0,single judge,RoboTwin 2.0
+Finger Dexterity,psychomotor,2025,,,no adequate benchmark,
+Control Precision,psychomotor,2025,59.5,A2RL Drone Championship,single judge,A2RL Drone Championship
+Multilimb Coordination,psychomotor,2025,24.5,RoboTwin 2.0,single judge,RoboTwin 2.0
+Response Orientation,psychomotor,2025,,,no adequate benchmark,
+Rate Control,psychomotor,2025,24.0,Arcade Learning Environment,single judge,Arcade Learning Environment
+Reaction Time,psychomotor,2025,,,no adequate benchmark,
+Wrist-Finger Speed,psychomotor,2025,,,no adequate benchmark,
+Speed of Limb Movement,psychomotor,2025,16.5,World Humanoid Robot Games 100m sprint,single judge,World Humanoid Robot Games 100m sprint
+Static Strength,physical,2025,,,no adequate benchmark,
+Explosive Strength,physical,2025,31.5,World Humanoid Robot Games,single judge,World Humanoid Robot Games
+Dynamic Strength,physical,2025,,,no adequate benchmark,
+Trunk Strength,physical,2025,,,no adequate benchmark,
+Stamina,physical,2025,20.0,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),single judge,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon)
+Extent Flexibility,physical,2025,,,no adequate benchmark,
+Dynamic Flexibility,physical,2025,,,no adequate benchmark,
+Gross Body Coordination,physical,2025,,HumanoidBench,no extracted score,
+Gross Body Equilibrium,physical,2025,13.75,HumanoidBench,single judge,HumanoidBench
+Near Vision,sensory,2025,27.0,HR-Bench,single judge,HR-Bench
+Far Vision,sensory,2025,22.0,HR-Bench,single judge,HR-Bench
+Visual Color Discrimination,sensory,2025,19.25,ColorBench,single judge,ColorBench
+Night Vision,sensory,2025,,ExDark,no extracted score,
+Peripheral Vision,sensory,2025,,,no adequate benchmark,
+Depth Perception,sensory,2025,27.5,DA-2K,single judge,DA-2K
+Glare Sensitivity,sensory,2025,17.5,GLARE,single judge,GLARE
+Hearing Sensitivity,sensory,2025,22.75,STAR-Bench,single judge,STAR-Bench
+Auditory Attention,sensory,2025,42.0,WHAMR!,single judge,WHAMR!
+Sound Localization,sensory,2025,26.0,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)",single judge,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)"
+Speech Recognition,sensory,2025,45.5,Open ASR Leaderboard,single judge,Open ASR Leaderboard
+Speech Clarity,sensory,2025,33.0,Seed-TTS-eval,single judge,Seed-TTS-eval
