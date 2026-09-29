@@ -2,7 +2,7 @@
 
 BAIOE (Benchmark-based AI Occupational Exposure) measures how far demonstrated AI capability, as recorded on public AI benchmarks, overlaps with the abilities each U.S. occupation requires. It scores public benchmarks against the 52 O*NET abilities for every year from 2020 to 2026, then rolls the ability scores up to 894 occupations. The 2026 vintage uses benchmark results published up to 28 September 2026, the date of the run.
 
-This repository holds the **version 2** pipeline: a single judge model selects one benchmark per ability and year and extracts its score in the same call, a second pass rates the AI result against the median human who uses that ability at work, and a third pass rates how well the benchmark transfers to real work. The version 1 pipeline behind the released paper (three judges, up to three benchmarks per cell) is on the `v1-release` branch of this repository.
+This repository holds the **version 2** pipeline: a single judge model selects one benchmark per ability and year and extracts its score in the same call, a second pass rates the AI result against the median human who uses that ability at work, and a third pass rates how well the benchmark transfers to real work. Every model-driven stage (benchmark selection, score extraction, capability rating, and transferability rating) uses Claude Opus 5.5. The version 1 pipeline behind the released paper (three judges, up to three benchmarks per cell) is on the `v1-release` branch of this repository.
 
 ## What changed from version 1
 
