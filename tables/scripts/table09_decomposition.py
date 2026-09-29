@@ -26,7 +26,9 @@ if __name__ == '__main__':
     L = ['\\begin{longtable}{lrrrrr}', '\\caption{Ability-level decomposition for the two most- and least-exposed occupations, 2026}\\label{tab:decomp} \\\\ \\toprule', 'O*NET ability & Ability exposure & Importance & Level & BAIOE weight & Contribution \\\\ \\midrule \\endfirsthead', '\\toprule O*NET ability & Ability exposure & Importance & Level & BAIOE weight & Contribution \\\\ \\midrule \\endhead', '\\midrule \\multicolumn{6}{r}{\\textit{Continued on next page}} \\\\ \\endfoot', '\\bottomrule \\endlastfoot']
     cur = None
     for p, t, sc, a, e, i, l, wt, c in R:
-        if (p, t) != cur: L.append(f'\\multicolumn{{4}}{{l}}{{\\textit{{{p}: {tex_escape(t)}}}}} & \\multicolumn{{2}}{{r}}{{\\textit{{Final BAIOE score: {sc:.2f}}}}} \\\\'); cur = (p, t)
-        L.append(f'{tex_escape(a)} & {e} & {i} & {l} & {wt} & {c} \\\\')
+        if (p, t) != cur:
+            if cur is not None: L.append('\\addlinespace[0.5em]')
+            L.append(f'\\multicolumn{{6}}{{@{{}}p{{0.95\\textwidth}}@{{}}}}{{\\textbf{{{p}: {tex_escape(t)}}} \\hfill \\textbf{{Final BAIOE score: {sc:.2f}}}}}\\\\'); L.append('\\midrule'); cur = (p, t)
+        L.append(f'  {tex_escape(a)} & {e} & {i} & {l} & {wt} & {c} \\\\')
     L += [f'\\multicolumn{{6}}{{p{{0.95\\linewidth}}}}{{\\footnotesize \\textit{{Notes:}} The table reports the ability-level decomposition for the two occupations with the highest and lowest 2026 BAIOE scores. Ability exposure is the 2026 BAIOE ability-level exposure score, measured on the same scale used throughout the paper. Importance and level weights are normalized O*NET occupation--ability ratings. The BAIOE weight is the product of the normalized importance and level weights. The contribution column reports the raw numerator term, equal to ability exposure multiplied by the BAIOE weight. The final occupation score is the weighted average of ability exposure across abilities, obtained by dividing the sum of raw contributions by the sum of BAIOE weights. Values are rounded to two decimals.{vintage_note()}}} \\', '\\end{longtable}']
     write_tex('table09_decomposition.tex', '\n'.join(L)); print('Table 9:', len(R), 'rows;', {(p, t): sc for p, t, sc, *_ in R})
