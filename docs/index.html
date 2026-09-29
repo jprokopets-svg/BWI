@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BAIOE Explorer</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Benchmark-Anchored AI Occupational Exposure</h1>
+    <p class="sub">See how each occupation's score is built from abilities and benchmarks.</p>
+    <nav class="tabs">
+      <a href="#/" id="tab-explorer">Explorer</a>
+      <a href="#/methodology" id="tab-method">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="crumbs wrap" id="crumbs"></nav>
+
+<main class="wrap" id="view"><p class="loading">Loading canonical data.</p></main>
+
+<footer class="wrap">
+  <p id="ytd"></p>
+  <p>
+    Data, prompts and tables:
+    <a href="https://github.com/jprokopets-svg/baioe-replication">github.com/jprokopets-svg/baioe-replication</a>.
+  </p>
+  <p>
+    This site includes derived values computed from the O*NET 30.3 Database by the U.S.
+    Department of Labor, Employment and Training Administration (USDOL/ETA), used under the
+    CC BY 4.0 license. O*NET&reg; is a trademark of USDOL/ETA.
+  </p>
+  <p class="meta" id="buildmeta"></p>
+</footer>
+
+<div id="tip" class="tip" hidden></div>
+<script src="js/app.js"></script>
+</body>
+</html>

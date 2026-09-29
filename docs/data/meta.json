@@ -1,0 +1,85 @@
+{
+ "built_utc": "2026-09-29T02:38:03Z",
+ "git_branch": "split-fix-plus-ability-filter",
+ "pipeline": "v2",
+ "model": "anthropic/claude-opus-5.5",
+ "models_by_stage": {
+  "mapping": [
+   "anthropic/claude-opus-5.5"
+  ],
+  "step3": [
+   "anthropic/claude-opus-5.5"
+  ],
+  "step4": [
+   "anthropic/claude-opus-5.5"
+  ]
+ },
+ "years": [
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025",
+  "2026"
+ ],
+ "latest_year": "2026",
+ "cutoff": "2026-09-28",
+ "cum_coverage_threshold": 0.9,
+ "n_occupations": 894,
+ "n_abilities": 52,
+ "n_abilities_mapped": 44,
+ "n_benchmarks": 153,
+ "major_groups": [
+  "Architecture and Engineering",
+  "Arts, Design, Entertainment, Sports, and Media",
+  "Building and Grounds Cleaning and Maintenance",
+  "Business and Financial Operations",
+  "Community and Social Service",
+  "Computer and Mathematical",
+  "Construction and Extraction",
+  "Educational Instruction and Library",
+  "Farming, Fishing, and Forestry",
+  "Food Preparation and Serving Related",
+  "Healthcare Practitioners and Technical",
+  "Healthcare Support",
+  "Installation, Maintenance, and Repair",
+  "Legal",
+  "Life, Physical, and Social Science",
+  "Management",
+  "Office and Administrative Support",
+  "Personal Care and Service",
+  "Production",
+  "Protective Service",
+  "Sales and Related",
+  "Transportation and Material Moving"
+ ],
+ "gate": {
+  "year": "2026",
+  "n": 894,
+  "mean": 26.66,
+  "sd": 1.36,
+  "top_title": "Economists",
+  "top_score": 29.72,
+  "replication_commit": "6b5df3ae0dee224eb81eebae9bc4a1ee17b9e7c3",
+  "checks": [
+   "data/v2 records all anthropic/claude-opus-5.5",
+   "build_v2_release.py output byte-identical to baioe-replication HEAD",
+   "894 x 7 occupation decompositions match occupation_exposure.csv exactly"
+  ]
+ },
+ "sources": [
+  "data/v2/mappings_<year>/*.json",
+  "data/v2/step3_scores/*.json",
+  "data/v2/step4_transferability/*.json",
+  "data/raw/onet/Abilities.txt",
+  "baioe-replication@6b5df3a:data/{benchmark_ability_year.csv,ability_year_exposure.csv,occupation_exposure.csv}"
+ ],
+ "resolution_labels": {
+  "selected": "A benchmark was selected and its result for this year was rated",
+  "carry_forward": "No verifiable 2026 result for the mapped ability - the 2025 value is carried forward",
+  "no_adequate_benchmark": "No candidate benchmark met the selection rubric",
+  "no_score": "A benchmark was selected but no verifiable result was found for this year",
+  "ungradable": "A benchmark was selected but its result could not be rated against humans"
+ }
+}

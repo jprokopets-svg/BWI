@@ -1,0 +1,474 @@
+{
+ "year": "2026",
+ "step1": {
+  "n_rated": 52,
+  "n_mapped": 44,
+  "n_measured_latest": 41,
+  "resolution": {
+   "selected": 215,
+   "no_adequate_benchmark": 124,
+   "no_score": 20,
+   "carry_forward": 5
+  },
+  "resolution_labels": {
+   "selected": "selected",
+   "carry_forward": "carry-forward",
+   "no_adequate_benchmark": "no adequate benchmark",
+   "no_score": "selected, no verifiable score",
+   "ungradable": "selected, ungradable"
+  }
+ },
+ "step2": {
+  "per_year": {
+   "2020": 28,
+   "2021": 26,
+   "2022": 26,
+   "2023": 29,
+   "2024": 32,
+   "2025": 38,
+   "2026": 36
+  }
+ },
+ "step3": {
+  "hist": {
+   "2": 8,
+   "3": 54,
+   "4": 55,
+   "5": 26,
+   "6": 28,
+   "7": 28,
+   "8": 9,
+   "9": 7
+  },
+  "n": 215
+ },
+ "step4": {
+  "hist": {
+   "2.0": 1,
+   "2.5": 10,
+   "3.0": 18,
+   "3.5": 26,
+   "4.0": 22,
+   "4.5": 26,
+   "5.0": 24,
+   "5.5": 14,
+   "6.0": 6,
+   "6.5": 4,
+   "7.0": 2
+  },
+  "n": 153,
+  "mean": 4.25,
+  "min": 2.0,
+  "max": 7.0
+ },
+ "step5": {
+  "abilities": [
+   {
+    "name": "Explosive Strength",
+    "category": "physical",
+    "exposure": 57.0,
+    "benchmark": "World Humanoid Robot Games",
+    "resolution": "selected"
+   },
+   {
+    "name": "Control Precision",
+    "category": "psychomotor",
+    "exposure": 49.5,
+    "benchmark": "A2RL Drone Championship",
+    "resolution": "selected"
+   },
+   {
+    "name": "Written Expression",
+    "category": "cognitive",
+    "exposure": 45.5,
+    "benchmark": "WritingBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Speed of Limb Movement",
+    "category": "psychomotor",
+    "exposure": 42.75,
+    "benchmark": "World Humanoid Robot Games",
+    "resolution": "selected"
+   },
+   {
+    "name": "Mathematical Reasoning",
+    "category": "cognitive",
+    "exposure": 40.5,
+    "benchmark": "FrontierMath",
+    "resolution": "selected"
+   },
+   {
+    "name": "Speech Recognition",
+    "category": "sensory",
+    "exposure": 38.5,
+    "benchmark": "Open ASR Leaderboard",
+    "resolution": "selected"
+   },
+   {
+    "name": "Written Comprehension",
+    "category": "cognitive",
+    "exposure": 35.0,
+    "benchmark": "LongBench v2",
+    "resolution": "selected"
+   },
+   {
+    "name": "Problem Sensitivity",
+    "category": "cognitive",
+    "exposure": 33.75,
+    "benchmark": "ProcessBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Selective Attention",
+    "category": "cognitive",
+    "exposure": 33.0,
+    "benchmark": "Vending-Bench 2",
+    "resolution": "selected"
+   },
+   {
+    "name": "Memorization",
+    "category": "cognitive",
+    "exposure": 32.0,
+    "benchmark": "OpenAI-MRCR",
+    "resolution": "selected"
+   },
+   {
+    "name": "Inductive Reasoning",
+    "category": "cognitive",
+    "exposure": 31.5,
+    "benchmark": "ARC-AGI-2",
+    "resolution": "selected"
+   },
+   {
+    "name": "Category Flexibility",
+    "category": "cognitive",
+    "exposure": 31.5,
+    "benchmark": "NYT Connections Extended",
+    "resolution": "selected"
+   },
+   {
+    "name": "Oral Expression",
+    "category": "cognitive",
+    "exposure": 30.0,
+    "benchmark": "VocalBench (2025)",
+    "resolution": "carry_forward"
+   },
+   {
+    "name": "Number Facility",
+    "category": "cognitive",
+    "exposure": 30.0,
+    "benchmark": "ORCA (2025)",
+    "resolution": "carry_forward"
+   },
+   {
+    "name": "Manual Dexterity",
+    "category": "psychomotor",
+    "exposure": 29.25,
+    "benchmark": "ManipulationNet",
+    "resolution": "selected"
+   },
+   {
+    "name": "Rate Control",
+    "category": "psychomotor",
+    "exposure": 29.25,
+    "benchmark": "Robot Air Hockey Challenge",
+    "resolution": "selected"
+   },
+   {
+    "name": "Near Vision",
+    "category": "sensory",
+    "exposure": 26.0,
+    "benchmark": "HR-Bench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Auditory Attention",
+    "category": "sensory",
+    "exposure": 24.5,
+    "benchmark": "Libri2Mix",
+    "resolution": "selected"
+   },
+   {
+    "name": "Deductive Reasoning",
+    "category": "cognitive",
+    "exposure": 22.75,
+    "benchmark": "BIG-Bench Extra Hard",
+    "resolution": "selected"
+   },
+   {
+    "name": "Fluency of Ideas",
+    "category": "cognitive",
+    "exposure": 22.5,
+    "benchmark": "NoveltyBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Speech Clarity",
+    "category": "sensory",
+    "exposure": 22.0,
+    "benchmark": "Seed-TTS-Eval",
+    "resolution": "selected"
+   },
+   {
+    "name": "Night Vision",
+    "category": "sensory",
+    "exposure": 20.0,
+    "benchmark": "ExDark",
+    "resolution": "selected"
+   },
+   {
+    "name": "Depth Perception",
+    "category": "sensory",
+    "exposure": 20.0,
+    "benchmark": "DA-2K (2025)",
+    "resolution": "carry_forward"
+   },
+   {
+    "name": "Information Ordering",
+    "category": "cognitive",
+    "exposure": 19.5,
+    "benchmark": "BIG-Bench Extra Hard",
+    "resolution": "selected"
+   },
+   {
+    "name": "Hearing Sensitivity",
+    "category": "sensory",
+    "exposure": 19.25,
+    "benchmark": "SonicBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Oral Comprehension",
+    "category": "cognitive",
+    "exposure": 18.0,
+    "benchmark": "MMSU",
+    "resolution": "selected"
+   },
+   {
+    "name": "Spatial Orientation",
+    "category": "cognitive",
+    "exposure": 18.0,
+    "benchmark": "VSI-Bench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Multilimb Coordination",
+    "category": "psychomotor",
+    "exposure": 18.0,
+    "benchmark": "RoboTwin 2.0",
+    "resolution": "selected"
+   },
+   {
+    "name": "Stamina",
+    "category": "physical",
+    "exposure": 18.0,
+    "benchmark": "Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)",
+    "resolution": "carry_forward"
+   },
+   {
+    "name": "Visual Color Discrimination",
+    "category": "sensory",
+    "exposure": 18.0,
+    "benchmark": "ColorBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Glare Sensitivity",
+    "category": "sensory",
+    "exposure": 17.5,
+    "benchmark": "GLARE (2025)",
+    "resolution": "carry_forward"
+   },
+   {
+    "name": "Sound Localization",
+    "category": "sensory",
+    "exposure": 17.5,
+    "benchmark": "DCASE2026 Challenge Task 3",
+    "resolution": "selected"
+   },
+   {
+    "name": "Originality",
+    "category": "cognitive",
+    "exposure": 16.5,
+    "benchmark": "NoveltyBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Visualization",
+    "category": "cognitive",
+    "exposure": 15.75,
+    "benchmark": "SpatialViz-Bench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Time Sharing",
+    "category": "cognitive",
+    "exposure": 15.75,
+    "benchmark": "AsyncTool",
+    "resolution": "selected"
+   },
+   {
+    "name": "Far Vision",
+    "category": "sensory",
+    "exposure": 14.0,
+    "benchmark": "HR-Bench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Speed of Closure",
+    "category": "cognitive",
+    "exposure": 13.5,
+    "benchmark": "ARC-AGI-3",
+    "resolution": "selected"
+   },
+   {
+    "name": "Static Strength",
+    "category": "physical",
+    "exposure": 13.5,
+    "benchmark": "World Humanoid Robot Games Weightlifting",
+    "resolution": "selected"
+   },
+   {
+    "name": "Gross Body Coordination",
+    "category": "physical",
+    "exposure": 13.5,
+    "benchmark": "HumanoidBench",
+    "resolution": "selected"
+   },
+   {
+    "name": "Perceptual Speed",
+    "category": "cognitive",
+    "exposure": 12.0,
+    "benchmark": "BLINK",
+    "resolution": "selected"
+   },
+   {
+    "name": "Gross Body Equilibrium",
+    "category": "physical",
+    "exposure": 12.0,
+    "benchmark": "HumanoidBench",
+    "resolution": "selected"
+   }
+  ]
+ },
+ "step6": {
+  "soc_code": "19-3011.00",
+  "title": "Economists",
+  "exposure": 29.72,
+  "kept_weight_share": 0.8967,
+  "unmeasured_weight_share": 0.0275,
+  "n_dropped": 23,
+  "n_null": 11,
+  "rows": [
+   {
+    "ability": "Written Expression",
+    "weight": 0.5357,
+    "exposure": 45.5,
+    "contribution": 3.4481
+   },
+   {
+    "ability": "Mathematical Reasoning",
+    "weight": 0.4881,
+    "exposure": 40.5,
+    "contribution": 2.7961
+   },
+   {
+    "ability": "Written Comprehension",
+    "weight": 0.5571,
+    "exposure": 35.0,
+    "contribution": 2.7585
+   },
+   {
+    "ability": "Oral Expression",
+    "weight": 0.5229,
+    "exposure": 30.0,
+    "contribution": 2.2189
+   },
+   {
+    "ability": "Inductive Reasoning",
+    "weight": 0.4881,
+    "exposure": 31.5,
+    "contribution": 2.1748
+   },
+   {
+    "ability": "Speech Recognition",
+    "weight": 0.3509,
+    "exposure": 38.5,
+    "contribution": 1.911
+   },
+   {
+    "ability": "Problem Sensitivity",
+    "weight": 0.3743,
+    "exposure": 33.75,
+    "contribution": 1.7869
+   },
+   {
+    "ability": "Number Facility",
+    "weight": 0.3679,
+    "exposure": 30.0,
+    "contribution": 1.5611
+   },
+   {
+    "ability": "Deductive Reasoning",
+    "weight": 0.4821,
+    "exposure": 22.75,
+    "contribution": 1.5516
+   },
+   {
+    "ability": "Speech Clarity",
+    "weight": 0.4554,
+    "exposure": 22.0,
+    "contribution": 1.4171
+   },
+   {
+    "ability": "Oral Comprehension",
+    "weight": 0.5229,
+    "exposure": 18.0,
+    "contribution": 1.3313
+   },
+   {
+    "ability": "Fluency of Ideas",
+    "weight": 0.4114,
+    "exposure": 22.5,
+    "contribution": 1.3095
+   },
+   {
+    "ability": "Near Vision",
+    "weight": 0.3348,
+    "exposure": 26.0,
+    "contribution": 1.2315
+   },
+   {
+    "ability": "Category Flexibility",
+    "weight": 0.2461,
+    "exposure": 31.5,
+    "contribution": 1.0965
+   },
+   {
+    "ability": "Memorization",
+    "weight": 0.1934,
+    "exposure": 32.0,
+    "contribution": 0.8753
+   },
+   {
+    "ability": "Information Ordering",
+    "weight": 0.3013,
+    "exposure": 19.5,
+    "contribution": 0.8312
+   },
+   {
+    "ability": "Selective Attention",
+    "weight": 0.1719,
+    "exposure": 33.0,
+    "contribution": 0.8023
+   },
+   {
+    "ability": "Originality",
+    "weight": 0.265,
+    "exposure": 16.5,
+    "contribution": 0.6185
+   }
+  ]
+ }
+}
