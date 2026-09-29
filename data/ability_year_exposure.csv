@@ -1,28 +1,28 @@
 onet_ability,ability_category,year,exposure,selected_benchmark,resolution,anchor_benchmark
-Oral Comprehension,cognitive,2020,22.0,Spoken-SQuAD,single judge,Spoken-SQuAD
-Written Comprehension,cognitive,2020,32.5,RACE,single judge,RACE
+Oral Comprehension,cognitive,2020,14.0,Spoken-SQuAD,single judge,Spoken-SQuAD
+Written Comprehension,cognitive,2020,26.0,RACE,single judge,RACE
 Oral Expression,cognitive,2020,,,no adequate benchmark,
-Written Expression,cognitive,2020,27.5,CNN/DailyMail,single judge,CNN/DailyMail
+Written Expression,cognitive,2020,20.0,CNN/DailyMail,single judge,CNN/DailyMail
 Fluency of Ideas,cognitive,2020,,,no adequate benchmark,
 Originality,cognitive,2020,,,no adequate benchmark,
-Problem Sensitivity,cognitive,2020,27.5,MVTec AD,single judge,MVTec AD
-Deductive Reasoning,cognitive,2020,10.0,LogiQA,single judge,LogiQA
-Inductive Reasoning,cognitive,2020,6.0,ARC,single judge,ARC
+Problem Sensitivity,cognitive,2020,24.75,MVTec AD,single judge,MVTec AD
+Deductive Reasoning,cognitive,2020,7.0,LogiQA,single judge,LogiQA
+Inductive Reasoning,cognitive,2020,9.0,ARC,single judge,ARC
 Information Ordering,cognitive,2020,9.0,ARC,single judge,ARC
-Category Flexibility,cognitive,2020,9.0,ARC,single judge,ARC
-Mathematical Reasoning,cognitive,2020,22.0,Math23K,single judge,Math23K
+Category Flexibility,cognitive,2020,7.5,ARC,single judge,ARC
+Mathematical Reasoning,cognitive,2020,14.0,Math23K,single judge,Math23K
 Number Facility,cognitive,2020,,GPT-3 Arithmetic,no extracted score,
 Memorization,cognitive,2020,12.25,Memory Task Suite,single judge,Memory Task Suite
-Speed of Closure,cognitive,2020,9.0,ARC,single judge,ARC
-Flexibility of Closure,cognitive,2020,22.0,COD10K,single judge,COD10K
+Speed of Closure,cognitive,2020,7.5,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2020,20.0,COD10K,single judge,COD10K
 Perceptual Speed,cognitive,2020,12.5,HPatches,single judge,HPatches
-Spatial Orientation,cognitive,2020,24.0,Habitat Challenge 2020 PointNav,single judge,Habitat Challenge 2020 PointNav
-Visualization,cognitive,2020,18.0,ShapeNet-SRN,single judge,ShapeNet-SRN
-Selective Attention,cognitive,2020,20.0,Adversarial SQuAD,single judge,Adversarial SQuAD
+Spatial Orientation,cognitive,2020,20.0,Habitat Challenge 2020 PointNav,single judge,Habitat Challenge 2020 PointNav
+Visualization,cognitive,2020,14.0,ShapeNet-SRN,single judge,ShapeNet-SRN
+Selective Attention,cognitive,2020,17.5,Adversarial SQuAD,single judge,Adversarial SQuAD
 Time Sharing,cognitive,2020,,,no adequate benchmark,
 Arm-Hand Steadiness,psychomotor,2020,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2020,34.0,Robotic Grasping and Manipulation Competition,single judge,Robotic Grasping and Manipulation Competition
-Finger Dexterity,psychomotor,2020,26.0,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,single judge,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track
+Manual Dexterity,psychomotor,2020,28.0,Robotic Grasping and Manipulation Competition,single judge,Robotic Grasping and Manipulation Competition
+Finger Dexterity,psychomotor,2020,24.0,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,single judge,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track
 Control Precision,psychomotor,2020,,DeepMind Control Suite,no extracted score,
 Multilimb Coordination,psychomotor,2020,,,no adequate benchmark,
 Response Orientation,psychomotor,2020,,,no adequate benchmark,
@@ -37,48 +37,48 @@ Trunk Strength,physical,2020,,,no adequate benchmark,
 Stamina,physical,2020,,,no adequate benchmark,
 Extent Flexibility,physical,2020,,,no adequate benchmark,
 Dynamic Flexibility,physical,2020,,,no adequate benchmark,
-Gross Body Coordination,physical,2020,14.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Coordination,physical,2020,8.75,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2020,,,no adequate benchmark,
 Near Vision,sensory,2020,27.5,MVTec AD,single judge,MVTec AD
-Far Vision,sensory,2020,15.75,TinyPerson,single judge,TinyPerson
-Visual Color Discrimination,sensory,2020,15.75,Colors in Context,single judge,Colors in Context
-Night Vision,sensory,2020,19.5,Dark Zurich,single judge,Dark Zurich
+Far Vision,sensory,2020,17.5,TinyPerson,single judge,TinyPerson
+Visual Color Discrimination,sensory,2020,11.25,Colors in Context,single judge,Colors in Context
+Night Vision,sensory,2020,16.5,Dark Zurich,single judge,Dark Zurich
 Peripheral Vision,sensory,2020,,,no adequate benchmark,
-Depth Perception,sensory,2020,45.5,KITTI Depth Prediction Benchmark,single judge,KITTI Depth Prediction Benchmark
+Depth Perception,sensory,2020,38.5,KITTI Depth Prediction Benchmark,single judge,KITTI Depth Prediction Benchmark
 Glare Sensitivity,sensory,2020,,,no adequate benchmark,
 Hearing Sensitivity,sensory,2020,,,no adequate benchmark,
-Auditory Attention,sensory,2020,31.5,WSJ0-2mix,single judge,WSJ0-2mix
-Sound Localization,sensory,2020,45.0,DCASE2020 Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Task 3 (Sound Event Localization and Detection)
-Speech Recognition,sensory,2020,40.0,LibriSpeech,single judge,LibriSpeech
-Speech Clarity,sensory,2020,35.75,Blizzard Challenge,single judge,Blizzard Challenge
-Oral Comprehension,cognitive,2021,22.0,Spoken SQuAD,single judge,Spoken SQuAD
-Written Comprehension,cognitive,2021,35.0,RACE,single judge,RACE
-Oral Expression,cognitive,2021,20.0,Blizzard Challenge,single judge,Blizzard Challenge
-Written Expression,cognitive,2021,27.5,CNN/DailyMail,single judge,CNN/DailyMail
+Auditory Attention,sensory,2020,24.5,WSJ0-2mix,single judge,WSJ0-2mix
+Sound Localization,sensory,2020,36.0,DCASE2020 Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Task 3 (Sound Event Localization and Detection)
+Speech Recognition,sensory,2020,32.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2020,27.5,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2021,14.0,Spoken SQuAD,single judge,Spoken SQuAD
+Written Comprehension,cognitive,2021,28.0,RACE,single judge,RACE
+Oral Expression,cognitive,2021,22.5,Blizzard Challenge,single judge,Blizzard Challenge
+Written Expression,cognitive,2021,20.0,CNN/DailyMail,single judge,CNN/DailyMail
 Fluency of Ideas,cognitive,2021,,,no adequate benchmark,
 Originality,cognitive,2021,,,no adequate benchmark,
-Problem Sensitivity,cognitive,2021,30.0,MVTec AD,single judge,MVTec AD
-Deductive Reasoning,cognitive,2021,15.0,LogiQA,single judge,LogiQA
-Inductive Reasoning,cognitive,2021,6.0,ARC,single judge,ARC
+Problem Sensitivity,cognitive,2021,27.0,MVTec AD,single judge,MVTec AD
+Deductive Reasoning,cognitive,2021,10.5,LogiQA,single judge,LogiQA
+Inductive Reasoning,cognitive,2021,9.0,ARC,single judge,ARC
 Information Ordering,cognitive,2021,9.0,ARC,single judge,ARC
-Category Flexibility,cognitive,2021,15.75,Bongard-LOGO,single judge,Bongard-LOGO
-Mathematical Reasoning,cognitive,2021,15.0,MATH,single judge,MATH
+Category Flexibility,cognitive,2021,10.5,Bongard-LOGO,single judge,Bongard-LOGO
+Mathematical Reasoning,cognitive,2021,13.5,MATH,single judge,MATH
 Number Facility,cognitive,2021,,GPT-3 Arithmetic,no extracted score,
-Memorization,cognitive,2021,13.75,LAMA,single judge,LAMA
-Speed of Closure,cognitive,2021,7.5,ARC,single judge,ARC
-Flexibility of Closure,cognitive,2021,22.0,COD10K,single judge,COD10K
+Memorization,cognitive,2021,16.5,LAMA,single judge,LAMA
+Speed of Closure,cognitive,2021,6.25,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2021,20.0,COD10K,single judge,COD10K
 Perceptual Speed,cognitive,2021,,,no adequate benchmark,
-Spatial Orientation,cognitive,2021,36.0,Habitat Challenge 2021 PointNav,single judge,Habitat Challenge 2021 PointNav
+Spatial Orientation,cognitive,2021,27.0,Habitat Challenge 2021 PointNav,single judge,Habitat Challenge 2021 PointNav
 Visualization,cognitive,2021,,SPARE3D,no extracted score,
 Selective Attention,cognitive,2021,,Distracting Control Suite,no extracted score,
 Time Sharing,cognitive,2021,,,no adequate benchmark,
 Arm-Hand Steadiness,psychomotor,2021,,,no adequate benchmark,
 Manual Dexterity,psychomotor,2021,,D4RL,no extracted score,
 Finger Dexterity,psychomotor,2021,,World Robot Summit Assembly Challenge,no extracted score,
-Control Precision,psychomotor,2021,18.0,CARLA Leaderboard,single judge,CARLA Leaderboard
+Control Precision,psychomotor,2021,15.0,CARLA Leaderboard,single judge,CARLA Leaderboard
 Multilimb Coordination,psychomotor,2021,,,no adequate benchmark,
 Response Orientation,psychomotor,2021,,,no adequate benchmark,
-Rate Control,psychomotor,2021,24.0,Arcade Learning Environment,single judge,Arcade Learning Environment
+Rate Control,psychomotor,2021,20.0,Arcade Learning Environment,single judge,Arcade Learning Environment
 Reaction Time,psychomotor,2021,,,no adequate benchmark,
 Wrist-Finger Speed,psychomotor,2021,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2021,,,no adequate benchmark,
@@ -89,44 +89,44 @@ Trunk Strength,physical,2021,,,no adequate benchmark,
 Stamina,physical,2021,,,no adequate benchmark,
 Extent Flexibility,physical,2021,,,no adequate benchmark,
 Dynamic Flexibility,physical,2021,,,no adequate benchmark,
-Gross Body Coordination,physical,2021,14.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Coordination,physical,2021,8.75,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2021,,,no adequate benchmark,
 Near Vision,sensory,2021,33.0,MVTec AD,single judge,MVTec AD
-Far Vision,sensory,2021,18.0,TinyPerson,single judge,TinyPerson
+Far Vision,sensory,2021,20.0,TinyPerson,single judge,TinyPerson
 Visual Color Discrimination,sensory,2021,,,no adequate benchmark,
-Night Vision,sensory,2021,19.5,Dark Zurich,single judge,Dark Zurich
+Night Vision,sensory,2021,16.5,Dark Zurich,single judge,Dark Zurich
 Peripheral Vision,sensory,2021,,,no adequate benchmark,
-Depth Perception,sensory,2021,24.75,NYU Depth V2,single judge,NYU Depth V2
-Glare Sensitivity,sensory,2021,22.75,WildDash,single judge,WildDash
+Depth Perception,sensory,2021,20.25,NYU Depth V2,single judge,NYU Depth V2
+Glare Sensitivity,sensory,2021,15.75,WildDash,single judge,WildDash
 Hearing Sensitivity,sensory,2021,,,no adequate benchmark,
-Auditory Attention,sensory,2021,42.25,WHAM!,single judge,WHAM!
-Sound Localization,sensory,2021,52.5,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection)
-Speech Recognition,sensory,2021,35.0,LibriSpeech,single judge,LibriSpeech
-Speech Clarity,sensory,2021,32.5,Blizzard Challenge,single judge,Blizzard Challenge
+Auditory Attention,sensory,2021,,WHAM!,ungradable,
+Sound Localization,sensory,2021,38.5,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection),single judge,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection)
+Speech Recognition,sensory,2021,28.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2021,25.0,Blizzard Challenge,single judge,Blizzard Challenge
 Oral Comprehension,cognitive,2022,16.0,SLURP,single judge,SLURP
-Written Comprehension,cognitive,2022,16.5,QuALITY,single judge,QuALITY
+Written Comprehension,cognitive,2022,15.0,QuALITY,single judge,QuALITY
 Oral Expression,cognitive,2022,,,no adequate benchmark,
-Written Expression,cognitive,2022,18.0,XSum,single judge,XSum
+Written Expression,cognitive,2022,13.5,XSum,single judge,XSum
 Fluency of Ideas,cognitive,2022,,,no adequate benchmark,
 Originality,cognitive,2022,,,no adequate benchmark,
-Problem Sensitivity,cognitive,2022,22.0,MVTec LOCO AD,single judge,MVTec LOCO AD
-Deductive Reasoning,cognitive,2022,20.0,FOLIO,single judge,FOLIO
-Inductive Reasoning,cognitive,2022,6.0,ARC,single judge,ARC
-Information Ordering,cognitive,2022,14.0,word_sorting,single judge,word_sorting
-Category Flexibility,cognitive,2022,9.0,ARC,single judge,ARC
-Mathematical Reasoning,cognitive,2022,35.0,MATH,single judge,MATH
-Number Facility,cognitive,2022,25.0,BIG-Bench Hard (Multistep Arithmetic Two),single judge,BIG-Bench Hard (Multistep Arithmetic Two)
-Memorization,cognitive,2022,12.0,Memory Maze,single judge,Memory Maze
+Problem Sensitivity,cognitive,2022,20.0,MVTec LOCO AD,single judge,MVTec LOCO AD
+Deductive Reasoning,cognitive,2022,16.0,FOLIO,single judge,FOLIO
+Inductive Reasoning,cognitive,2022,9.0,ARC,single judge,ARC
+Information Ordering,cognitive,2022,12.25,word_sorting,single judge,word_sorting
+Category Flexibility,cognitive,2022,7.5,ARC,single judge,ARC
+Mathematical Reasoning,cognitive,2022,31.5,MATH,single judge,MATH
+Number Facility,cognitive,2022,22.5,BIG-Bench Hard (Multistep Arithmetic Two),single judge,BIG-Bench Hard (Multistep Arithmetic Two)
+Memorization,cognitive,2022,7.5,Memory Maze,single judge,Memory Maze
 Speed of Closure,cognitive,2022,,,no adequate benchmark,
-Flexibility of Closure,cognitive,2022,24.75,COD10K,single judge,COD10K
+Flexibility of Closure,cognitive,2022,22.5,COD10K,single judge,COD10K
 Perceptual Speed,cognitive,2022,11.25,NLVR2,single judge,NLVR2
-Spatial Orientation,cognitive,2022,45.0,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)",single judge,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)"
-Visualization,cognitive,2022,20.25,CLEVR-MRT,single judge,CLEVR-MRT
+Spatial Orientation,cognitive,2022,33.0,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)",single judge,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)"
+Visualization,cognitive,2022,13.5,CLEVR-MRT,single judge,CLEVR-MRT
 Selective Attention,cognitive,2022,,,no adequate benchmark,
 Time Sharing,cognitive,2022,,,no adequate benchmark,
 Arm-Hand Steadiness,psychomotor,2022,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2022,22.75,MyoChallenge,single judge,MyoChallenge
-Finger Dexterity,psychomotor,2022,24.75,World Robot Summit Assembly Challenge,single judge,World Robot Summit Assembly Challenge
+Manual Dexterity,psychomotor,2022,12.25,MyoChallenge,single judge,MyoChallenge
+Finger Dexterity,psychomotor,2022,27.0,World Robot Summit Assembly Challenge,single judge,World Robot Summit Assembly Challenge
 Control Precision,psychomotor,2022,,DeepMind Control Suite,no extracted score,
 Multilimb Coordination,psychomotor,2022,,,no adequate benchmark,
 Response Orientation,psychomotor,2022,,,no adequate benchmark,
@@ -141,48 +141,48 @@ Trunk Strength,physical,2022,,,no adequate benchmark,
 Stamina,physical,2022,,,no adequate benchmark,
 Extent Flexibility,physical,2022,,,no adequate benchmark,
 Dynamic Flexibility,physical,2022,,,no adequate benchmark,
-Gross Body Coordination,physical,2022,12.0,DeepMind Control Suite,single judge,DeepMind Control Suite
+Gross Body Coordination,physical,2022,7.5,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2022,,,no adequate benchmark,
 Near Vision,sensory,2022,16.0,DocVQA,single judge,DocVQA
 Far Vision,sensory,2022,18.0,VisDrone,single judge,VisDrone
 Visual Color Discrimination,sensory,2022,,,no adequate benchmark,
-Night Vision,sensory,2022,26.0,Dark Zurich,single judge,Dark Zurich
+Night Vision,sensory,2022,22.0,Dark Zurich,single judge,Dark Zurich
 Peripheral Vision,sensory,2022,,,no adequate benchmark,
-Depth Perception,sensory,2022,33.0,NYU Depth V2,single judge,NYU Depth V2
+Depth Perception,sensory,2022,27.0,NYU Depth V2,single judge,NYU Depth V2
 Glare Sensitivity,sensory,2022,,,no adequate benchmark,
-Hearing Sensitivity,sensory,2022,28.0,HEAR,single judge,HEAR
-Auditory Attention,sensory,2022,33.75,WSJ0-2mix,single judge,WSJ0-2mix
+Hearing Sensitivity,sensory,2022,24.5,HEAR,single judge,HEAR
+Auditory Attention,sensory,2022,26.25,WSJ0-2mix,single judge,WSJ0-2mix
 Sound Localization,sensory,2022,,STARSS22,no extracted score,
-Speech Recognition,sensory,2022,35.0,LibriSpeech,single judge,LibriSpeech
-Speech Clarity,sensory,2022,35.75,Blizzard Challenge,single judge,Blizzard Challenge
+Speech Recognition,sensory,2022,28.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2022,27.5,Blizzard Challenge,single judge,Blizzard Challenge
 Oral Comprehension,cognitive,2023,,SLUE Phase-2 (SLUE-SQA-5),no extracted score,
-Written Comprehension,cognitive,2023,27.0,DROP,single judge,DROP
+Written Comprehension,cognitive,2023,18.0,DROP,single judge,DROP
 Oral Expression,cognitive,2023,22.0,Blizzard Challenge 2023,single judge,Blizzard Challenge 2023
-Written Expression,cognitive,2023,28.0,MT-Bench,single judge,MT-Bench
+Written Expression,cognitive,2023,31.5,MT-Bench,single judge,MT-Bench
 Fluency of Ideas,cognitive,2023,,,no adequate benchmark,
-Originality,cognitive,2023,9.0,BRAINTEASER,single judge,BRAINTEASER
-Problem Sensitivity,cognitive,2023,12.25,BIG-Bench Mistake,single judge,BIG-Bench Mistake
-Deductive Reasoning,cognitive,2023,30.0,FOLIO,single judge,FOLIO
-Inductive Reasoning,cognitive,2023,6.0,ARC,single judge,ARC
+Originality,cognitive,2023,6.0,BRAINTEASER,single judge,BRAINTEASER
+Problem Sensitivity,cognitive,2023,10.5,BIG-Bench Mistake,single judge,BIG-Bench Mistake
+Deductive Reasoning,cognitive,2023,24.0,FOLIO,single judge,FOLIO
+Inductive Reasoning,cognitive,2023,9.0,ARC,single judge,ARC
 Information Ordering,cognitive,2023,9.0,ARC,single judge,ARC
-Category Flexibility,cognitive,2023,13.75,OCW,single judge,OCW
-Mathematical Reasoning,cognitive,2023,40.0,MATH,single judge,MATH
-Number Facility,cognitive,2023,38.5,MATH 401,single judge,MATH 401
+Category Flexibility,cognitive,2023,10.0,OCW,single judge,OCW
+Mathematical Reasoning,cognitive,2023,36.0,MATH,single judge,MATH
+Number Facility,cognitive,2023,35.0,MATH 401,single judge,MATH 401
 Memorization,cognitive,2023,,,no adequate benchmark,
-Speed of Closure,cognitive,2023,10.5,ARC,single judge,ARC
-Flexibility of Closure,cognitive,2023,24.75,COD10K,single judge,COD10K
+Speed of Closure,cognitive,2023,8.75,ARC,single judge,ARC
+Flexibility of Closure,cognitive,2023,22.5,COD10K,single judge,COD10K
 Perceptual Speed,cognitive,2023,,,no adequate benchmark,
-Spatial Orientation,cognitive,2023,18.0,SQA3D,single judge,SQA3D
-Visualization,cognitive,2023,20.25,SPARE3D,single judge,SPARE3D
+Spatial Orientation,cognitive,2023,13.5,SQA3D,single judge,SQA3D
+Visualization,cognitive,2023,18.0,SPARE3D,single judge,SPARE3D
 Selective Attention,cognitive,2023,,GSM-IC,no extracted score,
 Time Sharing,cognitive,2023,,,no adequate benchmark,
 Arm-Hand Steadiness,psychomotor,2023,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2023,13.75,ManiSkill2,single judge,ManiSkill2
-Finger Dexterity,psychomotor,2023,29.25,NIST Assembly Task Boards,single judge,NIST Assembly Task Boards
-Control Precision,psychomotor,2023,24.0,CARLA Leaderboard,single judge,CARLA Leaderboard
+Manual Dexterity,psychomotor,2023,12.5,ManiSkill2,single judge,ManiSkill2
+Finger Dexterity,psychomotor,2023,24.75,NIST Assembly Task Boards,single judge,NIST Assembly Task Boards
+Control Precision,psychomotor,2023,20.0,CARLA Leaderboard,single judge,CARLA Leaderboard
 Multilimb Coordination,psychomotor,2023,,Bi-DexHands,no extracted score,
 Response Orientation,psychomotor,2023,,,no adequate benchmark,
-Rate Control,psychomotor,2023,36.0,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
+Rate Control,psychomotor,2023,29.25,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
 Reaction Time,psychomotor,2023,,,no adequate benchmark,
 Wrist-Finger Speed,psychomotor,2023,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2023,,,no adequate benchmark,
@@ -195,48 +195,48 @@ Extent Flexibility,physical,2023,,,no adequate benchmark,
 Dynamic Flexibility,physical,2023,,,no adequate benchmark,
 Gross Body Coordination,physical,2023,,,no adequate benchmark,
 Gross Body Equilibrium,physical,2023,,,no adequate benchmark,
-Near Vision,sensory,2023,15.75,V*Bench,single judge,V*Bench
-Far Vision,sensory,2023,18.0,TinyPerson,single judge,TinyPerson
+Near Vision,sensory,2023,12.25,V*Bench,single judge,V*Bench
+Far Vision,sensory,2023,20.0,TinyPerson,single judge,TinyPerson
 Visual Color Discrimination,sensory,2023,,,no adequate benchmark,
-Night Vision,sensory,2023,26.0,Dark Zurich,single judge,Dark Zurich
+Night Vision,sensory,2023,22.0,Dark Zurich,single judge,Dark Zurich
 Peripheral Vision,sensory,2023,,,no adequate benchmark,
-Depth Perception,sensory,2023,38.5,NYU Depth V2,single judge,NYU Depth V2
+Depth Perception,sensory,2023,31.5,NYU Depth V2,single judge,NYU Depth V2
 Glare Sensitivity,sensory,2023,17.5,GLARE,single judge,GLARE
-Hearing Sensitivity,sensory,2023,21.0,MARBLE,single judge,MARBLE
-Auditory Attention,sensory,2023,33.75,WSJ0-2mix,single judge,WSJ0-2mix
-Sound Localization,sensory,2023,60.0,LOCATA,single judge,LOCATA
-Speech Recognition,sensory,2023,37.5,LibriSpeech,single judge,LibriSpeech
-Speech Clarity,sensory,2023,35.75,Blizzard Challenge,single judge,Blizzard Challenge
-Oral Comprehension,cognitive,2024,19.25,MMAU,single judge,MMAU
-Written Comprehension,cognitive,2024,33.0,DROP,single judge,DROP
+Hearing Sensitivity,sensory,2023,18.0,MARBLE,single judge,MARBLE
+Auditory Attention,sensory,2023,26.25,WSJ0-2mix,single judge,WSJ0-2mix
+Sound Localization,sensory,2023,44.0,LOCATA,single judge,LOCATA
+Speech Recognition,sensory,2023,30.0,LibriSpeech,single judge,LibriSpeech
+Speech Clarity,sensory,2023,27.5,Blizzard Challenge,single judge,Blizzard Challenge
+Oral Comprehension,cognitive,2024,14.0,MMAU,single judge,MMAU
+Written Comprehension,cognitive,2024,22.0,DROP,single judge,DROP
 Oral Expression,cognitive,2024,15.0,Big Bench Audio,single judge,Big Bench Audio
 Written Expression,cognitive,2024,33.0,HelloBench,single judge,HelloBench
 Fluency of Ideas,cognitive,2024,,,no adequate benchmark,
-Originality,cognitive,2024,27.0,MacGyver,single judge,MacGyver
-Problem Sensitivity,cognitive,2024,41.25,ProcessBench,single judge,ProcessBench
-Deductive Reasoning,cognitive,2024,26.0,ZebraLogic,single judge,ZebraLogic
-Inductive Reasoning,cognitive,2024,21.0,ARC-AGI,single judge,ARC-AGI
-Information Ordering,cognitive,2024,35.75,PlanBench,single judge,PlanBench
-Category Flexibility,cognitive,2024,38.5,NYT Connections,single judge,NYT Connections
-Mathematical Reasoning,cognitive,2024,45.0,MATH,single judge,MATH
+Originality,cognitive,2024,20.25,MacGyver,single judge,MacGyver
+Problem Sensitivity,cognitive,2024,33.75,ProcessBench,single judge,ProcessBench
+Deductive Reasoning,cognitive,2024,19.5,ZebraLogic,single judge,ZebraLogic
+Inductive Reasoning,cognitive,2024,24.5,ARC-AGI,single judge,ARC-AGI
+Information Ordering,cognitive,2024,26.0,PlanBench,single judge,PlanBench
+Category Flexibility,cognitive,2024,24.5,NYT Connections,single judge,NYT Connections
+Mathematical Reasoning,cognitive,2024,40.5,MATH,single judge,MATH
 Number Facility,cognitive,2024,,NUPA Test,no extracted score,
-Memorization,cognitive,2024,42.0,LongMemEval,single judge,LongMemEval
-Speed of Closure,cognitive,2024,18.0,ARC-AGI,single judge,ARC-AGI
-Flexibility of Closure,cognitive,2024,27.5,COD10K,single judge,COD10K
-Perceptual Speed,cognitive,2024,10.5,BLINK,single judge,BLINK
-Spatial Orientation,cognitive,2024,16.5,VSI-Bench,single judge,VSI-Bench
-Visualization,cognitive,2024,15.0,SPACE,single judge,SPACE
-Selective Attention,cognitive,2024,30.0,RULER,single judge,RULER
+Memorization,cognitive,2024,33.0,LongMemEval,single judge,LongMemEval
+Speed of Closure,cognitive,2024,15.0,ARC-AGI,single judge,ARC-AGI
+Flexibility of Closure,cognitive,2024,25.0,COD10K,single judge,COD10K
+Perceptual Speed,cognitive,2024,,BLINK,ungradable,
+Spatial Orientation,cognitive,2024,13.5,VSI-Bench,single judge,VSI-Bench
+Visualization,cognitive,2024,10.0,SPACE,single judge,SPACE
+Selective Attention,cognitive,2024,26.25,RULER,single judge,RULER
 Time Sharing,cognitive,2024,,,no adequate benchmark,
 Arm-Hand Steadiness,psychomotor,2024,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2024,21.0,FurnitureBench,single judge,FurnitureBench
+Manual Dexterity,psychomotor,2024,19.5,FurnitureBench,single judge,FurnitureBench
 Finger Dexterity,psychomotor,2024,,Robotic Grasping and Manipulation Competition: Manufacturing Track,no extracted score,
-Control Precision,psychomotor,2024,13.75,CARLA Leaderboard 2.0,single judge,CARLA Leaderboard 2.0
-Multilimb Coordination,psychomotor,2024,13.75,RLBench2,single judge,RLBench2
+Control Precision,psychomotor,2024,12.5,CARLA Leaderboard 2.0,single judge,CARLA Leaderboard 2.0
+Multilimb Coordination,psychomotor,2024,12.5,RLBench2,single judge,RLBench2
 Response Orientation,psychomotor,2024,,,no adequate benchmark,
-Rate Control,psychomotor,2024,36.0,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
+Rate Control,psychomotor,2024,29.25,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
 Reaction Time,psychomotor,2024,,,no adequate benchmark,
-Wrist-Finger Speed,psychomotor,2024,22.0,RoboPianist,single judge,RoboPianist
+Wrist-Finger Speed,psychomotor,2024,19.25,RoboPianist,single judge,RoboPianist
 Speed of Limb Movement,psychomotor,2024,,,no adequate benchmark,
 Static Strength,physical,2024,,,no adequate benchmark,
 Explosive Strength,physical,2024,,,no adequate benchmark,
@@ -246,120 +246,120 @@ Stamina,physical,2024,,,no adequate benchmark,
 Extent Flexibility,physical,2024,,,no adequate benchmark,
 Dynamic Flexibility,physical,2024,,,no adequate benchmark,
 Gross Body Coordination,physical,2024,,HumanoidBench,no extracted score,
-Gross Body Equilibrium,physical,2024,16.5,HumanoidBench,single judge,HumanoidBench
-Near Vision,sensory,2024,15.75,V* Bench,single judge,V* Bench
-Far Vision,sensory,2024,13.5,V* Bench,single judge,V* Bench
+Gross Body Equilibrium,physical,2024,12.0,HumanoidBench,single judge,HumanoidBench
+Near Vision,sensory,2024,12.25,V* Bench,single judge,V* Bench
+Far Vision,sensory,2024,15.75,V* Bench,single judge,V* Bench
 Visual Color Discrimination,sensory,2024,,,no adequate benchmark,
-Night Vision,sensory,2024,26.0,Dark Zurich,single judge,Dark Zurich
+Night Vision,sensory,2024,22.0,Dark Zurich,single judge,Dark Zurich
 Peripheral Vision,sensory,2024,,,no adequate benchmark,
-Depth Perception,sensory,2024,38.5,KITTI Depth Prediction,single judge,KITTI Depth Prediction
+Depth Perception,sensory,2024,35.0,KITTI Depth Prediction,single judge,KITTI Depth Prediction
 Glare Sensitivity,sensory,2024,,,no adequate benchmark,
 Hearing Sensitivity,sensory,2024,,DeafTest,no extracted score,
-Auditory Attention,sensory,2024,39.0,WHAMR!,single judge,WHAMR!
-Sound Localization,sensory,2024,36.0,DCASE2023 Task 3,single judge,DCASE2023 Task 3
-Speech Recognition,sensory,2024,42.0,Open ASR Leaderboard,single judge,Open ASR Leaderboard
-Speech Clarity,sensory,2024,30.25,Seed-TTS-eval,single judge,Seed-TTS-eval
-Oral Comprehension,cognitive,2025,32.5,MMSU,single judge,MMSU
-Written Comprehension,cognitive,2025,42.0,LongBench v2,single judge,LongBench v2
-Oral Expression,cognitive,2025,39.0,VocalBench,single judge,VocalBench
-Written Expression,cognitive,2025,45.5,WritingBench,single judge,WritingBench
-Fluency of Ideas,cognitive,2025,20.0,NoveltyBench,single judge,NoveltyBench
-Originality,cognitive,2025,35.75,LiveIdeaBench,single judge,LiveIdeaBench
-Problem Sensitivity,cognitive,2025,38.5,ProcessBench,single judge,ProcessBench
-Deductive Reasoning,cognitive,2025,30.0,KOR-Bench,single judge,KOR-Bench
-Inductive Reasoning,cognitive,2025,18.0,ARC-AGI-2,single judge,ARC-AGI-2
-Information Ordering,cognitive,2025,27.5,Sudoku-Bench,single judge,Sudoku-Bench
-Category Flexibility,cognitive,2025,44.0,Extended NYT Connections,single judge,Extended NYT Connections
-Mathematical Reasoning,cognitive,2025,34.0,FrontierMath,single judge,FrontierMath
-Number Facility,cognitive,2025,24.0,ORCA,single judge,ORCA
-Memorization,cognitive,2025,52.5,LongMemEval,single judge,LongMemEval
+Auditory Attention,sensory,2024,29.25,WHAMR!,single judge,WHAMR!
+Sound Localization,sensory,2024,27.0,DCASE2023 Task 3,single judge,DCASE2023 Task 3
+Speech Recognition,sensory,2024,33.0,Open ASR Leaderboard,single judge,Open ASR Leaderboard
+Speech Clarity,sensory,2024,22.0,Seed-TTS-eval,single judge,Seed-TTS-eval
+Oral Comprehension,cognitive,2025,20.0,MMSU,single judge,MMSU
+Written Comprehension,cognitive,2025,35.0,LongBench v2,single judge,LongBench v2
+Oral Expression,cognitive,2025,30.0,VocalBench,single judge,VocalBench
+Written Expression,cognitive,2025,42.25,WritingBench,single judge,WritingBench
+Fluency of Ideas,cognitive,2025,18.0,NoveltyBench,single judge,NoveltyBench
+Originality,cognitive,2025,29.25,LiveIdeaBench,single judge,LiveIdeaBench
+Problem Sensitivity,cognitive,2025,31.5,ProcessBench,single judge,ProcessBench
+Deductive Reasoning,cognitive,2025,21.0,KOR-Bench,single judge,KOR-Bench
+Inductive Reasoning,cognitive,2025,15.75,ARC-AGI-2,single judge,ARC-AGI-2
+Information Ordering,cognitive,2025,17.5,Sudoku-Bench,single judge,Sudoku-Bench
+Category Flexibility,cognitive,2025,24.0,Extended NYT Connections,single judge,Extended NYT Connections
+Mathematical Reasoning,cognitive,2025,38.25,FrontierMath,single judge,FrontierMath
+Number Facility,cognitive,2025,30.0,ORCA,single judge,ORCA
+Memorization,cognitive,2025,41.25,LongMemEval,single judge,LongMemEval
 Speed of Closure,cognitive,2025,11.25,ARC-AGI-2,single judge,ARC-AGI-2
 Flexibility of Closure,cognitive,2025,,VisFactor,no extracted score,
-Perceptual Speed,cognitive,2025,12.25,BLINK,single judge,BLINK
-Spatial Orientation,cognitive,2025,22.0,VSI-Bench,single judge,VSI-Bench
-Visualization,cognitive,2025,19.5,SpatialViz-Bench,single judge,SpatialViz-Bench
-Selective Attention,cognitive,2025,30.0,Vending-Bench 2,single judge,Vending-Bench 2
-Time Sharing,cognitive,2025,12.25,StreamingBench,single judge,StreamingBench
+Perceptual Speed,cognitive,2025,,BLINK,ungradable,
+Spatial Orientation,cognitive,2025,18.0,VSI-Bench,single judge,VSI-Bench
+Visualization,cognitive,2025,13.5,SpatialViz-Bench,single judge,SpatialViz-Bench
+Selective Attention,cognitive,2025,27.5,Vending-Bench 2,single judge,Vending-Bench 2
+Time Sharing,cognitive,2025,10.5,StreamingBench,single judge,StreamingBench
 Arm-Hand Steadiness,psychomotor,2025,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2025,19.25,RoboTwin 2.0,single judge,RoboTwin 2.0
+Manual Dexterity,psychomotor,2025,17.5,RoboTwin 2.0,single judge,RoboTwin 2.0
 Finger Dexterity,psychomotor,2025,,,no adequate benchmark,
-Control Precision,psychomotor,2025,59.5,A2RL Drone Championship,single judge,A2RL Drone Championship
-Multilimb Coordination,psychomotor,2025,24.5,RoboTwin 2.0,single judge,RoboTwin 2.0
+Control Precision,psychomotor,2025,46.75,A2RL Drone Championship,single judge,A2RL Drone Championship
+Multilimb Coordination,psychomotor,2025,15.75,RoboTwin 2.0,single judge,RoboTwin 2.0
 Response Orientation,psychomotor,2025,,,no adequate benchmark,
-Rate Control,psychomotor,2025,24.0,Arcade Learning Environment,single judge,Arcade Learning Environment
+Rate Control,psychomotor,2025,20.0,Arcade Learning Environment,single judge,Arcade Learning Environment
 Reaction Time,psychomotor,2025,,,no adequate benchmark,
 Wrist-Finger Speed,psychomotor,2025,,,no adequate benchmark,
-Speed of Limb Movement,psychomotor,2025,16.5,World Humanoid Robot Games 100m sprint,single judge,World Humanoid Robot Games 100m sprint
+Speed of Limb Movement,psychomotor,2025,12.0,World Humanoid Robot Games 100m sprint,single judge,World Humanoid Robot Games 100m sprint
 Static Strength,physical,2025,,,no adequate benchmark,
-Explosive Strength,physical,2025,31.5,World Humanoid Robot Games,single judge,World Humanoid Robot Games
+Explosive Strength,physical,2025,27.0,World Humanoid Robot Games,single judge,World Humanoid Robot Games
 Dynamic Strength,physical,2025,,,no adequate benchmark,
 Trunk Strength,physical,2025,,,no adequate benchmark,
-Stamina,physical,2025,20.0,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),single judge,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon)
+Stamina,physical,2025,18.0,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),single judge,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon)
 Extent Flexibility,physical,2025,,,no adequate benchmark,
 Dynamic Flexibility,physical,2025,,,no adequate benchmark,
 Gross Body Coordination,physical,2025,,HumanoidBench,no extracted score,
-Gross Body Equilibrium,physical,2025,13.75,HumanoidBench,single judge,HumanoidBench
-Near Vision,sensory,2025,27.0,HR-Bench,single judge,HR-Bench
-Far Vision,sensory,2025,22.0,HR-Bench,single judge,HR-Bench
-Visual Color Discrimination,sensory,2025,19.25,ColorBench,single judge,ColorBench
+Gross Body Equilibrium,physical,2025,10.0,HumanoidBench,single judge,HumanoidBench
+Near Vision,sensory,2025,18.0,HR-Bench,single judge,HR-Bench
+Far Vision,sensory,2025,14.0,HR-Bench,single judge,HR-Bench
+Visual Color Discrimination,sensory,2025,15.75,ColorBench,single judge,ColorBench
 Night Vision,sensory,2025,,ExDark,no extracted score,
 Peripheral Vision,sensory,2025,,,no adequate benchmark,
-Depth Perception,sensory,2025,27.5,DA-2K,single judge,DA-2K
+Depth Perception,sensory,2025,20.0,DA-2K,single judge,DA-2K
 Glare Sensitivity,sensory,2025,17.5,GLARE,single judge,GLARE
-Hearing Sensitivity,sensory,2025,22.75,STAR-Bench,single judge,STAR-Bench
-Auditory Attention,sensory,2025,42.0,WHAMR!,single judge,WHAMR!
-Sound Localization,sensory,2025,26.0,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)",single judge,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)"
-Speech Recognition,sensory,2025,45.5,Open ASR Leaderboard,single judge,Open ASR Leaderboard
-Speech Clarity,sensory,2025,33.0,Seed-TTS-eval,single judge,Seed-TTS-eval
-Oral Comprehension,cognitive,2026,29.25,MMSU,single judge,MMSU
-Written Comprehension,cognitive,2026,42.0,LongBench v2,single judge,LongBench v2
-Oral Expression,cognitive,2026,39.0,URO-Bench,carry_forward_2025,VocalBench (2025)
-Written Expression,cognitive,2026,49.0,WritingBench,single judge,WritingBench
-Fluency of Ideas,cognitive,2026,25.0,NoveltyBench,single judge,NoveltyBench
+Hearing Sensitivity,sensory,2025,17.5,STAR-Bench,single judge,STAR-Bench
+Auditory Attention,sensory,2025,31.5,WHAMR!,single judge,WHAMR!
+Sound Localization,sensory,2025,20.0,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)",single judge,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)"
+Speech Recognition,sensory,2025,35.75,Open ASR Leaderboard,single judge,Open ASR Leaderboard
+Speech Clarity,sensory,2025,24.0,Seed-TTS-eval,single judge,Seed-TTS-eval
+Oral Comprehension,cognitive,2026,18.0,MMSU,single judge,MMSU
+Written Comprehension,cognitive,2026,35.0,LongBench v2,single judge,LongBench v2
+Oral Expression,cognitive,2026,30.0,URO-Bench,carry_forward_2025,VocalBench (2025)
+Written Expression,cognitive,2026,45.5,WritingBench,single judge,WritingBench
+Fluency of Ideas,cognitive,2026,22.5,NoveltyBench,single judge,NoveltyBench
 Originality,cognitive,2026,16.5,NoveltyBench,single judge,NoveltyBench
-Problem Sensitivity,cognitive,2026,41.25,ProcessBench,single judge,ProcessBench
-Deductive Reasoning,cognitive,2026,29.25,BIG-Bench Extra Hard,single judge,BIG-Bench Extra Hard
-Inductive Reasoning,cognitive,2026,36.0,ARC-AGI-2,single judge,ARC-AGI-2
-Information Ordering,cognitive,2026,16.25,BIG-Bench Extra Hard,single judge,BIG-Bench Extra Hard
-Category Flexibility,cognitive,2026,49.5,NYT Connections Extended,single judge,NYT Connections Extended
-Mathematical Reasoning,cognitive,2026,36.0,FrontierMath,single judge,FrontierMath
-Number Facility,cognitive,2026,24.0,,carry_forward_2025,ORCA (2025)
-Memorization,cognitive,2026,40.0,OpenAI-MRCR,single judge,OpenAI-MRCR
-Speed of Closure,cognitive,2026,15.75,ARC-AGI-3,single judge,ARC-AGI-3
+Problem Sensitivity,cognitive,2026,33.75,ProcessBench,single judge,ProcessBench
+Deductive Reasoning,cognitive,2026,22.75,BIG-Bench Extra Hard,single judge,BIG-Bench Extra Hard
+Inductive Reasoning,cognitive,2026,31.5,ARC-AGI-2,single judge,ARC-AGI-2
+Information Ordering,cognitive,2026,19.5,BIG-Bench Extra Hard,single judge,BIG-Bench Extra Hard
+Category Flexibility,cognitive,2026,31.5,NYT Connections Extended,single judge,NYT Connections Extended
+Mathematical Reasoning,cognitive,2026,40.5,FrontierMath,single judge,FrontierMath
+Number Facility,cognitive,2026,30.0,,carry_forward_2025,ORCA (2025)
+Memorization,cognitive,2026,32.0,OpenAI-MRCR,single judge,OpenAI-MRCR
+Speed of Closure,cognitive,2026,13.5,ARC-AGI-3,single judge,ARC-AGI-3
 Flexibility of Closure,cognitive,2026,,VisFactor,no extracted score,
-Perceptual Speed,cognitive,2026,14.0,BLINK,single judge,BLINK
-Spatial Orientation,cognitive,2026,22.0,VSI-Bench,single judge,VSI-Bench
-Visualization,cognitive,2026,22.75,SpatialViz-Bench,single judge,SpatialViz-Bench
-Selective Attention,cognitive,2026,36.0,Vending-Bench 2,single judge,Vending-Bench 2
-Time Sharing,cognitive,2026,24.5,AsyncTool,single judge,AsyncTool
+Perceptual Speed,cognitive,2026,,BLINK,ungradable,
+Spatial Orientation,cognitive,2026,18.0,VSI-Bench,single judge,VSI-Bench
+Visualization,cognitive,2026,15.75,SpatialViz-Bench,single judge,SpatialViz-Bench
+Selective Attention,cognitive,2026,33.0,Vending-Bench 2,single judge,Vending-Bench 2
+Time Sharing,cognitive,2026,15.75,AsyncTool,single judge,AsyncTool
 Arm-Hand Steadiness,psychomotor,2026,,,no adequate benchmark,
-Manual Dexterity,psychomotor,2026,38.25,ManipulationNet,single judge,ManipulationNet
+Manual Dexterity,psychomotor,2026,29.25,ManipulationNet,single judge,ManipulationNet
 Finger Dexterity,psychomotor,2026,,,no adequate benchmark,
-Control Precision,psychomotor,2026,63.0,A2RL Drone Championship,single judge,A2RL Drone Championship
-Multilimb Coordination,psychomotor,2026,28.0,RoboTwin 2.0,single judge,RoboTwin 2.0
+Control Precision,psychomotor,2026,49.5,A2RL Drone Championship,single judge,A2RL Drone Championship
+Multilimb Coordination,psychomotor,2026,18.0,RoboTwin 2.0,single judge,RoboTwin 2.0
 Response Orientation,psychomotor,2026,,,no adequate benchmark,
-Rate Control,psychomotor,2026,36.0,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
+Rate Control,psychomotor,2026,29.25,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
 Reaction Time,psychomotor,2026,,,no adequate benchmark,
 Wrist-Finger Speed,psychomotor,2026,,,no adequate benchmark,
-Speed of Limb Movement,psychomotor,2026,38.0,World Humanoid Robot Games,single judge,World Humanoid Robot Games
-Static Strength,physical,2026,16.5,World Humanoid Robot Games Weightlifting,single judge,World Humanoid Robot Games Weightlifting
-Explosive Strength,physical,2026,66.5,World Humanoid Robot Games,single judge,World Humanoid Robot Games
+Speed of Limb Movement,psychomotor,2026,42.75,World Humanoid Robot Games,single judge,World Humanoid Robot Games
+Static Strength,physical,2026,13.5,World Humanoid Robot Games Weightlifting,single judge,World Humanoid Robot Games Weightlifting
+Explosive Strength,physical,2026,57.0,World Humanoid Robot Games,single judge,World Humanoid Robot Games
 Dynamic Strength,physical,2026,,,no adequate benchmark,
 Trunk Strength,physical,2026,,,no adequate benchmark,
-Stamina,physical,2026,20.0,,carry_forward_2025,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
+Stamina,physical,2026,18.0,,carry_forward_2025,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
 Extent Flexibility,physical,2026,,,no adequate benchmark,
 Dynamic Flexibility,physical,2026,,,no adequate benchmark,
-Gross Body Coordination,physical,2026,19.5,HumanoidBench,single judge,HumanoidBench
-Gross Body Equilibrium,physical,2026,16.5,HumanoidBench,single judge,HumanoidBench
-Near Vision,sensory,2026,39.0,HR-Bench,single judge,HR-Bench
-Far Vision,sensory,2026,22.0,HR-Bench,single judge,HR-Bench
-Visual Color Discrimination,sensory,2026,22.0,ColorBench,single judge,ColorBench
-Night Vision,sensory,2026,24.0,ExDark,single judge,ExDark
+Gross Body Coordination,physical,2026,13.5,HumanoidBench,single judge,HumanoidBench
+Gross Body Equilibrium,physical,2026,12.0,HumanoidBench,single judge,HumanoidBench
+Near Vision,sensory,2026,26.0,HR-Bench,single judge,HR-Bench
+Far Vision,sensory,2026,14.0,HR-Bench,single judge,HR-Bench
+Visual Color Discrimination,sensory,2026,18.0,ColorBench,single judge,ColorBench
+Night Vision,sensory,2026,20.0,ExDark,single judge,ExDark
 Peripheral Vision,sensory,2026,,,no adequate benchmark,
-Depth Perception,sensory,2026,27.5,KITTI Depth Prediction Benchmark,carry_forward_2025,DA-2K (2025)
+Depth Perception,sensory,2026,20.0,KITTI Depth Prediction Benchmark,carry_forward_2025,DA-2K (2025)
 Glare Sensitivity,sensory,2026,17.5,,carry_forward_2025,GLARE (2025)
-Hearing Sensitivity,sensory,2026,24.5,SonicBench,single judge,SonicBench
-Auditory Attention,sensory,2026,38.5,Libri2Mix,single judge,Libri2Mix
-Sound Localization,sensory,2026,22.75,DCASE2026 Challenge Task 3,single judge,DCASE2026 Challenge Task 3
-Speech Recognition,sensory,2026,49.0,Open ASR Leaderboard,single judge,Open ASR Leaderboard
-Speech Clarity,sensory,2026,30.25,Seed-TTS-Eval,single judge,Seed-TTS-Eval
+Hearing Sensitivity,sensory,2026,19.25,SonicBench,single judge,SonicBench
+Auditory Attention,sensory,2026,24.5,Libri2Mix,single judge,Libri2Mix
+Sound Localization,sensory,2026,17.5,DCASE2026 Challenge Task 3,single judge,DCASE2026 Challenge Task 3
+Speech Recognition,sensory,2026,38.5,Open ASR Leaderboard,single judge,Open ASR Leaderboard
+Speech Clarity,sensory,2026,22.0,Seed-TTS-Eval,single judge,Seed-TTS-Eval

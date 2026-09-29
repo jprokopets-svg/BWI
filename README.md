@@ -8,7 +8,7 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 - Benchmark selection and score extraction are one call per ability and year, made by Claude Opus 5.5 with live web search, using `prompts/step1_2_benchmark_selection_and_score_extraction.txt`. Each ability-year gets one selected benchmark or "no adequate benchmark".
 - Capability scores (0-10) are anchored to the median relevant human, rated by Claude Opus 5.5 with `prompts/step3_capability_rating.txt`.
-- Transferability (0-10, four factors) is rated by GPT-5.6 Luna with `prompts/step4_transferability.txt`, once per benchmark-ability pair.
+- Transferability (0-10, four factors) is rated by Claude Opus 5.5 with `prompts/step4_transferability.txt`, once per benchmark-ability pair.
 - Ability exposure is capability × transferability for the single selected benchmark. This is the per-benchmark form of the version 1 formula, which weighted several benchmarks by transferability; with one benchmark the weighting reduces to the product.
 - Where a mapped ability has no verifiable result in the current year, the most recent prior year's value is carried forward, as in earlier vintages (one year back only; abilities that were also unmeasured the year before, and abilities with no benchmark at all, stay empty). Carried cells are labelled `carry_forward_2025` in `resolution` and `exposure_source`.
 - Occupation aggregation is unchanged: O*NET importance × level weights, abilities without a value excluded, and only the highest-weighted abilities used until 90% of the available weight is covered. The share of an occupation's ability weight that has no measurement is reported alongside the score.

@@ -1,41 +1,41 @@
 Panel,Occupation,BAIOE Rank,AEI Rank
-"Panel A: Latent exposure -- high BAIOE, low adoption","Title Examiners, Abstractors, and Searchers",7,312
-"Panel A: Latent exposure -- high BAIOE, low adoption","Library Science Teachers, Postsecondary",25,320
-"Panel A: Latent exposure -- high BAIOE, low adoption",Historians,8,300
-"Panel A: Latent exposure -- high BAIOE, low adoption","Environmental Science Teachers, Postsecondary",28,307
-"Panel A: Latent exposure -- high BAIOE, low adoption","Forestry and Conservation Science Teachers, Postsecondary",36,315
-"Panel A: Latent exposure -- high BAIOE, low adoption","Anthropology and Archeology Teachers, Postsecondary",33,306
-"Panel A: Latent exposure -- high BAIOE, low adoption","Child, Family, and School Social Workers",88,336
-"Panel A: Latent exposure -- high BAIOE, low adoption","Tax Examiners and Collectors, and Revenue Agents",67,301
-"Panel A: Latent exposure -- high BAIOE, low adoption",Genetic Counselors,96,328
-"Panel A: Latent exposure -- high BAIOE, low adoption","Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",41,270
-"Panel B: Active transformation -- high BAIOE, high adoption",Data Entry Keyers,164,3
-"Panel B: Active transformation -- high BAIOE, high adoption",Bioinformatics Technicians,161,12
-"Panel B: Active transformation -- high BAIOE, high adoption","Educational, Guidance, and Career Counselors and Advisors",36,163
-"Panel B: Active transformation -- high BAIOE, high adoption","Agents and Business Managers of Artists, Performers, and Athletes",39,164
-"Panel B: Active transformation -- high BAIOE, high adoption","Recreation and Fitness Studies Teachers, Postsecondary",41,166
+"Panel A: Latent exposure -- high BAIOE, low adoption",Genetic Counselors,36,328
+"Panel A: Latent exposure -- high BAIOE, low adoption","Title Examiners, Abstractors, and Searchers",24,312
+"Panel A: Latent exposure -- high BAIOE, low adoption","Forestry and Conservation Science Teachers, Postsecondary",31,315
+"Panel A: Latent exposure -- high BAIOE, low adoption","Tax Examiners and Collectors, and Revenue Agents",19,301
+"Panel A: Latent exposure -- high BAIOE, low adoption","Environmental Science Teachers, Postsecondary",54,307
+"Panel A: Latent exposure -- high BAIOE, low adoption",Historians,55,300
+"Panel A: Latent exposure -- high BAIOE, low adoption",Payroll and Timekeeping Clerks,5,249
+"Panel A: Latent exposure -- high BAIOE, low adoption",Financial Examiners,34,263
+"Panel A: Latent exposure -- high BAIOE, low adoption",Environmental Engineers,53,281
+"Panel A: Latent exposure -- high BAIOE, low adoption","Library Science Teachers, Postsecondary",91,320
+"Panel B: Active transformation -- high BAIOE, high adoption",Computer Programmers,133,1
+"Panel B: Active transformation -- high BAIOE, high adoption","Credit Authorizers, Checkers, and Clerks",23,155
+"Panel B: Active transformation -- high BAIOE, high adoption",Credit Analysts,9,132
 "Panel B: Active transformation -- high BAIOE, high adoption",Proofreaders and Copy Markers,3,126
-"Panel B: Active transformation -- high BAIOE, high adoption",Training and Development Managers,161,39
-"Panel B: Active transformation -- high BAIOE, high adoption","Credit Authorizers, Checkers, and Clerks",34,155
-"Panel B: Active transformation -- high BAIOE, high adoption",Judicial Law Clerks,14,131
-"Panel B: Active transformation -- high BAIOE, high adoption",Market Research Analysts and Marketing Specialists,108,4
-"Panel C: Low pressure -- low BAIOE, low adoption",Funeral Home Managers,172,332
+"Panel B: Active transformation -- high BAIOE, high adoption",Loan Officers,3,121
+"Panel B: Active transformation -- high BAIOE, high adoption",Database Architects,124,7
+"Panel B: Active transformation -- high BAIOE, high adoption",Software Quality Assurance Analysts and Testers,124,8
+"Panel B: Active transformation -- high BAIOE, high adoption",Billing and Posting Clerks,11,118
+"Panel B: Active transformation -- high BAIOE, high adoption",Database Administrators,157,51
+"Panel B: Active transformation -- high BAIOE, high adoption","Educational, Guidance, and Career Counselors and Advisors",59,163
+"Panel C: Low pressure -- low BAIOE, low adoption",Surveyors,189,339
+"Panel C: Low pressure -- low BAIOE, low adoption",Civil Engineers,188,334
+"Panel C: Low pressure -- low BAIOE, low adoption",Flight Attendants,333,192
 "Panel C: Low pressure -- low BAIOE, low adoption",Choreographers,339,199
-"Panel C: Low pressure -- low BAIOE, low adoption",Flight Attendants,331,192
-"Panel C: Low pressure -- low BAIOE, low adoption","Farmworkers and Laborers, Crop, Nursery, and Greenhouse",181,316
-"Panel C: Low pressure -- low BAIOE, low adoption",Pharmacy Aides,191,311
-"Panel C: Low pressure -- low BAIOE, low adoption",Chief Executives,175,284
-"Panel C: Low pressure -- low BAIOE, low adoption","Architects, Except Landscape and Naval",310,202
-"Panel C: Low pressure -- low BAIOE, low adoption",Tellers,200,308
-"Panel C: Low pressure -- low BAIOE, low adoption",Baggage Porters and Bellhops,316,210
-"Panel C: Low pressure -- low BAIOE, low adoption",Civil Engineering Technologists and Technicians,308,203
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Desktop Publishers,334,15
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Web Developers,307,11
-"Panel D: Adoption ahead -- low BAIOE, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",333,45
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Special Effects Artists and Animators,326,44
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Graphic Designers,313,40
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Network and Computer Systems Administrators,303,50
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Statistical Assistants,254,9
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Video Game Designers,327,83
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Computer and Information Research Scientists,275,49
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Astronomers,260,37
+"Panel C: Low pressure -- low BAIOE, low adoption",Actors,302,177
+"Panel C: Low pressure -- low BAIOE, low adoption",Funeral Home Managers,209,332
+"Panel C: Low pressure -- low BAIOE, low adoption","Computer, Automated Teller, and Office Machine Repairers",292,170
+"Panel C: Low pressure -- low BAIOE, low adoption",Baggage Porters and Bellhops,332,210
+"Panel C: Low pressure -- low BAIOE, low adoption",Demonstrators and Product Promoters,319,201
+"Panel C: Low pressure -- low BAIOE, low adoption",Agricultural Technicians,225,337
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Desktop Publishers,321,15
+"Panel D: Adoption ahead -- low BAIOE, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",328,45
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Special Effects Artists and Animators,312,44
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Graphic Designers,307,40
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Web Developers,243,11
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Interpreters and Translators,257,26
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Information Security Analysts,228,10
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Art Directors,323,108
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Photographers,330,117
+"Panel D: Adoption ahead -- low BAIOE, high adoption",Film and Video Editors,303,101
