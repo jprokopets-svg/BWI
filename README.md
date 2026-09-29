@@ -24,6 +24,8 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 **data/aei_job_exposure.csv**. Occupation-level observed AI use from the Anthropic Economic Index, used for the validation tables.
 
+**data/oews_employment_2024.csv** (831 rows). National employment by detailed occupation from the BLS Occupational Employment and Wage Statistics survey, May 2024, used to weight the postsecondary-teacher bundle in the extra tables.
+
 **prompts/**. The three prompts used by the version 2 pipeline.
 
 **tables/**. The paper's tables with version 2 values, as CSV files (LaTeX versions in `tables/tex/`, generating scripts in `tables/scripts/`). Each script reads only `data/`.
@@ -38,6 +40,10 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 | 8 | All 52 abilities with their 2025 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
 | 9 | How the 2025 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
 | 10 | The 38 abilities with a 2025 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
+| extra | Top 25 by 2025 exposure with the 35 postsecondary teaching occupations (SOC 25-1xxx) removed | [table_top25_no_teachers.csv](tables/table_top25_no_teachers.csv) |
+| extra | Top 25 by 2020-2025 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
+| extra | Top 25 by 2025 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |
+| extra | Top 25 by growth with the same teacher bundle | [table_fastest25_teachers_bundled.csv](tables/table_fastest25_teachers_bundled.csv) |
 
 Tables 2, 11, and 12 are descriptive and exist only as LaTeX in `tables/tex/`; they describe the version 1 pipeline as printed in the paper.
 
@@ -55,4 +61,4 @@ Prokopets, J. and Gulati, K. (2026). *From AI Benchmarks to Occupational Exposur
 
 ## License and attribution
 
-Data: CC BY 4.0. Code: MIT. See `LICENSE`. This product includes derived values computed from the O*NET 30.3 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under the CC BY 4.0 license; O*NET is a trademark of USDOL/ETA. The Anthropic Economic Index file is redistributed under CC BY; cite Handa et al. (2025), arXiv:2503.04761.
+Data: CC BY 4.0. Code: MIT. See `LICENSE`. This product includes derived values computed from the O*NET 30.3 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under the CC BY 4.0 license; O*NET is a trademark of USDOL/ETA. The Anthropic Economic Index file is redistributed under CC BY; cite Handa et al. (2025), arXiv:2503.04761. Employment counts are from the U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2024 (public domain).
