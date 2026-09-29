@@ -10,13 +10,14 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 - Capability scores (0-10) are anchored to the median relevant human, rated by Claude Opus 5.5 with `prompts/step3_capability_rating.txt`.
 - Transferability (0-10, four factors) is rated by GPT-5.6 Luna with `prompts/step4_transferability.txt`, once per benchmark-ability pair.
 - Ability exposure is capability × transferability for the single selected benchmark. This is the per-benchmark form of the version 1 formula, which weighted several benchmarks by transferability; with one benchmark the weighting reduces to the product.
+- Where a mapped ability has no verifiable result in the current year, the most recent prior year's value is carried forward, as in earlier vintages (one year back only; abilities that were also unmeasured the year before, and abilities with no benchmark at all, stay empty). Carried cells are labelled `carry_forward_2025` in `resolution` and `exposure_source`.
 - Occupation aggregation is unchanged: O*NET importance × level weights, abilities without a value excluded, and only the highest-weighted abilities used until 90% of the available weight is covered. The share of an occupation's ability weight that has no measurement is reported alongside the score.
 
 ## What is in each file
 
 **data/benchmark_ability_year.csv** (364 rows, 52 abilities × 7 years). The selected benchmark for each ability and year, its selection rubric score, the extracted result (system, score, metric, provenance), the capability score with the human reference group the rater used, the transferability weight, and the resulting ability exposure. Rows with no benchmark are empty beyond the year.
 
-**data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
+**data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `carry_forward_2025`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
 
 **data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2025 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
 

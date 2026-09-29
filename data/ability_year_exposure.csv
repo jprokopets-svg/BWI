@@ -313,7 +313,7 @@ Speech Recognition,sensory,2025,45.5,Open ASR Leaderboard,single judge,Open ASR 
 Speech Clarity,sensory,2025,33.0,Seed-TTS-eval,single judge,Seed-TTS-eval
 Oral Comprehension,cognitive,2026,29.25,MMSU,single judge,MMSU
 Written Comprehension,cognitive,2026,42.0,LongBench v2,single judge,LongBench v2
-Oral Expression,cognitive,2026,,URO-Bench,no extracted score,
+Oral Expression,cognitive,2026,39.0,URO-Bench,carry_forward_2025,VocalBench (2025)
 Written Expression,cognitive,2026,49.0,WritingBench,single judge,WritingBench
 Fluency of Ideas,cognitive,2026,25.0,NoveltyBench,single judge,NoveltyBench
 Originality,cognitive,2026,16.5,NoveltyBench,single judge,NoveltyBench
@@ -323,7 +323,7 @@ Inductive Reasoning,cognitive,2026,36.0,ARC-AGI-2,single judge,ARC-AGI-2
 Information Ordering,cognitive,2026,16.25,BIG-Bench Extra Hard,single judge,BIG-Bench Extra Hard
 Category Flexibility,cognitive,2026,49.5,NYT Connections Extended,single judge,NYT Connections Extended
 Mathematical Reasoning,cognitive,2026,36.0,FrontierMath,single judge,FrontierMath
-Number Facility,cognitive,2026,,,no adequate benchmark,
+Number Facility,cognitive,2026,24.0,,carry_forward_2025,ORCA (2025)
 Memorization,cognitive,2026,40.0,OpenAI-MRCR,single judge,OpenAI-MRCR
 Speed of Closure,cognitive,2026,15.75,ARC-AGI-3,single judge,ARC-AGI-3
 Flexibility of Closure,cognitive,2026,,VisFactor,no extracted score,
@@ -346,7 +346,7 @@ Static Strength,physical,2026,16.5,World Humanoid Robot Games Weightlifting,sing
 Explosive Strength,physical,2026,66.5,World Humanoid Robot Games,single judge,World Humanoid Robot Games
 Dynamic Strength,physical,2026,,,no adequate benchmark,
 Trunk Strength,physical,2026,,,no adequate benchmark,
-Stamina,physical,2026,,,no adequate benchmark,
+Stamina,physical,2026,20.0,,carry_forward_2025,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
 Extent Flexibility,physical,2026,,,no adequate benchmark,
 Dynamic Flexibility,physical,2026,,,no adequate benchmark,
 Gross Body Coordination,physical,2026,19.5,HumanoidBench,single judge,HumanoidBench
@@ -356,8 +356,8 @@ Far Vision,sensory,2026,22.0,HR-Bench,single judge,HR-Bench
 Visual Color Discrimination,sensory,2026,22.0,ColorBench,single judge,ColorBench
 Night Vision,sensory,2026,24.0,ExDark,single judge,ExDark
 Peripheral Vision,sensory,2026,,,no adequate benchmark,
-Depth Perception,sensory,2026,,KITTI Depth Prediction Benchmark,no extracted score,
-Glare Sensitivity,sensory,2026,,,no adequate benchmark,
+Depth Perception,sensory,2026,27.5,KITTI Depth Prediction Benchmark,carry_forward_2025,DA-2K (2025)
+Glare Sensitivity,sensory,2026,17.5,,carry_forward_2025,GLARE (2025)
 Hearing Sensitivity,sensory,2026,24.5,SonicBench,single judge,SonicBench
 Auditory Attention,sensory,2026,38.5,Libri2Mix,single judge,Libri2Mix
 Sound Localization,sensory,2026,22.75,DCASE2026 Challenge Task 3,single judge,DCASE2026 Challenge Task 3
