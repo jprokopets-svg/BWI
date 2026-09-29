@@ -1,0 +1,12 @@
+% Table 11 is descriptive (no data input). Text reproduced from the paper.
+\begin{table}[htbp]\centering
+\caption{Overview of LLM-assisted and deterministic stages in the BAIOE pipeline.}\label{tab:stages}
+\begin{tabular}{clp{7cm}l}\toprule
+Step & Pipeline stage & Model configuration & Output \\ \midrule
+1 & Benchmark selection & Three-judge ensemble: Claude Opus 4.7; GPT-5.5; Gemini 3.1 Pro Preview. Temperature set to 0. & Benchmark--ability mappings \\
+2 & Benchmark score extraction & Claude Sonnet 4.6. Temperature set to 0. & Benchmark-year scores \\
+3 & Human-comparative capability rating & Claude Sonnet 4.6. Temperature set to 0. & Capability scores \\
+4 & Workplace transferability rating & Three-judge ensemble: Claude Opus 4.7; GPT-5.5; Gemini 3.1 Pro Preview. Temperature set to 0. & Transferability weights \\
+5 & Ability-year exposure & No LLM call. Deterministic aggregation. & Ability-year exposure \\
+6 & Occupation-year exposure & No LLM call. Deterministic aggregation. & Occupation-year exposure \\
+\bottomrule\end{tabular}\end{table}

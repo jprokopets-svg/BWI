@@ -1,0 +1,53 @@
+Find the best publicly reported AI/ML performance score for each year 2020-2025 on the
+benchmark below.
+
+## Benchmark
+- Name: {canonical_name}
+- Aliases: {aliases}
+- Primary metric: {metric}
+- Release year: {release_year}
+- Type: {benchmark_type}
+- Modality: {modality}
+
+## Source hierarchy (use in this order)
+1. Official benchmark website or leaderboard (Papers with Code, benchmark homepage)
+2. Epoch AI benchmark data / llm-stats.com / similar aggregators
+3. Official competition proceedings or challenge papers (for DCASE, WMT, Blizzard, etc.)
+4. Peer-reviewed papers reporting results (NeurIPS, ICML, CVPR, ICRA, CoRL, ACL, etc.)
+5. ArXiv pre-prints with reproducible results
+
+## Special handling
+- For COMPETITION/CHALLENGE benchmarks (DCASE, WMT, Blizzard, HEAR, CHiME, RoboCup):
+  Report the winning system's score from the official competition results for that year.
+  If the competition didn't run in a given year, report null.
+- For EMBODIED/ROBOTICS benchmarks (MuJoCo, D4RL, RLBench, Meta-World, ALOHA):
+  Report the best published result on the CANONICAL task protocol.
+  Use the benchmark's stated metric (success rate, normalized return, reward, etc.)
+- For MULTI-METRIC benchmarks (ROUGE, F1/EM, MOS+WER):
+  Report the PRIMARY metric score as a number. Store additional metrics in the note field.
+  Primary metric preference: accuracy > F1 > EM > ROUGE-L > BLEU > MOS > reward.
+
+## Score format rules
+- Return scores as plain numbers (not strings, not dicts)
+- If the metric is a percentage, return the percentage value (e.g., 92.5 not 0.925)
+- If the metric is MOS (1-5 scale), return the MOS value (e.g., 4.51)
+- If the metric is WER or error rate, return the error rate value (lower is better)
+- If the metric is a reward or return, return the numeric value
+
+Return ONLY JSON:
+{
+  "2020": {"best_score": null, "model": null, "source": null, "note": null,
+           "standard_or_augmented": null},
+  "2021": {"best_score": null, "model": null, "source": null, "note": null,
+           "standard_or_augmented": null},
+  "2022": {"best_score": null, "model": null, "source": null, "note": null,
+           "standard_or_augmented": null},
+  "2023": {"best_score": null, "model": null, "source": null, "note": null,
+           "standard_or_augmented": null},
+
+
+    "2024": {"best_score": null, "model": null, "source": null, "note": null,
+             "standard_or_augmented": null},
+    "2025": {"best_score": null, "model": null, "source": null, "note": null,
+             "standard_or_augmented": null}
+}

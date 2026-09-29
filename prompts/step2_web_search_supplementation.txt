@@ -1,0 +1,26 @@
+Search for the best publicly reported AI/ML performance on this benchmark for the years
+specified.
+
+Benchmark: {canonical_name}
+Metric: {metric}
+Missing years: {missing_years}
+Known scores: {known_scores}
+
+Search for:
+1. "{canonical_name} benchmark results {year}" for each missing year
+2. "{canonical_name} leaderboard {year}"
+3. "{canonical_name} state of the art {year}"
+
+For each year where you find a score, return:
+- The numeric score value
+- The model name
+- The source URL or paper citation
+
+Return ONLY JSON (only include years where you found scores):
+{
+  "<year>": {"best_score": <number>, "model": "<name>",
+             "source": "<url or citation>", "note": "<brief context>",
+             "standard_or_augmented": "standard"}
+}
+
+If no scores found for any missing year, return: {}

@@ -1,0 +1,143 @@
+You are helping build a historically valid benchmark-to-O*NET ability mapping.
+
+By benchmark or evaluation, I mean a publicly documented dataset, task suite, leaderboard,
+challenge, or standardized evaluation used to measure AI or robotic system performance, with
+a defined task format and scoring metric. This may include text, vision, audio, speech,
+multimodal, coding, web-use, robotics, or embodied-action evaluations, depending on the
+O*NET ability.
+
+# Task
+
+For the O*NET ability {ability_name} in {target_year}, identify the best publicly available
+benchmark or evaluation that existed by December 31 of {target_year}.
+
+If no benchmark adequately measures this ability for example, the ability is primarily
+physical, sensory, or interpersonal in a way that current AI evaluations do not meaningfully
+test return "no adequate benchmark" rather than reaching for the closest available proxy.
+Forcing a poor mapping is worse than acknowledging the gap.
+
+O*NET ability:
+- Name: {ability_name}
+- Definition: {ability_definition}
+
+# Examples
+
+## Example 1: Cognitive ability with a clear benchmark
+
+O*NET ability: Mathematical Reasoning
+Definition: The ability to choose the right mathematical methods or formulas to solve a problem.
+Target year: 2024
+
+Step 1 Measurement target:
+A valid benchmark would need to test text-based mathematical problem-solving across a range
+of difficulty levels, requiring the selection of correct methods (algebra, calculus,
+combinatorics, etc.) rather than mere arithmetic. The benchmark should distinguish models that
+can identify the right approach from models that pattern-match on surface features.
+Modality: text-based mathematical reasoning.
+
+Step 2 Candidates released by 2024:
+MATH (Hendrycks et al. 2021), GSM8K (Cobbe et al. 2021), MMLU mathematics subset
+(Hendrycks et al. 2020), MiniF2F (Zheng et al. 2021).
+
+Step 3 Selection rubric scores (0-3 each):
+- Saturation status by 2024 (3 = active discriminative power, 0 = saturated):
+  MATH = 2, GSM8K = 1, MMLU math = 1, MiniF2F = 3
+- Public availability with documented frontier scores (3 = freely accessible with full results):
+  MATH = 3, GSM8K = 3, MMLU math = 3, MiniF2F = 2
+- Coverage of the ability's scope (3 = covers most of the construct, 0 = narrow slice):
+  MATH = 3, GSM8K = 1 (grade school only), MMLU math = 2, MiniF2F = 2 (formal proofs only)
+- Community adoption as standard reference (3 = widely cited standard, 0 = obscure):
+  MATH = 3, GSM8K = 3, MMLU math = 3, MiniF2F = 1
+
+Sum: MATH = 11, GSM8K = 8, MMLU math = 9, MiniF2F = 8.
+
+Best: MATH (sum = 11)
+Runner-up: MMLU mathematics subset (sum = 9)
+Confidence: 75 (best of imperfect options MATH is the strongest single benchmark but no
+benchmark fully captures graduate-level mathematical reasoning, which the O*NET definition
+arguably includes)
+
+## Example 2: Physical ability with no adequate benchmark
+
+O*NET ability: Stamina
+Definition: The ability to exert yourself physically over long periods of time without getting
+winded or out of breath.
+Target year: 2024
+
+
+Step 1 Measurement target:
+A valid benchmark would need to test sustained human-like physical exertion under aerobic load
+over extended duration. This requires embodied physiological measurement (cardiovascular
+response, oxygen consumption, muscular fatigue) on a system with human-equivalent
+biomechanical constraints. Modality: embodied physical performance, specifically aerobic
+endurance.
+
+Step 2 Candidates released by 2024:
+Robot endurance task durations are sometimes reported in robotics papers, but these measure
+mechanical operating time, not the cardiovascular-endurance construct O*NET defines. No AI
+evaluation directly tests the human stamina construct.
+
+Step 3 Selection rubric scores:
+N/A no candidate adequately measures the ability as defined.
+
+Best: no adequate benchmark
+Justification: The O*NET definition specifies physiological aerobic endurance, which AI
+systems do not have analogues for. Robot operating duration is a fundamentally different
+construct (mechanical reliability under load, not aerobic capacity). Forcing this mapping
+would import noise rather than signal.
+Confidence: 90 (no plausible alternative this is a clean negative case)
+
+# Now apply to the actual ability
+
+Step 1: Define the measurement target.
+In 35 sentences, explain what a valid benchmark would need to test to measure this O*NET
+ability. Be specific about modality.
+
+Step 2: Generate historically valid candidates.
+List plausible benchmarks released on or before December 31 of {target_year}. For each, cite
+the specific source establishing the release date (paper, official site, dataset registry).
+
+Step 3: Score candidates on selection-relevant criteria (0-3 each).
+- Saturation status by {target_year}: 0 = saturated/uninformative, 3 = active discriminative power
+- Public availability with documented frontier scores: 0 = not available, 3 = freely accessible
+  with full results
+- Coverage of the ability's scope: 0 = narrow slice of the construct, 3 = covers most of the
+  construct
+- Community adoption as standard reference: 0 = obscure, 3 = widely cited standard
+
+Best benchmark = highest sum across the four dimensions. Break ties by coverage of the
+ability's scope.
+
+If no candidate scores >=6 across these four dimensions, return "no adequate benchmark."
+
+Step 4: Output structured response.
+Return JSON in the following format. Do not deviate from this schema. Do not wrap in markdown
+code blocks.
+
+{
+    "best_benchmark": "name of selected benchmark, or 'no adequate benchmark'",
+    "best_benchmark_score": integer sum 0-12, or null if no adequate benchmark,
+    "best_benchmark_dimension_scores": {
+      "saturation": 0-3,
+      "availability": 0-3,
+      "coverage": 0-3,
+      "adoption": 0-3
+    },
+    "runner_up": "name and score, or null",
+    "other_candidates_considered": [
+      {"name": "candidate name", "score": integer, "reason_not_selected": "brief reason"}
+    ],
+    "excluded_for_historical_validity": ["benchmarks well-known but released after target year"],
+    "justification": "one paragraph explaining the selection",
+    "confidence": integer 0-100,
+    "confidence_rationale": "brief justification anchored to the levels below",
+    "sources": ["URL or paper citation establishing release year and benchmark purpose"]
+
+
+}
+
+Confidence levels:
+- 90+ = no plausible alternative; this benchmark is the clear standard
+- 70-89 = best of imperfect options; defensible but not unambiguous
+- 50-69 = moderate fit; real ambiguity in selection
+- below 50 = low confidence; mapping is uncertain or contested

@@ -1,0 +1,119 @@
+You are an expert in occupational psychology, psychometrics, and AI capability evaluation.
+Your task is to rate how well performance on an AI benchmark TRANSFERS to real-world
+workplace capability for a specific O*NET ability.
+
+## What "transferability" means
+
+Transferability is a 0-10 scale measuring how much a benchmark's performance reflects
+genuine real-world workplace capability for the mapped O*NET ability:
+- 0 = benchmark performance has NO relevance to real workplace capability
+- 5 = benchmark performance reflects SOME workplace-relevant skills, but still misses many
+- 10 = benchmark performance is PRECISE to real-world capability for the O*NET ability
+
+This is a property of the BENCHMARK <-> ABILITY relationship. It is NOT about how high or
+low current AI scores are. A benchmark can be easy or hard, saturated or unsolved, and
+still be highly or poorly transferable.
+
+## O*NET ability being measured
+
+
+
+Ability: **{O*NET_ability}**
+Definition: "{O*NET_ability_definition}"
+Category: {ability_category}
+
+## Benchmark under evaluation: {benchmark_name}
+
+- Canonical name: {benchmark_name}
+- Modality: {modality}
+- Benchmark type: {benchmark_type}
+- Task format: {task_format}
+- Evaluation metric: {evaluation_metric}
+- Domain coverage: {domain_coverage}
+- Difficulty: {difficulty}
+- Capability requirements: {capability_requirements}
+- Example tasks: {example_tasks}
+- Known human baseline: {human_baseline}
+
+## Existing qualitative notes from prior extraction (may be empty)
+
+Transferability notes: {transferability_notes}
+Validity limitations: {validity_limitations}
+
+## AI performance trajectory (context only   do NOT let score level drive your
+   transferability rating)
+
+{historical_scores}
+
+## Instructions
+
+Rate the benchmark on FIVE factors, each on a 0-10 scale. IMPORTANT: every factor is
+oriented so that HIGHER = MORE transferable. Be discriminating; use the full range.
+
+### Factor 1 task_realism
+How similar are the benchmark's tasks to the real workplace tasks that exercise the O*NET
+ability "{O*NET_ability}"?
+- 10 = tasks are essentially the real workplace tasks
+- 5 = tasks share core demands but are stylized/simplified
+- 0 = tasks bear no resemblance to real workplace tasks
+
+### Factor 2 evaluation_conditions
+How closely do the benchmark's TESTING CONDITIONS match real workplace conditions (context
+available, tools allowed, time pressure, noise, stakes, distribution of inputs)?
+- 10 = conditions are nearly identical to the workplace
+- 5 = some important conditions match, others are artificial
+- 0 = conditions differ drastically from any workplace setting
+
+### Factor 3 construct_coverage
+Does the benchmark measure the FULL O*NET ability, or just a narrow component of it?
+- 10 = covers the full breadth of the ability
+- 5 = covers a meaningful but partial slice
+- 0 = isolates a single narrow component
+
+### Factor 4 format_match
+Is the input/output FORMAT what would be encountered in the real world?
+- 10 = realistic open-ended production matching real work artifacts
+- 5 = somewhat artificial but recognizable format
+- 0 = highly artificial format (e.g., forced multiple-choice, toy grids) unlike real work
+
+### Factor 5 transfer_evidence
+Is there PUBLISHED literature demonstrating that performance on THIS benchmark (or close
+variants) predicts real-world / downstream capability?
+- Cite specific papers (author, year, venue or arXiv id) where they exist.
+- If no such published evidence exists, set the citations to "no evidence" and score LOW.
+- 10 = strong peer-reviewed evidence of predictive validity for real-world capability
+- 5 = indirect or mixed evidence
+- 0 = no evidence, or evidence that it does NOT transfer
+
+
+
+
+DO NOT FABRICATE citations. If you are not confident a paper exists, say "no evidence".
+
+## Aggregation
+
+The transferability_score is the EQUAL-WEIGHTED mean of the five factor scores. Compute
+it and round to the nearest 0.5.
+
+## Output format
+
+Return ONLY a JSON object with this exact structure (no other text):
+
+{
+    "benchmark": "{benchmark_name}",
+    "O*NET_ability": "{O*NET_ability}",
+    "factors": {
+      "task_realism": { "score": 0.0, "reasoning": "..." },
+      "evaluation_conditions": { "score": 0.0, "reasoning": "..." },
+      "construct_coverage": { "score": 0.0, "reasoning": "..." },
+      "format_match": { "score": 0.0, "reasoning": "..." },
+      "transfer_evidence": { "score": 0.0, "reasoning": "...",
+                             "citations": ["Author (Year), venue/arXiv id"] }
+    },
+    "transferability_score": 0.0,
+    "overall_reasoning": "2-3 sentence summary of why this benchmark is or isn't
+                          transferable to real workplace capability for this ability"
+}
+
+For transfer_evidence.citations, use the string "no evidence" (not a list) when no
+published evidence exists.
