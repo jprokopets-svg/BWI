@@ -1,6 +1,6 @@
-# BAIOE: Benchmark-based AI Occupational Exposure
+# BWI: Benchmark Work Index
 
-BAIOE (also written BWI, the Benchmark Work Index) measures how far the abilities a job requires overlap with what frontier AI can demonstrably do. For every year from 2020 to 2026 it selects the best public AI benchmark for each of the 52 O*NET abilities, scores the AI result against the median worker who uses that ability, discounts by how well the benchmark transfers to real work, and rolls the ability scores up to 894 occupations using O*NET importance and level weights. The result is a yearly exposure score per occupation that moves as benchmarks move.
+BWI (Benchmark Work Index) measures how far the abilities a job requires overlap with what frontier AI can demonstrably do. For every year from 2020 to 2026 it selects the best public AI benchmark for each of the 52 O*NET abilities, scores the AI result against the median worker who uses that ability, discounts by how well the benchmark transfers to real work, and rolls the ability scores up to 894 occupations using O*NET importance and level weights. The result is a yearly exposure score per occupation that moves as benchmarks move.
 
 - Paper: [From AI Benchmarks to Occupational Exposure (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5452354)
 - Interactive explorer: [benchmarkexposure.work](https://benchmarkexposure.work)
