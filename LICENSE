@@ -2,7 +2,7 @@ This repository contains data and code under two licenses.
 
 DATA (everything under data/): Creative Commons Attribution 4.0 International (CC BY 4.0).
 You may share and adapt the data for any purpose, including commercially, provided you give
-appropriate credit to the BAIOE authors. Full text: https://creativecommons.org/licenses/by/4.0/
+appropriate credit to the BWI authors. Full text: https://creativecommons.org/licenses/by/4.0/
 
 CODE (everything under tables/ and the Makefile): MIT License.
 

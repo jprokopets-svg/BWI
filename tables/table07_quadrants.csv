@@ -1,41 +1,41 @@
-Panel,Occupation,BAIOE Rank,AEI Rank
-"Panel A: Latent exposure -- high BAIOE, low adoption","Title Examiners, Abstractors, and Searchers",23,312
-"Panel A: Latent exposure -- high BAIOE, low adoption","Forestry and Conservation Science Teachers, Postsecondary",32,315
-"Panel A: Latent exposure -- high BAIOE, low adoption","Environmental Science Teachers, Postsecondary",33,307
-"Panel A: Latent exposure -- high BAIOE, low adoption",Genetic Counselors,54,328
-"Panel A: Latent exposure -- high BAIOE, low adoption",Historians,30,300
-"Panel A: Latent exposure -- high BAIOE, low adoption","Tax Examiners and Collectors, and Revenue Agents",43,301
-"Panel A: Latent exposure -- high BAIOE, low adoption","Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",26,270
-"Panel A: Latent exposure -- high BAIOE, low adoption",Payroll and Timekeeping Clerks,15,249
-"Panel A: Latent exposure -- high BAIOE, low adoption","Library Science Teachers, Postsecondary",89,320
-"Panel A: Latent exposure -- high BAIOE, low adoption",Actuaries,18,240
-"Panel B: Active transformation -- high BAIOE, high adoption",Public Relations Specialists,163,17
-"Panel B: Active transformation -- high BAIOE, high adoption",Database Architects,143,7
-"Panel B: Active transformation -- high BAIOE, high adoption",Computer Programmers,120,1
-"Panel B: Active transformation -- high BAIOE, high adoption",Loan Officers,3,121
-"Panel B: Active transformation -- high BAIOE, high adoption","Credit Authorizers, Checkers, and Clerks",38,155
-"Panel B: Active transformation -- high BAIOE, high adoption",Judicial Law Clerks,15,131
-"Panel B: Active transformation -- high BAIOE, high adoption",Receptionists and Information Clerks,139,23
-"Panel B: Active transformation -- high BAIOE, high adoption",Proofreaders and Copy Markers,13,126
-"Panel B: Active transformation -- high BAIOE, high adoption","Office Clerks, General",131,20
-"Panel B: Active transformation -- high BAIOE, high adoption",Credit Analysts,26,132
-"Panel C: Low pressure -- low BAIOE, low adoption",Civil Engineers,177,334
-"Panel C: Low pressure -- low BAIOE, low adoption",Surveyors,187,339
-"Panel C: Low pressure -- low BAIOE, low adoption",Flight Attendants,334,192
-"Panel C: Low pressure -- low BAIOE, low adoption",Choreographers,338,199
-"Panel C: Low pressure -- low BAIOE, low adoption",Funeral Home Managers,195,332
-"Panel C: Low pressure -- low BAIOE, low adoption",Naturopathic Physicians,182,309
-"Panel C: Low pressure -- low BAIOE, low adoption","Computer, Automated Teller, and Office Machine Repairers",291,170
-"Panel C: Low pressure -- low BAIOE, low adoption",Baggage Porters and Bellhops,330,210
-"Panel C: Low pressure -- low BAIOE, low adoption",Demonstrators and Product Promoters,318,201
-"Panel C: Low pressure -- low BAIOE, low adoption",Actors,288,177
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Desktop Publishers,325,15
-"Panel D: Adoption ahead -- low BAIOE, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",327,45
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Special Effects Artists and Animators,310,44
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Graphic Designers,305,40
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Web Developers,253,11
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Interpreters and Translators,257,26
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Data Entry Keyers,234,3
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Photographers,331,117
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Art Directors,320,108
-"Panel D: Adoption ahead -- low BAIOE, high adoption",Computer User Support Specialists,225,14
+Panel,Occupation,BWI Rank,AEI Rank
+"Panel A: Latent exposure -- high BWI, low adoption","Title Examiners, Abstractors, and Searchers",23,312
+"Panel A: Latent exposure -- high BWI, low adoption","Forestry and Conservation Science Teachers, Postsecondary",32,315
+"Panel A: Latent exposure -- high BWI, low adoption","Environmental Science Teachers, Postsecondary",33,307
+"Panel A: Latent exposure -- high BWI, low adoption",Genetic Counselors,54,328
+"Panel A: Latent exposure -- high BWI, low adoption",Historians,30,300
+"Panel A: Latent exposure -- high BWI, low adoption","Tax Examiners and Collectors, and Revenue Agents",43,301
+"Panel A: Latent exposure -- high BWI, low adoption","Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",26,270
+"Panel A: Latent exposure -- high BWI, low adoption",Payroll and Timekeeping Clerks,15,249
+"Panel A: Latent exposure -- high BWI, low adoption","Library Science Teachers, Postsecondary",89,320
+"Panel A: Latent exposure -- high BWI, low adoption",Actuaries,18,240
+"Panel B: Active transformation -- high BWI, high adoption",Public Relations Specialists,163,17
+"Panel B: Active transformation -- high BWI, high adoption",Database Architects,143,7
+"Panel B: Active transformation -- high BWI, high adoption",Computer Programmers,120,1
+"Panel B: Active transformation -- high BWI, high adoption",Loan Officers,3,121
+"Panel B: Active transformation -- high BWI, high adoption","Credit Authorizers, Checkers, and Clerks",38,155
+"Panel B: Active transformation -- high BWI, high adoption",Judicial Law Clerks,15,131
+"Panel B: Active transformation -- high BWI, high adoption",Receptionists and Information Clerks,139,23
+"Panel B: Active transformation -- high BWI, high adoption",Proofreaders and Copy Markers,13,126
+"Panel B: Active transformation -- high BWI, high adoption","Office Clerks, General",131,20
+"Panel B: Active transformation -- high BWI, high adoption",Credit Analysts,26,132
+"Panel C: Low pressure -- low BWI, low adoption",Civil Engineers,177,334
+"Panel C: Low pressure -- low BWI, low adoption",Surveyors,187,339
+"Panel C: Low pressure -- low BWI, low adoption",Flight Attendants,334,192
+"Panel C: Low pressure -- low BWI, low adoption",Choreographers,338,199
+"Panel C: Low pressure -- low BWI, low adoption",Funeral Home Managers,195,332
+"Panel C: Low pressure -- low BWI, low adoption",Naturopathic Physicians,182,309
+"Panel C: Low pressure -- low BWI, low adoption","Computer, Automated Teller, and Office Machine Repairers",291,170
+"Panel C: Low pressure -- low BWI, low adoption",Baggage Porters and Bellhops,330,210
+"Panel C: Low pressure -- low BWI, low adoption",Demonstrators and Product Promoters,318,201
+"Panel C: Low pressure -- low BWI, low adoption",Actors,288,177
+"Panel D: Adoption ahead -- low BWI, high adoption",Desktop Publishers,325,15
+"Panel D: Adoption ahead -- low BWI, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",327,45
+"Panel D: Adoption ahead -- low BWI, high adoption",Special Effects Artists and Animators,310,44
+"Panel D: Adoption ahead -- low BWI, high adoption",Graphic Designers,305,40
+"Panel D: Adoption ahead -- low BWI, high adoption",Web Developers,253,11
+"Panel D: Adoption ahead -- low BWI, high adoption",Interpreters and Translators,257,26
+"Panel D: Adoption ahead -- low BWI, high adoption",Data Entry Keyers,234,3
+"Panel D: Adoption ahead -- low BWI, high adoption",Photographers,331,117
+"Panel D: Adoption ahead -- low BWI, high adoption",Art Directors,320,108
+"Panel D: Adoption ahead -- low BWI, high adoption",Computer User Support Specialists,225,14

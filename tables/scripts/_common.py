@@ -1,4 +1,4 @@
-"""Shared loaders and writers for the BAIOE table scripts. Reads only files under data/."""
+"""Shared loaders and writers for the BWI table scripts. Reads only files under data/."""
 import csv, os
 from collections import defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

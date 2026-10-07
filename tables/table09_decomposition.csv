@@ -1,4 +1,4 @@
-Panel,Occupation,BAIOE 2026,Ability,Ability exposure,Importance (normalized),Level (normalized),BAIOE weight,Contribution
+Panel,Occupation,BWI 2026,Ability,Ability exposure,Importance (normalized),Level (normalized),BWI weight,Contribution
 Highest exposure,Economists,29.72,Written Comprehension,35.00,0.7800,0.7143,0.5571,19.50
 Highest exposure,Economists,29.72,Written Expression,45.50,0.7500,0.7143,0.5357,24.37
 Highest exposure,Economists,29.72,Oral Comprehension,18.00,0.7500,0.6971,0.5229,9.41
