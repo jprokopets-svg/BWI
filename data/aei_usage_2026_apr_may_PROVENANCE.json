@@ -1,0 +1,14 @@
+{
+ "source": "https://huggingface.co/datasets/Anthropic/EconomicIndex",
+ "release_folder": "release_2026_06_26",
+ "file": "data/aei_claude_ai_2026-06-26.csv",
+ "sha256": "f974b358bce0e5a8417510c61da4342234cd0de9d9d0b62acf4c6dbcf8ec7b68",
+ "downloaded": "2026-10-07",
+ "filter": "category_name=soc_occupation, hierarchy_level=0, geo_id=GLOBAL, metric_id=pct",
+ "months": [
+  "2026-04-01",
+  "2026-05-01"
+ ],
+ "rows": 1414,
+ "occupations": 718
+}

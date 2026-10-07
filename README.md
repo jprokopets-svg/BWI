@@ -1,10 +1,28 @@
-# BAIOE replication package, version 2 pipeline
+# BAIOE: Benchmark-based AI Occupational Exposure
 
-BAIOE (Benchmark-based AI Occupational Exposure) measures how far demonstrated AI capability, as recorded on public AI benchmarks, overlaps with the abilities each U.S. occupation requires. It scores public benchmarks against the 52 O*NET abilities for every year from 2020 to 2026, then rolls the ability scores up to 894 occupations. The 2026 vintage uses benchmark results published up to 28 September 2026, the date of the run.
+BAIOE (also written BWI, the Benchmark Work Index) measures how far the abilities a job requires overlap with what frontier AI can demonstrably do. For every year from 2020 to 2026 it selects the best public AI benchmark for each of the 52 O*NET abilities, scores the AI result against the median worker who uses that ability, discounts by how well the benchmark transfers to real work, and rolls the ability scores up to 894 occupations using O*NET importance and level weights. The result is a yearly exposure score per occupation that moves as benchmarks move.
 
-This repository holds the **version 2** pipeline: a single judge model selects one benchmark per ability and year and extracts its score in the same call, a second pass rates the AI result against the median human who uses that ability at work, and a third pass rates how well the benchmark transfers to real work. Every model-driven stage (benchmark selection, score extraction, capability rating, and transferability rating) uses Claude Opus 5.5. The version 1 pipeline behind the released paper (three judges, up to three benchmarks per cell) is on the `v1-release` branch of this repository.
+- Paper: [From AI Benchmarks to Occupational Exposure (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5452354)
+- Interactive explorer: [benchmarkexposure.work](https://benchmarkexposure.work)
+- The 2026 vintage is year-to-date (benchmark results to 28 September 2026); where an ability had no verifiable 2026 result, its 2025 value is carried forward.
 
-## What changed from version 1
+## Online appendix
+
+Every table below renders in the browser; the CSV behind each is linked at the bottom of its page.
+
+| Section | Contents |
+|---|---|
+| [A. Occupation exposure](appendix/A_occupation_exposure.md) | All 894 occupations, 2020 to 2026, sorted by 2026 |
+| [B. Abilities](appendix/B_abilities.md) | All 52 abilities by year, unmeasured ones marked, and the abilities that enter the 2026 scores |
+| [C. Benchmarks](appendix/C_benchmarks.md) | Every selected benchmark with capability, transferability, year entered and carry-forward flag; resolution counts per year |
+| [D. Validation](appendix/D_validation.md) | Rank correlation with observed AI use in two waves, the prediction horse race, the Felten and Eloundou comparison, and the capability-adoption quadrants |
+| [E. Prompts](appendix/E_prompts.md) | The three prompts, verbatim |
+| [Figures](figures/README.md) | Final figures with one-line captions |
+| [Paper tables](#paper-tables) | Tables 3 to 10 of the paper as CSV |
+
+## How the index is built
+
+### What changed from version 1
 
 - Benchmark selection and score extraction are one call per ability and year, made by Claude Opus 5.5 with live web search, using `prompts/step1_2_benchmark_selection_and_score_extraction.txt`. Each ability-year gets one selected benchmark or "no adequate benchmark".
 - Capability scores (0-10) are anchored to the median relevant human, rated by Claude Opus 5.5 with `prompts/step3_capability_rating.txt`.
@@ -23,11 +41,15 @@ This repository holds the **version 2** pipeline: a single judge model selects o
 
 **data/onet_ability_weights.csv**. Normalized O*NET importance and level ratings and their product for every occupation and ability. Derived from the O*NET 30.3 Database; no raw O*NET files are included.
 
-**data/aei_job_exposure.csv**. Occupation-level observed AI use from the Anthropic Economic Index, used for the validation tables.
+**data/aei_job_exposure.csv**. Occupation-level observed AI use from the Anthropic Economic Index, early 2025 wave (share of an occupation's tasks observed in use), used for the validation tables.
+
+**data/aei_usage_2026_apr_may.csv**. The second usage wave: share of usage by occupation from the Anthropic Economic Index release of 26 June 2026, averaged over April and May 2026. Source and construction are in `data/aei_usage_2026_apr_may_PROVENANCE.json`.
 
 **data/oews_employment_2024.csv** (831 rows). National employment by detailed occupation from the BLS Occupational Employment and Wage Statistics survey, May 2024, used to weight the postsecondary-teacher bundle in the extra tables.
 
 **prompts/**. The three prompts used by the version 2 pipeline.
+
+## Paper tables
 
 **tables/**. The paper's tables with version 2 values, anchored on the 2026 vintage (benchmark results up to 28 September 2026), as CSV files (LaTeX versions in `tables/tex/`, generating scripts in `tables/scripts/`). Each script reads only `data/`.
 
@@ -54,7 +76,7 @@ Requires Python 3.9 or later and `scipy` (`pip install -r requirements.txt`). `m
 
 ## Tables that need more than this data
 
-All tables are anchored on 2026, the latest vintage. Table 6 reports the 2023 to 2026 vintages against observed AI use measured in 2025; the 2026 row post-dates the usage data and should be read as a consistency check rather than a validation. Table 6 (rank association with observed AI use) reports the 2023 and 2024 vintages as in the paper; Table 7 (quadrants) uses the 2024 vintage named in the paper's caption.
+All tables are anchored on 2026, the latest vintage. Table 6 reports the 2023 to 2026 vintages against observed AI use measured in 2025; the 2026 row post-dates the usage data and should be read as a consistency check rather than a validation. Table 7 (quadrants) uses the 2024 vintage named in the paper's caption. The two-wave comparison is in [appendix D](appendix/D_validation.md).
 
 ## Citation
 

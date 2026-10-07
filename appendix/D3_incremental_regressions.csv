@@ -1,0 +1,8 @@
+spec,N,R2,FE,controls,BAIOE 2024 beta,BAIOE 2024 se,BAIOE 2024 p,Felten AIOE beta,Felten AIOE se,Felten AIOE p,log median wage beta,log median wage se,log median wage p,bachelor+ share beta,bachelor+ share se,bachelor+ share p,log employment beta,log employment se,log employment p,Eloundou beta beta,Eloundou beta se,Eloundou beta p
+(a) BAIOE alone,744,0.321,N,N,0.519,0.026,0.0,,,,,,,,,,,,,,,
+(b) + Felten,668,0.391,N,N,0.084,0.058,0.1485,0.494,0.057,0.0,,,,,,,,,,,,
+(c) + Felten + SOC major-group FE,668,0.485,Y,N,0.123,0.059,0.0369,0.361,0.064,0.0,,,,,,,,,,,,
+"(d) + Felten + FE + wage, employment, education",659,0.52,Y,Y,0.057,0.059,0.3358,0.387,0.068,0.0,-0.042,0.031,0.1676,0.074,0.048,0.1207,0.031,0.005,0.0,,,
+(e) + Eloundou,744,0.49,N,N,0.074,0.041,0.0693,,,,,,,,,,,,,0.583,0.037,0.0
+(f) + Eloundou + FE + controls,732,0.585,Y,Y,0.042,0.049,0.3857,,,,-0.057,0.026,0.028,0.11,0.04,0.0063,0.023,0.004,0.0,0.51,0.046,0.0
+(g) + Felten + Eloundou + FE + controls,659,0.563,Y,Y,0.01,0.056,0.8631,0.099,0.076,0.1922,-0.05,0.029,0.0816,0.105,0.045,0.0189,0.027,0.005,0.0,0.457,0.059,0.0
