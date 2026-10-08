@@ -1,0 +1,156 @@
+Ability,Category,Benchmark,T,C 2020,C 2021,C 2022,C 2023,C 2024,C 2025,C 2026
+Auditory Attention,sensory,Libri2Mix,6.0,,,,,,,6.5
+Auditory Attention,sensory,WHAM!,7.0,,6.0,,,,,
+Auditory Attention,sensory,WHAMR!,6.5,,,,,6.5,7.0,
+Auditory Attention,sensory,WSJ0-2mix,6.0,7.0,,7.0,7.0,,,
+Category Flexibility,cognitive,ARC,5.5,3.0,,3.0,,,,
+Category Flexibility,cognitive,Bongard-LOGO,7.0,,3.5,,,,,
+Category Flexibility,cognitive,Extended NYT Connections,7.0,,,,,,8.5,
+Category Flexibility,cognitive,NYT Connections,7.0,,,,,7.5,,
+Category Flexibility,cognitive,NYT Connections Extended,7.0,,,,,,,9.0
+Category Flexibility,cognitive,OCW,6.5,,,,2.5,,,
+Control Precision,psychomotor,A2RL Drone Championship,6.5,,,,,,9.0,9.0
+Control Precision,psychomotor,CARLA Leaderboard,2.5,,3.0,,4.0,,,
+Control Precision,psychomotor,CARLA Leaderboard 2.0,3.0,,,,,2.0,,
+Control Precision,psychomotor,DeepMind Control Suite,5.5,,,,,,,
+Deductive Reasoning,cognitive,BIG-Bench Extra Hard,6.0,,,,,,,7.0
+Deductive Reasoning,cognitive,FOLIO,7.5,,,4.5,6.0,,,
+Deductive Reasoning,cognitive,KOR-Bench,8.0,,,,,,5.5,
+Deductive Reasoning,cognitive,LogiQA,7.5,2.5,3.0,,,,,
+Deductive Reasoning,cognitive,ZebraLogic,7.5,,,,,6.5,,
+Depth Perception,sensory,DA-2K,6.5,,,,,,5.0,
+Depth Perception,sensory,KITTI Depth Prediction,7.0,,,,,6.5,,
+Depth Perception,sensory,KITTI Depth Prediction Benchmark,7.0,6.0,,,,,,
+Depth Perception,sensory,NYU Depth V2,6.5,,5.0,6.5,6.5,,,
+Explosive Strength,physical,World Humanoid Robot Games,7.5,,,,,,4.5,10.0
+Far Vision,sensory,HR-Bench,6.0,,,,,,4.0,4.0
+Far Vision,sensory,TinyPerson,6.0,4.0,4.0,,4.0,,,
+Far Vision,sensory,V* Bench,5.0,,,,,4.5,,
+Far Vision,sensory,VisDrone,4.0,,,4.0,,,,
+Finger Dexterity,psychomotor,NIST Assembly Task Boards,5.0,,,,5.0,,,
+Finger Dexterity,psychomotor,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,5.5,5.0,,,,,,
+Finger Dexterity,psychomotor,Robotic Grasping and Manipulation Competition: Manufacturing Track,6.5,,,,,,,
+Finger Dexterity,psychomotor,World Robot Summit Assembly Challenge,7.0,,,4.5,,,,
+Flexibility of Closure,cognitive,COD10K,5.5,4.0,4.0,4.5,4.5,5.0,,
+Flexibility of Closure,cognitive,VisFactor,7.0,,,,,,,
+Fluency of Ideas,cognitive,NoveltyBench,4.5,,,,,,4.5,5.5
+Glare Sensitivity,sensory,GLARE,5.5,,,,4.0,,3.5,
+Glare Sensitivity,sensory,WildDash,4.0,,4.0,,,,,
+Gross Body Coordination,physical,DeepMind Control Suite,5.0,4.0,3.5,4.0,,,,
+Gross Body Coordination,physical,HumanoidBench,7.0,,,,,,,3.0
+Gross Body Equilibrium,physical,HumanoidBench,6.5,,,,,3.0,3.0,3.0
+Hearing Sensitivity,sensory,DeafTest,7.0,,,,,,,
+Hearing Sensitivity,sensory,HEAR,5.0,,,7.0,,,,
+Hearing Sensitivity,sensory,MARBLE,3.5,,,,7.0,,,
+Hearing Sensitivity,sensory,STAR-Bench,6.5,,,,,,3.0,
+Hearing Sensitivity,sensory,SonicBench,6.5,,,,,,,3.5
+Inductive Reasoning,cognitive,ARC,8.0,3.0,3.0,3.0,3.5,,,
+Inductive Reasoning,cognitive,ARC-AGI,8.5,,,,,7.0,,
+Inductive Reasoning,cognitive,ARC-AGI-2,8.0,,,,,,4.5,8.5
+Information Ordering,cognitive,ARC,6.0,3.0,3.0,,3.0,,,
+Information Ordering,cognitive,BIG-Bench Extra Hard,4.5,,,,,,,7.0
+Information Ordering,cognitive,PlanBench,6.0,,,,,6.5,,
+Information Ordering,cognitive,Sudoku-Bench,6.5,,,,,,5.5,
+Information Ordering,cognitive,word_sorting,6.0,,,4.0,,,,
+Manual Dexterity,psychomotor,D4RL,3.5,,,,,,,
+Manual Dexterity,psychomotor,FurnitureBench,7.0,,,,,3.5,,
+Manual Dexterity,psychomotor,ManiSkill2,5.5,,,,3.0,,,
+Manual Dexterity,psychomotor,ManipulationNet,7.0,,,,,,,5.0
+Manual Dexterity,psychomotor,MyoChallenge,5.5,,,3.5,,,,
+Manual Dexterity,psychomotor,RoboTwin 2.0,5.5,,,,,,4.0,
+Manual Dexterity,psychomotor,Robotic Grasping and Manipulation Competition,6.0,4.5,,,,,,
+Mathematical Reasoning,cognitive,FrontierMath,7.5,,,,,,9.0,10.0
+Mathematical Reasoning,cognitive,MATH,8.0,,2.5,6.0,8.5,9.0,,
+Mathematical Reasoning,cognitive,Math23K,4.5,4.0,,,,,,
+Memorization,cognitive,LAMA,5.0,,6.0,,,,,
+Memorization,cognitive,LongMemEval,6.0,,,,,5.0,7.0,
+Memorization,cognitive,Memory Maze,4.5,,,3.0,,,,
+Memorization,cognitive,Memory Task Suite,6.0,3.5,,,,,,
+Memorization,cognitive,OpenAI-MRCR,5.0,,,,,,,8.0
+Multilimb Coordination,psychomotor,Bi-DexHands,6.0,,,,,,,
+Multilimb Coordination,psychomotor,RLBench2,5.5,,,,,2.5,,
+Multilimb Coordination,psychomotor,RoboTwin 2.0,6.0,,,,,,4.0,4.5
+Near Vision,sensory,DocVQA,3.5,,,4.0,,,,
+Near Vision,sensory,HR-Bench,7.0,,,,,,4.5,6.0
+Near Vision,sensory,MVTec AD,5.5,5.0,5.0,,,,,
+Near Vision,sensory,V* Bench,7.0,,,,,4.0,,
+Near Vision,sensory,V*Bench,7.0,,,,4.0,,,
+Night Vision,sensory,Dark Zurich,7.5,3.0,3.5,4.0,4.0,4.0,,
+Night Vision,sensory,ExDark,7.0,,,,,,,4.0
+Number Facility,cognitive,BIG-Bench Hard (Multistep Arithmetic Two),7.0,,,4.0,,,,
+Number Facility,cognitive,GPT-3 Arithmetic,7.5,,,,,,,
+Number Facility,cognitive,MATH 401,7.0,,,,6.0,,,
+Number Facility,cognitive,NUPA Test,8.0,,,,,,,
+Number Facility,cognitive,ORCA,5.0,,,,,,6.0,
+Oral Comprehension,cognitive,MMAU,4.5,,,,,3.5,,
+Oral Comprehension,cognitive,MMSU,6.5,,,,,,6.0,4.5
+Oral Comprehension,cognitive,SLUE Phase-2 (SLUE-SQA-5),5.5,,,,,,,
+Oral Comprehension,cognitive,SLURP,4.5,,,4.5,,,,
+Oral Comprehension,cognitive,Spoken SQuAD,6.0,,4.0,,,,,
+Oral Comprehension,cognitive,Spoken-SQuAD,6.0,4.0,,,,,,
+Oral Expression,cognitive,Big Bench Audio,3.0,,,,,5.0,,
+Oral Expression,cognitive,Blizzard Challenge,4.0,,5.0,,,,,
+Oral Expression,cognitive,Blizzard Challenge 2023,5.0,,,,5.0,,,
+Oral Expression,cognitive,VocalBench,6.0,,,,,,6.0,
+Originality,cognitive,BRAINTEASER,3.5,,,,3.5,,,
+Originality,cognitive,LiveIdeaBench,5.5,,,,,,6.5,
+Originality,cognitive,MacGyver,6.0,,,,,4.5,,
+Originality,cognitive,NoveltyBench,3.0,,,,,,,5.5
+Perceptual Speed,cognitive,BLINK,5.0,,,,,3.5,3.5,4.0
+Perceptual Speed,cognitive,HPatches,3.5,5.0,,,,,,
+Perceptual Speed,cognitive,NLVR2,3.0,,,4.5,,,,
+Problem Sensitivity,cognitive,BIG-Bench Mistake,6.5,,,,4.0,,,
+Problem Sensitivity,cognitive,MVTec AD,5.0,5.0,6.0,,,,,
+Problem Sensitivity,cognitive,MVTec LOCO AD,5.0,,,3.5,,,,
+Problem Sensitivity,cognitive,ProcessBench,6.5,,,,,8.5,8.5,8.0
+Rate Control,psychomotor,Arcade Learning Environment,3.0,,9.0,,,,8.0,
+Rate Control,psychomotor,Robot Air Hockey Challenge,7.0,,,,4.5,4.5,,4.5
+Selective Attention,cognitive,Adversarial SQuAD,4.5,5.0,,,,,,
+Selective Attention,cognitive,Distracting Control Suite,4.5,,,,,,,
+Selective Attention,cognitive,GSM-IC,4.5,,,,,,,
+Selective Attention,cognitive,RULER,5.5,,,,,6.5,,
+Selective Attention,cognitive,Vending-Bench 2,5.5,,,,,,5.0,6.0
+Sound Localization,sensory,DCASE2020 Challenge Task 3 (Sound Event Localization and Detection),7.0,,6.5,,,,,
+Sound Localization,sensory,DCASE2020 Task 3 (Sound Event Localization and Detection),7.5,6.0,,,,,,
+Sound Localization,sensory,DCASE2023 Task 3,8.0,,,,,4.0,,
+Sound Localization,sensory,"DCASE2025 Task 3 (Stereo SELD in Regular Video Content, Track A audio-only)",6.0,,,,,,4.0,
+Sound Localization,sensory,DCASE2026 Challenge Task 3,5.5,,,,,,,3.5
+Sound Localization,sensory,LOCATA,7.5,,,,8.0,,,
+Sound Localization,sensory,STARSS22,8.0,,,,,,,
+Spatial Orientation,cognitive,Habitat Challenge 2020 PointNav,7.0,3.5,,,,,,
+Spatial Orientation,cognitive,Habitat Challenge 2021 PointNav,7.0,,6.5,,,,,
+Spatial Orientation,cognitive,"Habitat Challenge PointNav (Realistic PointNav, 2020/2021 setting: no GPS+Compass, noisy RGB-D and actuation)",6.5,,,6.5,,,,
+Spatial Orientation,cognitive,SQA3D,6.0,,,,3.0,,,
+Spatial Orientation,cognitive,VSI-Bench,7.0,,,,,3.0,4.0,4.0
+Speech Clarity,sensory,Blizzard Challenge,7.5,5.0,5.0,5.0,5.0,,,
+Speech Clarity,sensory,Seed-TTS-Eval,5.5,,,,,,,5.5
+Speech Clarity,sensory,Seed-TTS-eval,5.5,,,,,5.0,5.5,
+Speech Recognition,sensory,LibriSpeech,6.0,7.0,6.0,6.5,7.0,,,
+Speech Recognition,sensory,Open ASR Leaderboard,7.0,,,,,6.0,6.0,6.0
+Speed of Closure,cognitive,ARC,5.5,3.0,3.0,,3.5,,,
+Speed of Closure,cognitive,ARC-AGI,3.5,,,,,6.0,,
+Speed of Closure,cognitive,ARC-AGI-2,4.0,,,,,,4.5,
+Speed of Closure,cognitive,ARC-AGI-3,4.5,,,,,,,5.0
+Speed of Limb Movement,psychomotor,World Humanoid Robot Games,4.5,,,,,,,10.0
+Speed of Limb Movement,psychomotor,World Humanoid Robot Games 100m sprint,6.0,,,,,,3.0,
+Stamina,physical,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),5.5,,,,,,5.0,
+Static Strength,physical,World Humanoid Robot Games Weightlifting,7.0,,,,,,,2.5
+Time Sharing,cognitive,AsyncTool,6.0,,,,,,,3.5
+Time Sharing,cognitive,StreamingBench,3.0,,,,,,3.5,
+Visual Color Discrimination,sensory,ColorBench,6.5,,,,,,3.5,4.0
+Visual Color Discrimination,sensory,Colors in Context,2.5,4.5,,,,,,
+Visualization,cognitive,CLEVR-MRT,5.0,,,4.5,,,,
+Visualization,cognitive,SPACE,6.5,,,,,2.0,,
+Visualization,cognitive,SPARE3D,6.0,,,,4.5,,,
+Visualization,cognitive,ShapeNet-SRN,4.0,3.5,,,,,,
+Visualization,cognitive,SpatialViz-Bench,8.5,,,,,,3.0,3.5
+Wrist-Finger Speed,psychomotor,RoboPianist,3.5,,,,,6.0,,
+Written Comprehension,cognitive,DROP,6.0,,,,4.5,5.0,,
+Written Comprehension,cognitive,LongBench v2,7.0,,,,,,7.0,7.0
+Written Comprehension,cognitive,QuALITY,8.0,,,3.5,,,,
+Written Comprehension,cognitive,RACE,7.5,6.5,7.0,,,,,
+Written Expression,cognitive,CNN/DailyMail,3.0,4.5,5.0,,,,,
+Written Expression,cognitive,HelloBench,5.5,,,,,6.0,,
+Written Expression,cognitive,MT-Bench,4.5,,,,7.0,,,
+Written Expression,cognitive,WritingBench,7.0,,,,,,7.0,6.5
+Written Expression,cognitive,XSum,2.5,,,4.5,,,,

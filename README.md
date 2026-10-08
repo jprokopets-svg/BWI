@@ -15,7 +15,7 @@ Every table below renders in the browser; the CSV behind each is linked at the b
 | [A. Occupation exposure](appendix/A_occupation_exposure.md) | All 894 occupations, 2020 to 2026, sorted by 2026 |
 | [B. Abilities](appendix/B_abilities.md) | All 52 abilities by year, unmeasured ones marked, and the abilities that enter the 2026 scores |
 | [C. Benchmarks](appendix/C_benchmarks.md) | Every selected benchmark with capability, transferability, year entered and carry-forward flag; resolution counts per year |
-| [D. Validation](appendix/D_validation.md) | Rank correlation with observed AI use in two waves, the prediction horse race, the Felten and Eloundou comparison, and the capability-adoption quadrants |
+| [D. Validation](appendix/D_validation.md) | Rank correlation with observed AI use in two waves, the prediction horse race, the Felten and Eloundou comparison, the capability-adoption quadrants, and a component ablation of the judge scores |
 | [E. Prompts](appendix/E_prompts.md) | The three prompts, verbatim |
 | [Figures](figures/README.md) | Final figures with one-line captions |
 | [Paper tables](#paper-tables) | Tables 3 to 10 of the paper as CSV |
@@ -68,6 +68,7 @@ The capability and transferability prompts in `prompts/` are the revised version
 | 9 | How the 2026 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
 | 10 | The abilities with a 2026 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
 | 13 | Every benchmark behind a 2026 ability score with its capability score (C), transferability weight (T) and exposure | [table13_benchmarks_2026.csv](tables/table13_benchmarks_2026.csv) |
+| 14 | Every selected benchmark-ability pair with its transferability weight and its capability score in each year it was selected | [table14_benchmark_scores.csv](tables/table14_benchmark_scores.csv) |
 | extra | Top 25 by 2026 exposure with the 35 postsecondary teaching occupations (SOC 25-1xxx) removed | [table_top25_no_teachers.csv](tables/table_top25_no_teachers.csv) |
 | extra | Top 25 by 2020-2026 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
 | extra | Top 25 by 2026 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |

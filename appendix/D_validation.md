@@ -108,3 +108,21 @@ Among the 339 occupations with recorded usage, high and low are relative to the 
 | Historians | 33.78 | 2.80 |
 
 Source: [D4_quadrants_2024.csv](D4_quadrants_2024.csv); the paper's 2026 version is [tables/table07_quadrants.csv](../tables/table07_quadrants.csv).
+
+## D5. What the judge scores add: component ablation
+
+Occupation exposure rebuilt four ways from the same benchmark selections: the share of an occupation's ability weight that has any benchmark (no judge scores at all), capability alone (C x 10), transferability alone (T x 10), and the index (C x T). The first block uses the current Step 6 rule, under which abilities with no benchmark are left out of the weighted mean. The second block sets the eight abilities that have never had a benchmark (Arm-Hand Steadiness, Response Orientation, Reaction Time, Dynamic Strength, Trunk Strength, Extent Flexibility, Dynamic Flexibility, Peripheral Vision) to zero exposure instead. Spearman rank correlations with AEI usage; the last two columns are from the D2 horse race (coefficient on the measure when added to 2025 usage in predicting 2026 usage, and 5-fold cross-validated R-squared, same folds and seed).
+
+| Step 6 rule | Measure | 2024 vs usage 2025 (n=744) | nonzero only (n=339) | 2024 vs usage 2026 (n=592) | 2025 vs usage 2025 | 2025 vs usage 2026 | g | CV R-squared |
+|---|---|---|---|---|---|---|---|---|
+| baseline (no judge scores) | share of ability weight with any benchmark | 0.633 | 0.480 | 0.468 |  |  |  |  |
+| unmeasured abilities excluded (current data) | C only | 0.576 | 0.309 | 0.416 |  |  |  |  |
+| unmeasured abilities excluded (current data) | T only | 0.269 | 0.152 | 0.187 |  |  |  |  |
+| unmeasured abilities excluded (current data) | C x T (shipped index) | 0.559 | 0.284 | 0.408 | 0.593 | 0.432 | 0.193 | 0.333 |
+| never-mapped abilities set to zero | C x T | 0.615 | 0.373 | 0.446 | 0.633 | 0.468 | 0.225 | 0.340 |
+| never-mapped abilities set to zero | C only | 0.621 | 0.403 | 0.450 | 0.636 | 0.471 | 0.230 | 0.342 |
+| never-mapped abilities set to zero | T only | 0.625 | 0.406 | 0.464 | 0.627 | 0.467 | 0.229 | 0.340 |
+
+Read: under the current rule, leaving unmeasured abilities out of the mean lets physical occupations score on their cognitive abilities alone, and the judge scores then correlate less with usage than benchmark coverage does. Setting never-mapped abilities to zero removes that artefact; the index then exceeds the coverage baseline by about 0.05, and capability, transferability and their product are within 0.01 of one another. The zero-fill variant is reported here for comparison and is not the rule used in the released data.
+
+Source: [D5_component_ablation.csv](D5_component_ablation.csv).

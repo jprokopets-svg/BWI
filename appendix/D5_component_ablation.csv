@@ -1,0 +1,8 @@
+rule,measure,rho_2024_a25,rho_2024_a25nz,rho_2024_a26,rho_2025_a25,rho_2025_a26,M3_g,M3_cv_r2
+baseline (no judge scores),share of ability weight with any benchmark,0.633,0.480,0.468,,,,
+unmeasured abilities excluded (current data),C only,0.576,0.309,0.416,,,,
+unmeasured abilities excluded (current data),T only,0.269,0.152,0.187,,,,
+unmeasured abilities excluded (current data),C x T (shipped index),0.559,0.284,0.408,0.593,0.432,0.193,0.333
+never-mapped abilities set to zero,C x T,0.615,0.373,0.446,0.633,0.468,0.225,0.340
+never-mapped abilities set to zero,C only,0.621,0.403,0.450,0.636,0.471,0.230,0.342
+never-mapped abilities set to zero,T only,0.625,0.406,0.464,0.627,0.467,0.229,0.340
