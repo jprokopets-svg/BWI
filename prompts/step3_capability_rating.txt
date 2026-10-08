@@ -13,11 +13,11 @@ would use this capability in work settings.
   metric-name mismatches with the source note). If the value is ambiguous, state
   your interpretation in ai_score_interpreted and set "unit_warning": true. If
   you cannot interpret the value at all, return ungradable instead.
-- The reference point for every score is the MEDIAN relevant human: the typical
-  person who performs this capability in work settings, not the best. Choose
-  the reference population first (general adult / relevant educated workforce /
-  specialist workforce), then ask: how does this AI performance compare to the
-  median member of that population?
+- The reference point for every score is the MEDIAN member of the reference
+  population given below for this ability. Do not choose or redefine the
+  population; it is fixed across years and benchmarks so that scores are
+  comparable over time.
+  Reference population: {{reference_group}}
 - Do not mechanically map percent-correct to a human percentile. Judge against
   the benchmark's difficulty for that population: use a published human
   baseline when one exists; otherwise infer what the median member would score
@@ -27,6 +27,12 @@ would use this capability in work settings.
   exceeding, human ability. A high score on a test the median human would fail
   badly is evidence of ability well above the median, regardless of whether
   the benchmark is saturated among AI systems.
+- Some abilities are ones nearly every adult performs well, so parity (5) is
+  the realistic ceiling for most benchmarks. Do not inflate scores to
+  compensate. Set ceiling_bound to true when the reference median is within
+  10 points of the benchmark maximum, so that downstream users can tell a 5
+  that means "human-level on a saturated skill" from a 5 that means "halfway
+  up a wide range".
 
 ## Rubric (0-10)
 0 = no meaningful competence
@@ -39,8 +45,11 @@ would use this capability in work settings.
 9 = at the top of the population; only a small fraction score higher
 10 = above the entire population
 
-Score in 0.5 steps if useful. If contamination or validity flags are present,
-say how they affected your score in main_reasoning.
+Score in 0.5 steps if useful. The score is your judgment of demonstrated
+capability given the evidence. Do not shave the score for self-reporting,
+tool augmentation, contamination risk or an unknown protocol; record those
+in validity_flags and set validity_confidence to high, medium or low. The
+pipeline applies any discount, not you.
 
 Return ONLY valid JSON:
 {
@@ -55,5 +64,8 @@ Return ONLY valid JSON:
     "benchmark_difficulty_class": "easy | moderate | hard | expert | unclear",
     "human_reference_group": "",
     "human_comparative_score_0_10": null,
+    "ceiling_bound": false,
+    "validity_flags": [],
+    "validity_confidence": "high | medium | low",
     "main_reasoning": ""
 }

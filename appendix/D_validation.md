@@ -6,10 +6,10 @@ Two waves of the Anthropic Economic Index (AEI) are used. **Wave 1, early 2025**
 
 | BWI vintage | Usage early 2025: Spearman | n | Usage Apr-May 2026: Spearman | n |
 |---|---|---|---|---|
-| 2023 | 0.235 | 744 | 0.142 | 592 |
-| 2024 | 0.566 | 744 | 0.420 | 592 |
-| 2025 | 0.597 | 744 | 0.444 | 592 |
-| 2026 | 0.562 | 744 | 0.385 | 592 |
+| 2023 | 0.536 | 744 | 0.369 | 592 |
+| 2024 | 0.559 | 744 | 0.408 | 592 |
+| 2025 | 0.593 | 744 | 0.432 | 592 |
+| 2026 | 0.543 | 744 | 0.360 | 592 |
 
 The 2026 vintage is year-to-date: it uses benchmark results published up to 28 September 2026. Where a mapped ability had no verifiable 2026 result, its 2025 value is carried forward (one year only).
 
@@ -22,8 +22,8 @@ Outcome: percentile rank of April to May 2026 usage. Regressors are percentile r
 | Model | Past usage (2025) | BWI 2025 | R² | CV R² | CV RMSE | n |
 |---|---|---|---|---|---|---|
 | M1: past usage only | 0.571 (0.035) |  | 0.311 | 0.307 | 23.69 | 566 |
-| M2: BWI 2025 only |  | 0.437 (0.035) | 0.197 | 0.195 | 25.53 | 566 |
-| M3: past usage + BWI 2025 | 0.460 (0.039) | 0.205 (0.036) | 0.343 | 0.337 | 23.16 | 566 |
+| M2: BWI 2025 only |  | 0.425 (0.035) | 0.186 | 0.184 | 25.70 | 566 |
+| M3: past usage + BWI 2025 | 0.468 (0.040) | 0.193 (0.035) | 0.340 | 0.333 | 23.24 | 566 |
 
 Source: [D2_prediction_horserace.csv](D2_prediction_horserace.csv) (also has a log-scale version).
 
@@ -33,13 +33,13 @@ Outcome: percentile rank of early-2025 usage. Exposure measures as percentile ra
 
 | Specification | BWI 2024 | Felten AIOE | Eloundou | R² | n |
 |---|---|---|---|---|---|
-| (a) BWI alone | 0.519 (0.026) |  |  | 0.321 | 744 |
-| (b) + Felten | 0.084 (0.058) | 0.494 (0.057) |  | 0.391 | 668 |
-| (c) + Felten + occupation-group effects | 0.123 (0.059) | 0.361 (0.064) |  | 0.485 | 668 |
-| (d) + Felten + group effects + wage, employment, education | 0.057 (0.059) | 0.387 (0.068) |  | 0.520 | 659 |
-| (e) + Eloundou | 0.074 (0.041) |  | 0.583 (0.037) | 0.490 | 744 |
-| (f) + Eloundou + group effects + controls | 0.042 (0.049) |  | 0.510 (0.046) | 0.585 | 732 |
-| (g) + Felten + Eloundou + group effects + controls | 0.010 (0.056) | 0.099 (0.076) | 0.457 (0.059) | 0.563 | 659 |
+| (a) BWI alone | 0.512 (0.025) |  |  | 0.313 | 744 |
+| (b) + Felten | 0.018 (0.060) | 0.551 (0.060) |  | 0.389 | 668 |
+| (c) + Felten + occupation-group effects | 0.072 (0.067) | 0.389 (0.071) |  | 0.482 | 668 |
+| (d) + Felten + group effects + wage, employment, education | -0.007 (0.067) | 0.423 (0.073) |  | 0.519 | 659 |
+| (e) + Eloundou | 0.038 (0.041) |  | 0.610 (0.038) | 0.488 | 744 |
+| (f) + Eloundou + group effects + controls | 0.004 (0.054) |  | 0.525 (0.047) | 0.584 | 732 |
+| (g) + Felten + Eloundou + group effects + controls | -0.054 (0.063) | 0.132 (0.079) | 0.463 (0.059) | 0.564 | 659 |
 
 Source: [D3_incremental_regressions.csv](D3_incremental_regressions.csv).
 
@@ -51,60 +51,60 @@ Among the 339 occupations with recorded usage, high and low are relative to the 
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Industrial-Organizational Psychologists | 23.84 | 15.77 |
-| Educational, Guidance, and Career Counselors and Advisors | 23.77 | 11.82 |
-| Dietitians and Nutritionists | 23.59 | 13.28 |
-| Customer Service Representatives | 22.93 | 70.11 |
-| Software Quality Assurance Analysts and Testers | 22.81 | 51.95 |
-| Database Architects | 22.73 | 57.87 |
-| Computer Programmers | 22.70 | 74.51 |
-| Receptionists and Information Clerks | 22.67 | 43.38 |
-| Interpreters and Translators | 22.63 | 43.04 |
-| Curators | 22.61 | 41.23 |
+| Credit Analysts | 37.68 | 16.85 |
+| Loan Officers | 36.99 | 18.57 |
+| Industrial-Organizational Psychologists | 36.89 | 15.77 |
+| Logisticians | 36.34 | 15.71 |
+| Dietitians and Nutritionists | 36.27 | 13.28 |
+| Web Developers | 34.80 | 48.02 |
+| Social Science Research Assistants | 34.71 | 43.93 |
+| Customer Service Representatives | 34.57 | 70.11 |
+| Office Clerks, General | 34.44 | 45.04 |
+| Information Security Analysts | 34.31 | 48.59 |
 
 **Latent exposure** (high capability, low use)
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Sales Managers | 24.08 | 4.33 |
-| Education and Childcare Administrators, Preschool and Daycare | 23.91 | 3.95 |
-| Genetic Counselors | 23.67 | 1.23 |
-| Medical Scientists | 23.66 | 3.81 |
-| Financial Examiners | 23.66 | 4.28 |
-| Forestry and Conservation Science Teachers, Postsecondary | 23.52 | 2.06 |
-| Tax Examiners and Collectors, and Revenue Agents | 23.40 | 2.75 |
-| Special Education Teachers, Preschool | 23.20 | 0.58 |
-| Funeral Home Managers | 23.14 | 1.08 |
-| Child, Family, and School Social Workers | 23.12 | 0.74 |
+| Actuaries | 39.00 | 5.39 |
+| Financial Examiners | 37.42 | 4.28 |
+| Physical Scientists | 36.83 | 3.79 |
+| Medical Scientists | 36.60 | 3.81 |
+| Sales Managers | 36.42 | 4.33 |
+| Tax Examiners and Collectors, and Revenue Agents | 36.26 | 2.75 |
+| Genetic Counselors | 36.21 | 1.23 |
+| Geoscientists | 36.13 | 4.30 |
+| Industrial Engineers | 35.86 | 3.67 |
+| Civil Engineers | 35.78 | 0.81 |
 
 **Adoption ahead** (low capability, high use)
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Fine Artists | 20.14 | 35.65 |
-| Desktop Publishers | 20.87 | 46.40 |
-| Special Effects Artists and Animators | 21.12 | 35.71 |
-| Graphic Designers | 21.17 | 36.72 |
-| Chemical Technicians | 21.52 | 31.48 |
-| Data Entry Keyers | 21.63 | 67.07 |
-| Medical Transcriptionists | 21.98 | 63.65 |
-| Information Security Analysts | 21.98 | 48.59 |
-| Technical Writers | 22.13 | 47.47 |
-| Web Developers | 22.17 | 48.02 |
+| Fine Artists | 29.66 | 35.65 |
+| Court Reporters and Simultaneous Captioners | 30.66 | 34.31 |
+| Desktop Publishers | 31.70 | 46.40 |
+| Graphic Designers | 31.94 | 36.72 |
+| Switchboard Operators | 31.99 | 38.63 |
+| Medical Transcriptionists | 32.12 | 63.65 |
+| Special Effects Artists and Animators | 32.39 | 35.71 |
+| Secretaries and Administrative Assistants | 32.67 | 45.28 |
+| Interpreters and Translators | 32.70 | 43.04 |
+| Data Entry Keyers | 32.93 | 67.07 |
 
 **Low pressure** (low capability, low use)
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Computer, Automated Teller, and Office Machine Repairers | 20.33 | 10.67 |
-| Choreographers | 20.34 | 8.01 |
-| Baggage Porters and Bellhops | 20.83 | 7.30 |
-| Prepress Technicians and Workers | 20.96 | 10.18 |
-| Flight Attendants | 21.40 | 9.13 |
-| Occupational Therapists | 22.16 | 0.80 |
-| Healthcare Diagnosing or Treating Practitioners | 22.36 | 2.22 |
-| Historians | 22.41 | 2.80 |
-| Surveyors | 22.57 | 0.22 |
-| Library Science Teachers, Postsecondary | 22.58 | 1.80 |
+| Computer, Automated Teller, and Office Machine Repairers | 29.75 | 10.67 |
+| Baggage Porters and Bellhops | 29.86 | 7.30 |
+| Choreographers | 29.93 | 8.01 |
+| Actors | 31.36 | 10.11 |
+| Prepress Technicians and Workers | 32.06 | 10.18 |
+| Occupational Therapists | 33.34 | 0.80 |
+| Cargo and Freight Agents | 33.47 | 1.65 |
+| Pharmacy Aides | 33.61 | 2.20 |
+| Library Science Teachers, Postsecondary | 33.71 | 1.80 |
+| Historians | 33.78 | 2.80 |
 
 Source: [D4_quadrants_2024.csv](D4_quadrants_2024.csv); the paper's 2026 version is [tables/table07_quadrants.csv](../tables/table07_quadrants.csv).

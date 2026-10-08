@@ -100,11 +100,11 @@ would use this capability in work settings.
   metric-name mismatches with the source note). If the value is ambiguous, state
   your interpretation in ai_score_interpreted and set "unit_warning": true. If
   you cannot interpret the value at all, return ungradable instead.
-- The reference point for every score is the MEDIAN relevant human: the typical
-  person who performs this capability in work settings, not the best. Choose
-  the reference population first (general adult / relevant educated workforce /
-  specialist workforce), then ask: how does this AI performance compare to the
-  median member of that population?
+- The reference point for every score is the MEDIAN member of the reference
+  population given below for this ability. Do not choose or redefine the
+  population; it is fixed across years and benchmarks so that scores are
+  comparable over time.
+  Reference population: {{reference_group}}
 - Do not mechanically map percent-correct to a human percentile. Judge against
   the benchmark's difficulty for that population: use a published human
   baseline when one exists; otherwise infer what the median member would score
@@ -114,6 +114,12 @@ would use this capability in work settings.
   exceeding, human ability. A high score on a test the median human would fail
   badly is evidence of ability well above the median, regardless of whether
   the benchmark is saturated among AI systems.
+- Some abilities are ones nearly every adult performs well, so parity (5) is
+  the realistic ceiling for most benchmarks. Do not inflate scores to
+  compensate. Set ceiling_bound to true when the reference median is within
+  10 points of the benchmark maximum, so that downstream users can tell a 5
+  that means "human-level on a saturated skill" from a 5 that means "halfway
+  up a wide range".
 
 ## Rubric (0-10)
 0 = no meaningful competence
@@ -126,8 +132,11 @@ would use this capability in work settings.
 9 = at the top of the population; only a small fraction score higher
 10 = above the entire population
 
-Score in 0.5 steps if useful. If contamination or validity flags are present,
-say how they affected your score in main_reasoning.
+Score in 0.5 steps if useful. The score is your judgment of demonstrated
+capability given the evidence. Do not shave the score for self-reporting,
+tool augmentation, contamination risk or an unknown protocol; record those
+in validity_flags and set validity_confidence to high, medium or low. The
+pipeline applies any discount, not you.
 
 Return ONLY valid JSON:
 {
@@ -142,6 +151,9 @@ Return ONLY valid JSON:
     "benchmark_difficulty_class": "easy | moderate | hard | expert | unclear",
     "human_reference_group": "",
     "human_comparative_score_0_10": null,
+    "ceiling_bound": false,
+    "validity_flags": [],
+    "validity_confidence": "high | medium | low",
     "main_reasoning": ""
 }
 ```
@@ -149,35 +161,65 @@ Return ONLY valid JSON:
 ## Step 4: transferability to real work, one call per benchmark and ability pair.
 
 ```text
-You rate how well performance on an AI benchmark TRANSFERS to real workplace
-capability for a specific O*NET ability.
+You rate the TRANSFERABILITY of an AI benchmark to a specific O*NET ability.
 
-Transferability is a property of the benchmark-ability relationship, not of
-current AI scores. A benchmark can be easy or hard, saturated or unsolved, and
-still transfer well or poorly. Do not let the score trajectory drive your rating.
+Transferability answers one question: if an AI system performs at the level of
+a strong human on this benchmark, how confident are you that it possesses this
+ability as workers use it? It is a property of the benchmark-ability
+relationship, not of current AI scores. Do not let the score trajectory drive
+your rating.
 
-Rate four factors, 0-10 each. Higher = more transferable. Use the full range.
+## What transferability is NOT
+Transferability is not resemblance to the job. Abstract, academic, synthetic
+or puzzle-style material is NOT a deduction if the benchmark isolates the
+ability cleanly: a system that applies arbitrary new rules correctly has
+demonstrated rule application whether the rules are ciphers or tax codes. Do
+not deduct for missing stakes, deadlines, stakeholders, organisational
+context, tool access or time pressure. Do not deduct because workers do not
+do this exact task.
 
-1. task_realism - how similar are the benchmark's tasks to the real workplace
-  tasks that exercise this ability?
-2. evaluation_conditions - how closely do the testing conditions (context,
-  tools, time pressure, stakes, input distribution) match real work?
-3. construct_coverage - does it measure the full ability or a narrow slice?
-4. format_match - are the inputs and outputs like real work artifacts, or
-  artificial formats (forced multiple choice, toy grids)?
+## What lowers transferability
+Deduct only for these, and count each once:
+1. construct_contamination - the score is driven by something other than the
+   ability: memorisation or training-set leakage, transcription accuracy
+   standing in for listening, n-gram overlap standing in for communication,
+   a composite metric where the ability is a minority share, or formats that
+   can be passed by elimination or shortcut without exercising the ability.
+   A score that is driven by a composition of sub-capabilities which together
+   constitute the ability in practice is NOT contamination: for a machine,
+   transcribing speech and then understanding the transcript is listening
+   comprehension, and reading a document and then answering about it is
+   reading comprehension. Deduct only when the sub-capability stands in for
+   the ability rather than composing it (for example word error rate alone
+   as a measure of understanding).
+2. coverage - the benchmark tests only a narrow sub-skill of the ability as
+   workers use it (for example factoid extraction from monologue when the
+   ability is understanding spoken ideas in conversation), so strong
+   performance leaves most of the ability unmeasured.
+3. ceiling_or_floor - the benchmark cannot show the ability at the level
+   workers need (too easy to discriminate) or demands something far beyond it
+   that masks the ability (so failure says little).
 
-transferability_score = equal-weighted mean of the four, rounded to nearest 0.5.
+## Scale (0-10)
+10 = the benchmark score is close to a direct measurement of the ability
+ 8 = the score shows the ability with minor contamination or a modest gap
+     in coverage
+ 5 = the score reflects the ability but also substantial other things, or
+     only part of it
+ 2 = the score is mostly driven by something other than the ability
+ 0 = no meaningful relation to the ability
+Use the whole scale. A clean, hard, uncontaminated test of the construct
+belongs at 8 or above even if its material is abstract.
 
 Return ONLY JSON:
 {
   "benchmark": "{benchmark_name}",
   "onet_ability": "{ability}",
-  "factors": {
-    "task_realism": {"score": 0.0, "reasoning": ""},
-    "evaluation_conditions": {"score": 0.0, "reasoning": ""},
-    "construct_coverage": {"score": 0.0, "reasoning": ""},
-    "format_match": {"score": 0.0, "reasoning": ""},
-}
+  "deductions": {
+    "construct_contamination": {"points": 0.0, "reasoning": ""},
+    "coverage": {"points": 0.0, "reasoning": ""},
+    "ceiling_or_floor": {"points": 0.0, "reasoning": ""}
+  },
   "transferability_score": 0.0,
   "overall_reasoning": "2-3 sentences"
 }

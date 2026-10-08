@@ -1,41 +1,41 @@
 Quadrant,Occupation,BWI 2024 exposure,AEI usage share (%)
-Active transformation,Industrial-Organizational Psychologists,23.84,15.77
-Active transformation,"Educational, Guidance, and Career Counselors and Advisors",23.77,11.82
-Active transformation,Dietitians and Nutritionists,23.59,13.28
-Active transformation,Customer Service Representatives,22.93,70.11
-Active transformation,Software Quality Assurance Analysts and Testers,22.81,51.95
-Active transformation,Database Architects,22.73,57.87
-Active transformation,Computer Programmers,22.7,74.51
-Active transformation,Receptionists and Information Clerks,22.67,43.38
-Active transformation,Interpreters and Translators,22.63,43.04
-Active transformation,Curators,22.61,41.23
-Latent exposure,Sales Managers,24.08,4.33
-Latent exposure,"Education and Childcare Administrators, Preschool and Daycare",23.91,3.95
-Latent exposure,Genetic Counselors,23.67,1.23
-Latent exposure,Medical Scientists,23.66,3.81
-Latent exposure,Financial Examiners,23.66,4.28
-Latent exposure,"Forestry and Conservation Science Teachers, Postsecondary",23.52,2.06
-Latent exposure,"Tax Examiners and Collectors, and Revenue Agents",23.4,2.75
-Latent exposure,"Special Education Teachers, Preschool",23.2,0.58
-Latent exposure,Funeral Home Managers,23.14,1.08
-Latent exposure,"Child, Family, and School Social Workers",23.12,0.74
-Adoption ahead,Fine Artists,20.14,35.65
-Adoption ahead,Desktop Publishers,20.87,46.4
-Adoption ahead,Special Effects Artists and Animators,21.12,35.71
-Adoption ahead,Graphic Designers,21.17,36.72
-Adoption ahead,Chemical Technicians,21.52,31.48
-Adoption ahead,Data Entry Keyers,21.63,67.07
-Adoption ahead,Medical Transcriptionists,21.98,63.65
-Adoption ahead,Information Security Analysts,21.98,48.59
-Adoption ahead,Technical Writers,22.13,47.47
-Adoption ahead,Web Developers,22.17,48.02
-Low pressure,"Computer, Automated Teller, and Office Machine Repairers",20.33,10.67
-Low pressure,Choreographers,20.34,8.01
-Low pressure,Baggage Porters and Bellhops,20.83,7.3
-Low pressure,Prepress Technicians and Workers,20.96,10.18
-Low pressure,Flight Attendants,21.4,9.13
-Low pressure,Occupational Therapists,22.16,0.8
-Low pressure,Healthcare Diagnosing or Treating Practitioners,22.36,2.22
-Low pressure,Historians,22.41,2.8
-Low pressure,Surveyors,22.57,0.22
-Low pressure,"Library Science Teachers, Postsecondary",22.58,1.8
+Active transformation,Credit Analysts,37.68,16.85
+Active transformation,Loan Officers,36.99,18.57
+Active transformation,Industrial-Organizational Psychologists,36.89,15.77
+Active transformation,Logisticians,36.34,15.71
+Active transformation,Dietitians and Nutritionists,36.27,13.28
+Active transformation,Web Developers,34.8,48.02
+Active transformation,Social Science Research Assistants,34.71,43.93
+Active transformation,Customer Service Representatives,34.57,70.11
+Active transformation,"Office Clerks, General",34.44,45.04
+Active transformation,Information Security Analysts,34.31,48.59
+Latent exposure,Actuaries,39.0,5.39
+Latent exposure,Financial Examiners,37.42,4.28
+Latent exposure,Physical Scientists,36.83,3.79
+Latent exposure,Medical Scientists,36.6,3.81
+Latent exposure,Sales Managers,36.42,4.33
+Latent exposure,"Tax Examiners and Collectors, and Revenue Agents",36.26,2.75
+Latent exposure,Genetic Counselors,36.21,1.23
+Latent exposure,Geoscientists,36.13,4.3
+Latent exposure,Industrial Engineers,35.86,3.67
+Latent exposure,Civil Engineers,35.78,0.81
+Adoption ahead,Fine Artists,29.66,35.65
+Adoption ahead,Court Reporters and Simultaneous Captioners,30.66,34.31
+Adoption ahead,Desktop Publishers,31.7,46.4
+Adoption ahead,Graphic Designers,31.94,36.72
+Adoption ahead,Switchboard Operators,31.99,38.63
+Adoption ahead,Medical Transcriptionists,32.12,63.65
+Adoption ahead,Special Effects Artists and Animators,32.39,35.71
+Adoption ahead,Secretaries and Administrative Assistants,32.67,45.28
+Adoption ahead,Interpreters and Translators,32.7,43.04
+Adoption ahead,Data Entry Keyers,32.93,67.07
+Low pressure,"Computer, Automated Teller, and Office Machine Repairers",29.75,10.67
+Low pressure,Baggage Porters and Bellhops,29.86,7.3
+Low pressure,Choreographers,29.93,8.01
+Low pressure,Actors,31.36,10.11
+Low pressure,Prepress Technicians and Workers,32.06,10.18
+Low pressure,Occupational Therapists,33.34,0.8
+Low pressure,Cargo and Freight Agents,33.47,1.65
+Low pressure,Pharmacy Aides,33.61,2.2
+Low pressure,"Library Science Teachers, Postsecondary",33.71,1.8
+Low pressure,Historians,33.78,2.8

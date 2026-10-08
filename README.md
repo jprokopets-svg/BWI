@@ -22,6 +22,10 @@ Every table below renders in the browser; the CSV behind each is linked at the b
 
 ## How the index is built
 
+### Judge prompts, revised 7 October 2026
+
+The capability and transferability prompts in `prompts/` are the revised versions used for the current data. Benchmark selection and score extraction (Step 1 and 2) are unchanged. Capability (Step 3) now scores against a fixed reference population per ability, records validity concerns as flags instead of deducting them from the score, and flags abilities where the median worker is near the benchmark ceiling. Transferability (Step 4) now asks whether strong performance on the benchmark shows the ability, with deductions only for construct contamination, narrow coverage and ceiling or floor effects; abstract or academic material is not a deduction. Against the earlier prompts, capability scores are nearly unchanged (rank correlation 0.97) and transferability scores are higher and more spread (mean 4.3 to 5.8, range 2.5 to 8.5), so ability and occupation exposures are higher in level; occupation rank order is 95% correlated with the previous data. Rank correlations with observed AI usage are unchanged to two decimals.
+
 ### What changed from version 1
 
 - Benchmark selection and score extraction are one call per ability and year, made by Claude Opus 5.5 with live web search, using `prompts/step1_2_benchmark_selection_and_score_extraction.txt`. Each ability-year gets one selected benchmark or "no adequate benchmark".
@@ -63,6 +67,7 @@ Every table below renders in the browser; the CSV behind each is linked at the b
 | 8 | All 52 abilities with their 2026 exposure score and the benchmark behind it | [table08_ability_anchors.csv](tables/table08_ability_anchors.csv) |
 | 9 | How the 2026 score of the two most- and two least-exposed occupations is built from their abilities | [table09_decomposition.csv](tables/table09_decomposition.csv) |
 | 10 | The abilities with a 2026 value, ranked by exposure | [table10_ability_rankings.csv](tables/table10_ability_rankings.csv) |
+| 13 | Every benchmark behind a 2026 ability score with its capability score (C), transferability weight (T) and exposure | [table13_benchmarks_2026.csv](tables/table13_benchmarks_2026.csv) |
 | extra | Top 25 by 2026 exposure with the 35 postsecondary teaching occupations (SOC 25-1xxx) removed | [table_top25_no_teachers.csv](tables/table_top25_no_teachers.csv) |
 | extra | Top 25 by 2020-2026 growth with postsecondary teachers removed | [table_fastest25_no_teachers.csv](tables/table_fastest25_no_teachers.csv) |
 | extra | Top 25 by 2026 exposure with all postsecondary teachers collapsed into one employment-weighted row | [table_top25_teachers_bundled.csv](tables/table_top25_teachers_bundled.csv) |

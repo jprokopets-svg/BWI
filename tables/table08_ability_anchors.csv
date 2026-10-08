@@ -1,45 +1,45 @@
 Ability,Exposure 2026,Benchmark Anchor
-Explosive Strength,57.00,World Humanoid Robot Games
-Control Precision,49.50,A2RL Drone Championship
+Explosive Strength,75.00,World Humanoid Robot Games
+Mathematical Reasoning,75.00,FrontierMath
+Inductive Reasoning,68.00,ARC-AGI-2
+Category Flexibility,63.00,NYT Connections Extended
+Control Precision,58.50,A2RL Drone Championship
+Problem Sensitivity,52.00,ProcessBench
+Written Comprehension,49.00,LongBench v2
 Written Expression,45.50,WritingBench
-Speed of Limb Movement,42.75,World Humanoid Robot Games
-Mathematical Reasoning,40.50,FrontierMath
-Speech Recognition,38.50,Open ASR Leaderboard
-Written Comprehension,35.00,LongBench v2
-Problem Sensitivity,33.75,ProcessBench
+Speed of Limb Movement,45.00,World Humanoid Robot Games
+Deductive Reasoning,42.00,BIG-Bench Extra Hard
+Near Vision,42.00,HR-Bench
+Speech Recognition,42.00,Open ASR Leaderboard
+Memorization,40.00,OpenAI-MRCR
+Auditory Attention,39.00,Libri2Mix
+Oral Expression,36.00,VocalBench (2025)
+Manual Dexterity,35.00,ManipulationNet
 Selective Attention,33.00,Vending-Bench 2
-Memorization,32.00,OpenAI-MRCR
-Category Flexibility,31.50,NYT Connections Extended
-Inductive Reasoning,31.50,ARC-AGI-2
+Depth Perception,32.50,DA-2K (2025)
+Information Ordering,31.50,BIG-Bench Extra Hard
+Rate Control,31.50,Robot Air Hockey Challenge
+Speech Clarity,30.25,Seed-TTS-Eval
 Number Facility,30.00,ORCA (2025)
-Oral Expression,30.00,VocalBench (2025)
-Manual Dexterity,29.25,ManipulationNet
-Rate Control,29.25,Robot Air Hockey Challenge
-Near Vision,26.00,HR-Bench
-Auditory Attention,24.50,Libri2Mix
-Deductive Reasoning,22.75,BIG-Bench Extra Hard
-Fluency of Ideas,22.50,NoveltyBench
-Speech Clarity,22.00,Seed-TTS-Eval
-Depth Perception,20.00,DA-2K (2025)
-Night Vision,20.00,ExDark
-Information Ordering,19.50,BIG-Bench Extra Hard
-Hearing Sensitivity,19.25,SonicBench
-Multilimb Coordination,18.00,RoboTwin 2.0
-Oral Comprehension,18.00,MMSU
-Spatial Orientation,18.00,VSI-Bench
-Stamina,18.00,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
-Visual Color Discrimination,18.00,ColorBench
-Glare Sensitivity,17.50,GLARE (2025)
-Sound Localization,17.50,DCASE2026 Challenge Task 3
+Visualization,29.75,SpatialViz-Bench
+Oral Comprehension,29.25,MMSU
+Night Vision,28.00,ExDark
+Spatial Orientation,28.00,VSI-Bench
+Stamina,27.50,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
+Multilimb Coordination,27.00,RoboTwin 2.0
+Visual Color Discrimination,26.00,ColorBench
+Fluency of Ideas,24.75,NoveltyBench
+Far Vision,24.00,HR-Bench
+Hearing Sensitivity,22.75,SonicBench
+Speed of Closure,22.50,ARC-AGI-3
+Gross Body Coordination,21.00,HumanoidBench
+Time Sharing,21.00,AsyncTool
+Perceptual Speed,20.00,BLINK
+Gross Body Equilibrium,19.50,HumanoidBench
+Glare Sensitivity,19.25,GLARE (2025)
+Sound Localization,19.25,DCASE2026 Challenge Task 3
+Static Strength,17.50,World Humanoid Robot Games Weightlifting
 Originality,16.50,NoveltyBench
-Time Sharing,15.75,AsyncTool
-Visualization,15.75,SpatialViz-Bench
-Far Vision,14.00,HR-Bench
-Gross Body Coordination,13.50,HumanoidBench
-Speed of Closure,13.50,ARC-AGI-3
-Static Strength,13.50,World Humanoid Robot Games Weightlifting
-Gross Body Equilibrium,12.00,HumanoidBench
-Perceptual Speed,12.00,BLINK
 Flexibility of Closure,,
 Arm-Hand Steadiness,,
 Dynamic Flexibility,,

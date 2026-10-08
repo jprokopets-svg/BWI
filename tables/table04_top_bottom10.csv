@@ -1,21 +1,21 @@
 Panel,Rank,Occupation,Exposure 2026
-Panel A: Most-exposed occupations,1,Economists,29.72
-Panel A: Most-exposed occupations,2,Court Reporters and Simultaneous Captioners,29.71
-Panel A: Most-exposed occupations,3,Compensation and Benefits Managers,29.59
-Panel A: Most-exposed occupations,4,Loan Officers,29.55
-Panel A: Most-exposed occupations,5,"Mathematical Science Teachers, Postsecondary",29.54
-Panel A: Most-exposed occupations,6,Political Scientists,29.51
-Panel A: Most-exposed occupations,7,"Business Teachers, Postsecondary",29.51
-Panel A: Most-exposed occupations,8,Environmental Economists,29.45
-Panel A: Most-exposed occupations,9,Operations Research Analysts,29.4
-Panel A: Most-exposed occupations,10,Financial Quantitative Analysts,29.3
-Panel B: Least-exposed occupations,1,Fishing and Hunting Workers,22.32
-Panel B: Least-exposed occupations,2,Dancers,23.01
-Panel B: Least-exposed occupations,3,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",23.17
-Panel B: Least-exposed occupations,4,Structural Iron and Steel Workers,23.17
-Panel B: Least-exposed occupations,5,Dining Room and Cafeteria Attendants and Bartender Helpers,23.22
-Panel B: Least-exposed occupations,6,Helpers--Roofers,23.24
-Panel B: Least-exposed occupations,7,Choreographers,23.26
-Panel B: Least-exposed occupations,8,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",23.36
-Panel B: Least-exposed occupations,9,Roofers,23.49
-Panel B: Least-exposed occupations,10,Sailors and Marine Oilers,23.5
+Panel A: Most-exposed occupations,1,Operations Research Analysts,43.28
+Panel A: Most-exposed occupations,2,Actuaries,43.05
+Panel A: Most-exposed occupations,3,Financial Quantitative Analysts,42.91
+Panel A: Most-exposed occupations,4,Credit Analysts,42.83
+Panel A: Most-exposed occupations,5,Mathematicians,42.82
+Panel A: Most-exposed occupations,6,Economists,42.7
+Panel A: Most-exposed occupations,7,Biostatisticians,42.67
+Panel A: Most-exposed occupations,8,Survey Researchers,42.67
+Panel A: Most-exposed occupations,9,"Bookkeeping, Accounting, and Auditing Clerks",42.67
+Panel A: Most-exposed occupations,10,Statisticians,42.53
+Panel B: Least-exposed occupations,1,Fishing and Hunting Workers,32.4
+Panel B: Least-exposed occupations,2,Dancers,32.55
+Panel B: Least-exposed occupations,3,Structural Iron and Steel Workers,33.06
+Panel B: Least-exposed occupations,4,Choreographers,33.15
+Panel B: Least-exposed occupations,5,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",33.32
+Panel B: Least-exposed occupations,6,Helpers--Roofers,33.34
+Panel B: Least-exposed occupations,7,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",33.4
+Panel B: Least-exposed occupations,8,Sailors and Marine Oilers,33.63
+Panel B: Least-exposed occupations,9,Dining Room and Cafeteria Attendants and Bartender Helpers,33.65
+Panel B: Least-exposed occupations,10,Fallers,33.79

@@ -1,98 +1,98 @@
 Panel,Occupation,BWI 2026,Ability,Ability exposure,Importance (normalized),Level (normalized),BWI weight,Contribution
-Highest exposure,Economists,29.72,Written Comprehension,35.00,0.7800,0.7143,0.5571,19.50
-Highest exposure,Economists,29.72,Written Expression,45.50,0.7500,0.7143,0.5357,24.37
-Highest exposure,Economists,29.72,Oral Comprehension,18.00,0.7500,0.6971,0.5229,9.41
-Highest exposure,Economists,29.72,Oral Expression,30.00,0.7500,0.6971,0.5229,15.69
-Highest exposure,Economists,29.72,Inductive Reasoning,31.50,0.7800,0.6257,0.4881,15.37
-Highest exposure,Economists,29.72,Mathematical Reasoning,40.50,0.7800,0.6257,0.4881,19.77
-Highest exposure,Economists,29.72,Deductive Reasoning,22.75,0.7500,0.6429,0.4821,10.97
-Highest exposure,Economists,29.72,Speech Clarity,22.00,0.7500,0.6071,0.4554,10.02
-Highest exposure,Economists,29.72,Fluency of Ideas,22.50,0.7200,0.5714,0.4114,9.26
-Highest exposure,Economists,29.72,Problem Sensitivity,33.75,0.6550,0.5714,0.3743,12.63
-Highest exposure,Economists,29.72,Number Facility,30.00,0.6250,0.5886,0.3679,11.04
-Highest exposure,Economists,29.72,Speech Recognition,38.50,0.6550,0.5357,0.3509,13.51
-Highest exposure,Economists,29.72,Near Vision,26.00,0.6250,0.5357,0.3348,8.71
-Highest exposure,Economists,29.72,Information Ordering,19.50,0.5625,0.5357,0.3013,5.88
-Highest exposure,Economists,29.72,Originality,16.50,0.5300,0.5000,0.2650,4.37
-Highest exposure,Economists,29.72,Category Flexibility,31.50,0.5300,0.4643,0.2461,7.75
-Highest exposure,Economists,29.72,Memorization,32.00,0.4700,0.4114,0.1934,6.19
-Highest exposure,Economists,29.72,Selective Attention,33.00,0.4375,0.3929,0.1719,5.67
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Speech Recognition,38.50,0.7800,0.5886,0.4591,17.67
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Oral Comprehension,18.00,0.7800,0.5543,0.4323,7.78
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Written Comprehension,35.00,0.7200,0.5714,0.4114,14.40
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Oral Expression,30.00,0.7200,0.5714,0.4114,12.34
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Written Expression,45.50,0.7500,0.5357,0.4018,18.28
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Near Vision,26.00,0.7200,0.5543,0.3991,10.38
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Selective Attention,33.00,0.6875,0.4286,0.2946,9.72
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Information Ordering,19.50,0.5625,0.4286,0.2411,4.70
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Speech Clarity,22.00,0.5300,0.4286,0.2271,5.00
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Deductive Reasoning,22.75,0.4700,0.4114,0.1934,4.40
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Problem Sensitivity,33.75,0.4700,0.3743,0.1759,5.94
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Control Precision,49.50,0.4700,0.3571,0.1679,8.31
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Auditory Attention,24.50,0.4700,0.3571,0.1679,4.11
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Inductive Reasoning,31.50,0.4050,0.3571,0.1446,4.56
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Perceptual Speed,12.00,0.3750,0.3214,0.1205,1.45
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Time Sharing,15.75,0.3750,0.3029,0.1136,1.79
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Memorization,32.00,0.3125,0.3571,0.1116,3.57
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Far Vision,14.00,0.3125,0.3400,0.1062,1.49
-Second-highest exposure,Court Reporters and Simultaneous Captioners,29.71,Category Flexibility,31.50,0.3450,0.3029,0.1045,3.29
-Second-lowest exposure,Dancers,23.01,Gross Body Coordination,13.50,0.9375,0.7857,0.7366,9.94
-Second-lowest exposure,Dancers,23.01,Stamina,18.00,0.8125,0.6600,0.5363,9.65
-Second-lowest exposure,Dancers,23.01,Gross Body Equilibrium,12.00,0.7500,0.6971,0.5229,6.27
-Second-lowest exposure,Dancers,23.01,Multilimb Coordination,18.00,0.6550,0.5357,0.3509,6.32
-Second-lowest exposure,Dancers,23.01,Oral Comprehension,18.00,0.6250,0.5543,0.3464,6.24
-Second-lowest exposure,Dancers,23.01,Static Strength,13.50,0.6550,0.4457,0.2919,3.94
-Second-lowest exposure,Dancers,23.01,Speed of Limb Movement,42.75,0.5625,0.4829,0.2716,11.61
-Second-lowest exposure,Dancers,23.01,Oral Expression,30.00,0.5000,0.4829,0.2414,7.24
-Second-lowest exposure,Dancers,23.01,Near Vision,26.00,0.5300,0.4457,0.2362,6.14
-Second-lowest exposure,Dancers,23.01,Originality,16.50,0.4700,0.4829,0.2269,3.74
-Second-lowest exposure,Dancers,23.01,Speech Recognition,38.50,0.5000,0.4286,0.2143,8.25
-Second-lowest exposure,Dancers,23.01,Information Ordering,19.50,0.4700,0.4457,0.2095,4.08
-Second-lowest exposure,Dancers,23.01,Memorization,32.00,0.4700,0.4457,0.2095,6.70
-Second-lowest exposure,Dancers,23.01,Selective Attention,33.00,0.5000,0.4114,0.2057,6.79
-Second-lowest exposure,Dancers,23.01,Speech Clarity,22.00,0.4700,0.4286,0.2014,4.43
-Second-lowest exposure,Dancers,23.01,Problem Sensitivity,33.75,0.5000,0.3929,0.1964,6.63
-Second-lowest exposure,Dancers,23.01,Fluency of Ideas,22.50,0.4700,0.3929,0.1846,4.15
-Second-lowest exposure,Dancers,23.01,Far Vision,14.00,0.4700,0.3929,0.1846,2.59
-Second-lowest exposure,Dancers,23.01,Written Comprehension,35.00,0.4375,0.3929,0.1719,6.02
-Second-lowest exposure,Dancers,23.01,Category Flexibility,31.50,0.4375,0.3929,0.1719,5.41
-Second-lowest exposure,Dancers,23.01,Visualization,15.75,0.4375,0.3929,0.1719,2.71
-Second-lowest exposure,Dancers,23.01,Deductive Reasoning,22.75,0.4050,0.3929,0.1591,3.62
-Second-lowest exposure,Dancers,23.01,Written Expression,45.50,0.4050,0.3571,0.1446,6.58
-Second-lowest exposure,Dancers,23.01,Inductive Reasoning,31.50,0.3750,0.3743,0.1404,4.42
-Second-lowest exposure,Dancers,23.01,Explosive Strength,57.00,0.4050,0.3400,0.1377,7.85
-Second-lowest exposure,Dancers,23.01,Perceptual Speed,12.00,0.3750,0.3571,0.1339,1.61
-Second-lowest exposure,Dancers,23.01,Speed of Closure,13.50,0.3125,0.3743,0.1170,1.58
-Lowest exposure,Fishing and Hunting Workers,22.32,Spatial Orientation,18.00,0.8125,0.6971,0.5664,10.20
-Lowest exposure,Fishing and Hunting Workers,22.32,Far Vision,14.00,0.6875,0.5886,0.4046,5.67
-Lowest exposure,Fishing and Hunting Workers,22.32,Static Strength,13.50,0.6550,0.4829,0.3163,4.27
-Lowest exposure,Fishing and Hunting Workers,22.32,Near Vision,26.00,0.6250,0.4643,0.2902,7.54
-Lowest exposure,Fishing and Hunting Workers,22.32,Oral Expression,30.00,0.5625,0.4829,0.2716,8.15
-Lowest exposure,Fishing and Hunting Workers,22.32,Problem Sensitivity,33.75,0.5950,0.4457,0.2652,8.95
-Lowest exposure,Fishing and Hunting Workers,22.32,Depth Perception,20.00,0.5625,0.4643,0.2612,5.22
-Lowest exposure,Fishing and Hunting Workers,22.32,Oral Comprehension,18.00,0.5625,0.4286,0.2411,4.34
-Lowest exposure,Fishing and Hunting Workers,22.32,Control Precision,49.50,0.5625,0.4286,0.2411,11.93
-Lowest exposure,Fishing and Hunting Workers,22.32,Manual Dexterity,29.25,0.5625,0.4114,0.2314,6.77
-Lowest exposure,Fishing and Hunting Workers,22.32,Multilimb Coordination,18.00,0.5625,0.4114,0.2314,4.17
-Lowest exposure,Fishing and Hunting Workers,22.32,Inductive Reasoning,31.50,0.5950,0.3743,0.2227,7.02
-Lowest exposure,Fishing and Hunting Workers,22.32,Deductive Reasoning,22.75,0.5625,0.3929,0.2210,5.03
-Lowest exposure,Fishing and Hunting Workers,22.32,Hearing Sensitivity,19.25,0.5000,0.4286,0.2143,4.13
-Lowest exposure,Fishing and Hunting Workers,22.32,Category Flexibility,31.50,0.5000,0.4114,0.2057,6.48
-Lowest exposure,Fishing and Hunting Workers,22.32,Visual Color Discrimination,18.00,0.5000,0.4114,0.2057,3.70
-Lowest exposure,Fishing and Hunting Workers,22.32,Rate Control,29.25,0.4700,0.4286,0.2014,5.89
-Lowest exposure,Fishing and Hunting Workers,22.32,Glare Sensitivity,17.50,0.4700,0.4286,0.2014,3.53
-Lowest exposure,Fishing and Hunting Workers,22.32,Speed of Closure,13.50,0.4700,0.4114,0.1934,2.61
-Lowest exposure,Fishing and Hunting Workers,22.32,Stamina,18.00,0.4700,0.4114,0.1934,3.48
-Lowest exposure,Fishing and Hunting Workers,22.32,Information Ordering,19.50,0.4700,0.3929,0.1846,3.60
-Lowest exposure,Fishing and Hunting Workers,22.32,Sound Localization,17.50,0.4375,0.4114,0.1800,3.15
-Lowest exposure,Fishing and Hunting Workers,22.32,Speech Clarity,22.00,0.5000,0.3571,0.1786,3.93
-Lowest exposure,Fishing and Hunting Workers,22.32,Selective Attention,33.00,0.4700,0.3743,0.1759,5.81
-Lowest exposure,Fishing and Hunting Workers,22.32,Perceptual Speed,12.00,0.4700,0.3571,0.1679,2.01
-Lowest exposure,Fishing and Hunting Workers,22.32,Visualization,15.75,0.4375,0.3743,0.1638,2.58
-Lowest exposure,Fishing and Hunting Workers,22.32,Speech Recognition,38.50,0.4700,0.3400,0.1598,6.15
-Lowest exposure,Fishing and Hunting Workers,22.32,Night Vision,20.00,0.4050,0.3929,0.1591,3.18
-Lowest exposure,Fishing and Hunting Workers,22.32,Fluency of Ideas,22.50,0.4375,0.3571,0.1562,3.52
-Lowest exposure,Fishing and Hunting Workers,22.32,Auditory Attention,24.50,0.4375,0.3571,0.1562,3.83
-Lowest exposure,Fishing and Hunting Workers,22.32,Originality,16.50,0.4375,0.3400,0.1487,2.45
-Lowest exposure,Fishing and Hunting Workers,22.32,Gross Body Coordination,13.50,0.4050,0.3571,0.1446,1.95
-Lowest exposure,Fishing and Hunting Workers,22.32,Gross Body Equilibrium,12.00,0.4050,0.3571,0.1446,1.74
+Highest exposure,Operations Research Analysts,43.28,Mathematical Reasoning,75.00,0.8750,0.6786,0.5938,44.53
+Highest exposure,Operations Research Analysts,43.28,Inductive Reasoning,68.00,0.7800,0.6600,0.5148,35.01
+Highest exposure,Operations Research Analysts,43.28,Oral Comprehension,29.25,0.7500,0.6786,0.5089,14.89
+Highest exposure,Operations Research Analysts,43.28,Written Comprehension,49.00,0.7500,0.6786,0.5089,24.94
+Highest exposure,Operations Research Analysts,43.28,Deductive Reasoning,42.00,0.7800,0.6429,0.5014,21.06
+Highest exposure,Operations Research Analysts,43.28,Oral Expression,36.00,0.7500,0.6429,0.4821,17.36
+Highest exposure,Operations Research Analysts,43.28,Number Facility,30.00,0.7500,0.6257,0.4693,14.08
+Highest exposure,Operations Research Analysts,43.28,Problem Sensitivity,52.00,0.7500,0.5886,0.4414,22.95
+Highest exposure,Operations Research Analysts,43.28,Written Expression,45.50,0.7500,0.5714,0.4286,19.50
+Highest exposure,Operations Research Analysts,43.28,Information Ordering,31.50,0.7200,0.5886,0.4238,13.35
+Highest exposure,Operations Research Analysts,43.28,Fluency of Ideas,24.75,0.6550,0.5886,0.3855,9.54
+Highest exposure,Operations Research Analysts,43.28,Originality,16.50,0.6550,0.5714,0.3743,6.18
+Highest exposure,Operations Research Analysts,43.28,Category Flexibility,63.00,0.6550,0.5714,0.3743,23.58
+Highest exposure,Operations Research Analysts,43.28,Near Vision,42.00,0.6875,0.5357,0.3683,15.47
+Highest exposure,Operations Research Analysts,43.28,Speech Clarity,30.25,0.5625,0.4643,0.2612,7.90
+Highest exposure,Operations Research Analysts,43.28,Speech Recognition,42.00,0.5300,0.4286,0.2271,9.54
+Highest exposure,Operations Research Analysts,43.28,Selective Attention,33.00,0.5000,0.4286,0.2143,7.07
+Highest exposure,Operations Research Analysts,43.28,Memorization,40.00,0.4700,0.3929,0.1846,7.39
+Second-highest exposure,Actuaries,43.05,Mathematical Reasoning,75.00,0.9050,0.7143,0.6464,48.48
+Second-highest exposure,Actuaries,43.05,Number Facility,30.00,0.7800,0.6971,0.5438,16.31
+Second-highest exposure,Actuaries,43.05,Deductive Reasoning,42.00,0.7500,0.6971,0.5229,21.96
+Second-highest exposure,Actuaries,43.05,Inductive Reasoning,68.00,0.7800,0.6600,0.5148,35.01
+Second-highest exposure,Actuaries,43.05,Oral Comprehension,29.25,0.7500,0.6786,0.5089,14.89
+Second-highest exposure,Actuaries,43.05,Written Comprehension,49.00,0.7500,0.6786,0.5089,24.94
+Second-highest exposure,Actuaries,43.05,Oral Expression,36.00,0.7500,0.6786,0.5089,18.32
+Second-highest exposure,Actuaries,43.05,Written Expression,45.50,0.7500,0.5714,0.4286,19.50
+Second-highest exposure,Actuaries,43.05,Category Flexibility,63.00,0.7500,0.5714,0.4286,27.00
+Second-highest exposure,Actuaries,43.05,Problem Sensitivity,52.00,0.7200,0.5886,0.4238,22.04
+Second-highest exposure,Actuaries,43.05,Information Ordering,31.50,0.7200,0.5714,0.4114,12.96
+Second-highest exposure,Actuaries,43.05,Near Vision,42.00,0.6875,0.5886,0.4046,17.00
+Second-highest exposure,Actuaries,43.05,Speech Clarity,30.25,0.6550,0.5714,0.3743,11.32
+Second-highest exposure,Actuaries,43.05,Speech Recognition,42.00,0.5950,0.5714,0.3400,14.28
+Second-highest exposure,Actuaries,43.05,Fluency of Ideas,24.75,0.5300,0.5357,0.2839,7.03
+Second-highest exposure,Actuaries,43.05,Selective Attention,33.00,0.5625,0.4829,0.2716,8.96
+Second-highest exposure,Actuaries,43.05,Originality,16.50,0.4700,0.5000,0.2350,3.88
+Second-highest exposure,Actuaries,43.05,Perceptual Speed,20.00,0.4375,0.4114,0.1800,3.60
+Second-highest exposure,Actuaries,43.05,Far Vision,24.00,0.4050,0.3929,0.1591,3.82
+Second-lowest exposure,Dancers,32.55,Gross Body Coordination,21.00,0.9375,0.7857,0.7366,15.47
+Second-lowest exposure,Dancers,32.55,Stamina,27.50,0.8125,0.6600,0.5363,14.75
+Second-lowest exposure,Dancers,32.55,Gross Body Equilibrium,19.50,0.7500,0.6971,0.5229,10.20
+Second-lowest exposure,Dancers,32.55,Multilimb Coordination,27.00,0.6550,0.5357,0.3509,9.47
+Second-lowest exposure,Dancers,32.55,Oral Comprehension,29.25,0.6250,0.5543,0.3464,10.13
+Second-lowest exposure,Dancers,32.55,Static Strength,17.50,0.6550,0.4457,0.2919,5.11
+Second-lowest exposure,Dancers,32.55,Speed of Limb Movement,45.00,0.5625,0.4829,0.2716,12.22
+Second-lowest exposure,Dancers,32.55,Oral Expression,36.00,0.5000,0.4829,0.2414,8.69
+Second-lowest exposure,Dancers,32.55,Near Vision,42.00,0.5300,0.4457,0.2362,9.92
+Second-lowest exposure,Dancers,32.55,Originality,16.50,0.4700,0.4829,0.2269,3.74
+Second-lowest exposure,Dancers,32.55,Speech Recognition,42.00,0.5000,0.4286,0.2143,9.00
+Second-lowest exposure,Dancers,32.55,Information Ordering,31.50,0.4700,0.4457,0.2095,6.60
+Second-lowest exposure,Dancers,32.55,Memorization,40.00,0.4700,0.4457,0.2095,8.38
+Second-lowest exposure,Dancers,32.55,Selective Attention,33.00,0.5000,0.4114,0.2057,6.79
+Second-lowest exposure,Dancers,32.55,Speech Clarity,30.25,0.4700,0.4286,0.2014,6.09
+Second-lowest exposure,Dancers,32.55,Problem Sensitivity,52.00,0.5000,0.3929,0.1964,10.21
+Second-lowest exposure,Dancers,32.55,Fluency of Ideas,24.75,0.4700,0.3929,0.1846,4.57
+Second-lowest exposure,Dancers,32.55,Far Vision,24.00,0.4700,0.3929,0.1846,4.43
+Second-lowest exposure,Dancers,32.55,Written Comprehension,49.00,0.4375,0.3929,0.1719,8.42
+Second-lowest exposure,Dancers,32.55,Category Flexibility,63.00,0.4375,0.3929,0.1719,10.83
+Second-lowest exposure,Dancers,32.55,Visualization,29.75,0.4375,0.3929,0.1719,5.11
+Second-lowest exposure,Dancers,32.55,Deductive Reasoning,42.00,0.4050,0.3929,0.1591,6.68
+Second-lowest exposure,Dancers,32.55,Written Expression,45.50,0.4050,0.3571,0.1446,6.58
+Second-lowest exposure,Dancers,32.55,Inductive Reasoning,68.00,0.3750,0.3743,0.1404,9.54
+Second-lowest exposure,Dancers,32.55,Explosive Strength,75.00,0.4050,0.3400,0.1377,10.33
+Second-lowest exposure,Dancers,32.55,Perceptual Speed,20.00,0.3750,0.3571,0.1339,2.68
+Second-lowest exposure,Dancers,32.55,Speed of Closure,22.50,0.3125,0.3743,0.1170,2.63
+Lowest exposure,Fishing and Hunting Workers,32.4,Spatial Orientation,28.00,0.8125,0.6971,0.5664,15.86
+Lowest exposure,Fishing and Hunting Workers,32.4,Far Vision,24.00,0.6875,0.5886,0.4046,9.71
+Lowest exposure,Fishing and Hunting Workers,32.4,Static Strength,17.50,0.6550,0.4829,0.3163,5.53
+Lowest exposure,Fishing and Hunting Workers,32.4,Near Vision,42.00,0.6250,0.4643,0.2902,12.19
+Lowest exposure,Fishing and Hunting Workers,32.4,Oral Expression,36.00,0.5625,0.4829,0.2716,9.78
+Lowest exposure,Fishing and Hunting Workers,32.4,Problem Sensitivity,52.00,0.5950,0.4457,0.2652,13.79
+Lowest exposure,Fishing and Hunting Workers,32.4,Depth Perception,32.50,0.5625,0.4643,0.2612,8.49
+Lowest exposure,Fishing and Hunting Workers,32.4,Oral Comprehension,29.25,0.5625,0.4286,0.2411,7.05
+Lowest exposure,Fishing and Hunting Workers,32.4,Control Precision,58.50,0.5625,0.4286,0.2411,14.10
+Lowest exposure,Fishing and Hunting Workers,32.4,Manual Dexterity,35.00,0.5625,0.4114,0.2314,8.10
+Lowest exposure,Fishing and Hunting Workers,32.4,Multilimb Coordination,27.00,0.5625,0.4114,0.2314,6.25
+Lowest exposure,Fishing and Hunting Workers,32.4,Inductive Reasoning,68.00,0.5950,0.3743,0.2227,15.14
+Lowest exposure,Fishing and Hunting Workers,32.4,Deductive Reasoning,42.00,0.5625,0.3929,0.2210,9.28
+Lowest exposure,Fishing and Hunting Workers,32.4,Hearing Sensitivity,22.75,0.5000,0.4286,0.2143,4.88
+Lowest exposure,Fishing and Hunting Workers,32.4,Category Flexibility,63.00,0.5000,0.4114,0.2057,12.96
+Lowest exposure,Fishing and Hunting Workers,32.4,Visual Color Discrimination,26.00,0.5000,0.4114,0.2057,5.35
+Lowest exposure,Fishing and Hunting Workers,32.4,Rate Control,31.50,0.4700,0.4286,0.2014,6.35
+Lowest exposure,Fishing and Hunting Workers,32.4,Glare Sensitivity,19.25,0.4700,0.4286,0.2014,3.88
+Lowest exposure,Fishing and Hunting Workers,32.4,Speed of Closure,22.50,0.4700,0.4114,0.1934,4.35
+Lowest exposure,Fishing and Hunting Workers,32.4,Stamina,27.50,0.4700,0.4114,0.1934,5.32
+Lowest exposure,Fishing and Hunting Workers,32.4,Information Ordering,31.50,0.4700,0.3929,0.1846,5.82
+Lowest exposure,Fishing and Hunting Workers,32.4,Sound Localization,19.25,0.4375,0.4114,0.1800,3.46
+Lowest exposure,Fishing and Hunting Workers,32.4,Speech Clarity,30.25,0.5000,0.3571,0.1786,5.40
+Lowest exposure,Fishing and Hunting Workers,32.4,Selective Attention,33.00,0.4700,0.3743,0.1759,5.81
+Lowest exposure,Fishing and Hunting Workers,32.4,Perceptual Speed,20.00,0.4700,0.3571,0.1679,3.36
+Lowest exposure,Fishing and Hunting Workers,32.4,Visualization,29.75,0.4375,0.3743,0.1638,4.87
+Lowest exposure,Fishing and Hunting Workers,32.4,Speech Recognition,42.00,0.4700,0.3400,0.1598,6.71
+Lowest exposure,Fishing and Hunting Workers,32.4,Night Vision,28.00,0.4050,0.3929,0.1591,4.45
+Lowest exposure,Fishing and Hunting Workers,32.4,Fluency of Ideas,24.75,0.4375,0.3571,0.1562,3.87
+Lowest exposure,Fishing and Hunting Workers,32.4,Auditory Attention,39.00,0.4375,0.3571,0.1562,6.09
+Lowest exposure,Fishing and Hunting Workers,32.4,Originality,16.50,0.4375,0.3400,0.1487,2.45
+Lowest exposure,Fishing and Hunting Workers,32.4,Gross Body Coordination,21.00,0.4050,0.3571,0.1446,3.04
+Lowest exposure,Fishing and Hunting Workers,32.4,Gross Body Equilibrium,19.50,0.4050,0.3571,0.1446,2.82

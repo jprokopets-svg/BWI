@@ -5,6 +5,8 @@ All figures are built from the CSVs in `data/` and `appendix/` (version 2, all s
 | File | What it shows |
 |---|---|
 | [fig_ability_year_heatmap.png](fig_ability_year_heatmap.png) | Exposure of all 52 abilities by year, 2020 to 2026; hatched cells have no benchmark. |
+| [fig_radar_fastest_growing.png](fig_radar_fastest_growing.png) | Radar of the twelve abilities whose exposure grew most from 2020 to 2026, drawn for 2020, 2023 and 2026. |
+| [fig_radar_top12.png](fig_radar_top12.png) | Radar of the twelve most exposed abilities in 2026, same three years. |
 | [fig_growth_extremes.png](fig_growth_extremes.png) | The ten occupations whose exposure grew most and least from 2020 to 2026, teachers bundled. |
 | [fig_scatter_bwi_aei.png](fig_scatter_bwi_aei.png) | BWI 2024 exposure against AI usage in early 2025 for the 339 occupations with recorded usage; the 405 without are the rug below the axis. |
 | [fig_quadrants_2024_2025.png](fig_quadrants_2024_2025.png) | The same pairing as quadrants, with 36 occupations labelled. |

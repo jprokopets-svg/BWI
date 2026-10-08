@@ -9,7 +9,7 @@ def fmt(v,d=2): return '' if v in ('',None) else f'{float(v):.{d}f}'
 # gate
 occ=rd(f'{D}/occupation_exposure.csv'); o26=[r for r in occ if r['year']=='2026' and r['exposure_raw']]
 top=max(o26,key=lambda r:float(r['exposure_raw'])); mean26=st.mean(float(r['exposure_raw']) for r in o26)
-assert top['occupation_title']=='Economists' and top['exposure_raw']=='29.72' and round(mean26,2)==26.66,'PROVENANCE FAILED'; print('gate OK')
+assert top['occupation_title']=='Operations Research Analysts' and top['exposure_raw']=='43.28' and round(mean26,2)==38.31,'PROVENANCE FAILED'; print('gate OK')
 # ---- A ----
 E=collections.defaultdict(dict); title={}
 for r in occ:
