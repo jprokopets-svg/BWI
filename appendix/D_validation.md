@@ -6,10 +6,10 @@ Two waves of the Anthropic Economic Index (AEI) are used. **Wave 1, early 2025**
 
 | BWI vintage | Usage early 2025: Spearman | n | Usage Apr-May 2026: Spearman | n |
 |---|---|---|---|---|
-| 2023 | 0.536 | 744 | 0.369 | 592 |
-| 2024 | 0.559 | 744 | 0.408 | 592 |
-| 2025 | 0.593 | 744 | 0.432 | 592 |
-| 2026 | 0.543 | 744 | 0.360 | 592 |
+| 2023 | 0.627 | 744 | 0.442 | 592 |
+| 2024 | 0.615 | 744 | 0.446 | 592 |
+| 2025 | 0.633 | 744 | 0.468 | 592 |
+| 2026 | 0.620 | 744 | 0.438 | 592 |
 
 The 2026 vintage is year-to-date: it uses benchmark results published up to 28 September 2026. Where a mapped ability had no verifiable 2026 result, its 2025 value is carried forward (one year only).
 
@@ -22,8 +22,8 @@ Outcome: percentile rank of April to May 2026 usage. Regressors are percentile r
 | Model | Past usage (2025) | BWI 2025 | R² | CV R² | CV RMSE | n |
 |---|---|---|---|---|---|---|
 | M1: past usage only | 0.571 (0.035) |  | 0.311 | 0.307 | 23.69 | 566 |
-| M2: BWI 2025 only |  | 0.425 (0.035) | 0.186 | 0.184 | 25.70 | 566 |
-| M3: past usage + BWI 2025 | 0.468 (0.040) | 0.193 (0.035) | 0.340 | 0.333 | 23.24 | 566 |
+| M2: BWI 2025 only |  | 0.461 (0.033) | 0.219 | 0.217 | 25.18 | 566 |
+| M3: past usage + BWI 2025 | 0.441 (0.040) | 0.225 (0.035) | 0.348 | 0.340 | 23.11 | 566 |
 
 Source: [D2_prediction_horserace.csv](D2_prediction_horserace.csv) (also has a log-scale version).
 
@@ -33,13 +33,13 @@ Outcome: percentile rank of early-2025 usage. Exposure measures as percentile ra
 
 | Specification | BWI 2024 | Felten AIOE | Eloundou | R² | n |
 |---|---|---|---|---|---|
-| (a) BWI alone | 0.512 (0.025) |  |  | 0.313 | 744 |
-| (b) + Felten | 0.018 (0.060) | 0.551 (0.060) |  | 0.389 | 668 |
-| (c) + Felten + occupation-group effects | 0.072 (0.067) | 0.389 (0.071) |  | 0.482 | 668 |
-| (d) + Felten + group effects + wage, employment, education | -0.007 (0.067) | 0.423 (0.073) |  | 0.519 | 659 |
-| (e) + Eloundou | 0.038 (0.041) |  | 0.610 (0.038) | 0.488 | 744 |
-| (f) + Eloundou + group effects + controls | 0.004 (0.054) |  | 0.525 (0.047) | 0.584 | 732 |
-| (g) + Felten + Eloundou + group effects + controls | -0.054 (0.063) | 0.132 (0.079) | 0.463 (0.059) | 0.564 | 659 |
+| (a) BWI alone | 0.563 (0.024) |  |  | 0.378 | 744 |
+| (b) + Felten | 0.115 (0.101) | 0.456 (0.103) |  | 0.391 | 668 |
+| (c) + Felten + occupation-group effects | 0.208 (0.118) | 0.269 (0.113) |  | 0.485 | 668 |
+| (d) + Felten + group effects + wage, employment, education | 0.085 (0.114) | 0.353 (0.114) |  | 0.520 | 659 |
+| (e) + Eloundou | 0.081 (0.049) |  | 0.571 (0.046) | 0.490 | 744 |
+| (f) + Eloundou + group effects + controls | 0.061 (0.067) |  | 0.498 (0.053) | 0.585 | 732 |
+| (g) + Felten + Eloundou + group effects + controls | -0.040 (0.110) | 0.132 (0.111) | 0.462 (0.059) | 0.563 | 659 |
 
 Source: [D3_incremental_regressions.csv](D3_incremental_regressions.csv).
 
@@ -54,13 +54,13 @@ Among the 339 occupations with recorded usage, high and low are relative to the 
 | Credit Analysts | 37.68 | 16.85 |
 | Loan Officers | 36.99 | 18.57 |
 | Industrial-Organizational Psychologists | 36.89 | 15.77 |
-| Logisticians | 36.34 | 15.71 |
 | Dietitians and Nutritionists | 36.27 | 13.28 |
-| Web Developers | 34.80 | 48.02 |
-| Social Science Research Assistants | 34.71 | 43.93 |
-| Customer Service Representatives | 34.57 | 70.11 |
-| Office Clerks, General | 34.44 | 45.04 |
-| Information Security Analysts | 34.31 | 48.59 |
+| Educational, Guidance, and Career Counselors and Advisors | 35.83 | 11.82 |
+| Agents and Business Managers of Artists, Performers, and Athletes | 35.81 | 11.80 |
+| Customer Service Representatives | 34.46 | 70.11 |
+| Office Clerks, General | 34.19 | 45.04 |
+| Public Relations Specialists | 34.14 | 45.30 |
+| Medical Secretaries and Administrative Assistants | 33.99 | 36.23 |
 
 **Latent exposure** (high capability, low use)
 
@@ -68,44 +68,44 @@ Among the 339 occupations with recorded usage, high and low are relative to the 
 |---|---|---|
 | Actuaries | 39.00 | 5.39 |
 | Financial Examiners | 37.42 | 4.28 |
-| Physical Scientists | 36.83 | 3.79 |
 | Medical Scientists | 36.60 | 3.81 |
+| Physical Scientists | 36.43 | 3.79 |
 | Sales Managers | 36.42 | 4.33 |
 | Tax Examiners and Collectors, and Revenue Agents | 36.26 | 2.75 |
 | Genetic Counselors | 36.21 | 1.23 |
-| Geoscientists | 36.13 | 4.30 |
-| Industrial Engineers | 35.86 | 3.67 |
+| Atmospheric and Space Scientists | 35.84 | 3.80 |
+| Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary | 35.84 | 3.96 |
 | Civil Engineers | 35.78 | 0.81 |
 
 **Adoption ahead** (low capability, high use)
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Fine Artists | 29.66 | 35.65 |
-| Court Reporters and Simultaneous Captioners | 30.66 | 34.31 |
-| Desktop Publishers | 31.70 | 46.40 |
-| Graphic Designers | 31.94 | 36.72 |
-| Switchboard Operators | 31.99 | 38.63 |
-| Medical Transcriptionists | 32.12 | 63.65 |
-| Special Effects Artists and Animators | 32.39 | 35.71 |
-| Secretaries and Administrative Assistants | 32.67 | 45.28 |
-| Interpreters and Translators | 32.70 | 43.04 |
-| Data Entry Keyers | 32.93 | 67.07 |
+| Fine Artists | 26.75 | 35.65 |
+| Desktop Publishers | 31.06 | 46.40 |
+| Graphic Designers | 31.10 | 36.72 |
+| Court Reporters and Simultaneous Captioners | 31.13 | 34.31 |
+| Special Effects Artists and Animators | 31.44 | 35.71 |
+| Medical Transcriptionists | 31.52 | 63.65 |
+| Switchboard Operators | 31.89 | 38.63 |
+| Interpreters and Translators | 32.37 | 43.04 |
+| Computer User Support Specialists | 32.49 | 46.85 |
+| Data Entry Keyers | 33.04 | 67.07 |
 
 **Low pressure** (low capability, low use)
 
 | Occupation | BWI 2024 exposure | AI usage (% of tasks observed) |
 |---|---|---|
-| Computer, Automated Teller, and Office Machine Repairers | 29.75 | 10.67 |
-| Baggage Porters and Bellhops | 29.86 | 7.30 |
-| Choreographers | 29.93 | 8.01 |
-| Actors | 31.36 | 10.11 |
-| Prepress Technicians and Workers | 32.06 | 10.18 |
-| Occupational Therapists | 33.34 | 0.80 |
-| Cargo and Freight Agents | 33.47 | 1.65 |
-| Pharmacy Aides | 33.61 | 2.20 |
+| Choreographers | 24.46 | 8.01 |
+| Baggage Porters and Bellhops | 25.07 | 7.30 |
+| Computer, Automated Teller, and Office Machine Repairers | 27.78 | 10.67 |
+| Occupational Therapists | 32.52 | 0.80 |
+| Surveyors | 33.26 | 0.22 |
+| Industrial Production Managers | 33.43 | 1.32 |
+| Cargo and Freight Agents | 33.44 | 1.65 |
+| Special Education Teachers, Preschool | 33.61 | 0.58 |
+| Funeral Home Managers | 33.61 | 1.08 |
 | Library Science Teachers, Postsecondary | 33.71 | 1.80 |
-| Historians | 33.78 | 2.80 |
 
 Source: [D4_quadrants_2024.csv](D4_quadrants_2024.csv); the paper's 2026 version is [tables/table07_quadrants.csv](../tables/table07_quadrants.csv).
 

@@ -1,6 +1,6 @@
 # C. Benchmarks
 
-One row for every ability and year that has a value (220 rows). Capability is the human-comparative score (0 to 10; 5 = matches the median worker); transferability is the mean of four factors (task realism, evaluation conditions, construct coverage, format match), 0 to 10; exposure is their product. "Entered" is the first year the benchmark was selected for any ability.
+One row for every ability and year that has a value (220 rows). Capability is the human-comparative score (0 to 10; 5 = matches the median worker); transferability is a 0 to 10 judgment of how much a strong result on the benchmark demonstrates the ability as workers use it (deductions for construct contamination, narrow coverage and ceiling or floor effects; see E for the prompt); exposure is their product. "Entered" is the first year the benchmark was selected for any ability.
 The 2026 vintage is year-to-date: it uses benchmark results published up to 28 September 2026. Where a mapped ability had no verifiable 2026 result, its 2025 value is carried forward (one year only).
 
 | Ability | Year | Benchmark | Capability | Transferability | Exposure | Entered | Carried forward |
@@ -56,7 +56,6 @@ The 2026 vintage is year-to-date: it uses benchmark results published up to 28 S
 | Number Facility | 2022 | BIG-Bench Hard (Multistep Arithmetic Two) | 4.0 | 7.0 | 28.00 | 2022 |  |
 | Number Facility | 2023 | MATH 401 | 6.0 | 7.0 | 42.00 | 2023 |  |
 | Number Facility | 2025 | ORCA | 6.0 | 5.0 | 30.00 | 2025 |  |
-| Number Facility | 2026 | ORCA | 6.0 | 5.0 | 30.00 | 2025 | yes |
 | Oral Comprehension | 2020 | Spoken-SQuAD | 4.0 | 6.0 | 24.00 | 2020 |  |
 | Oral Comprehension | 2021 | Spoken SQuAD | 4.0 | 6.0 | 24.00 | 2021 |  |
 | Oral Comprehension | 2022 | SLURP | 4.5 | 4.5 | 20.25 | 2022 |  |
@@ -158,7 +157,6 @@ The 2026 vintage is year-to-date: it uses benchmark results published up to 28 S
 | Gross Body Equilibrium | 2025 | HumanoidBench | 3.0 | 6.5 | 19.50 | 2024 |  |
 | Gross Body Equilibrium | 2026 | HumanoidBench | 3.0 | 6.5 | 19.50 | 2024 |  |
 | Stamina | 2025 | Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) | 5.0 | 5.5 | 27.50 | 2025 |  |
-| Stamina | 2026 | Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) | 5.0 | 5.5 | 27.50 | 2025 | yes |
 | Static Strength | 2026 | World Humanoid Robot Games Weightlifting | 2.5 | 7.0 | 17.50 | 2026 |  |
 | Auditory Attention | 2020 | WSJ0-2mix | 7.0 | 6.0 | 42.00 | 2020 |  |
 | Auditory Attention | 2021 | WHAM! | 6.0 | 7.0 | 42.00 | 2021 |  |
@@ -184,7 +182,6 @@ The 2026 vintage is year-to-date: it uses benchmark results published up to 28 S
 | Glare Sensitivity | 2021 | WildDash | 4.0 | 4.0 | 16.00 | 2021 |  |
 | Glare Sensitivity | 2023 | GLARE | 4.0 | 5.5 | 22.00 | 2023 |  |
 | Glare Sensitivity | 2025 | GLARE | 3.5 | 5.5 | 19.25 | 2023 |  |
-| Glare Sensitivity | 2026 | GLARE | 3.5 | 5.5 | 19.25 | 2023 | yes |
 | Hearing Sensitivity | 2022 | HEAR | 7.0 | 5.0 | 35.00 | 2022 |  |
 | Hearing Sensitivity | 2023 | MARBLE | 7.0 | 3.5 | 24.50 | 2023 |  |
 | Hearing Sensitivity | 2025 | STAR-Bench | 3.0 | 6.5 | 19.50 | 2025 |  |
