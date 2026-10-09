@@ -41,13 +41,11 @@ Sound Localization,19.25,DCASE2026 Challenge Task 3
 Static Strength,17.50,World Humanoid Robot Games Weightlifting
 Originality,16.50,NoveltyBench
 Flexibility of Closure,,
-Arm-Hand Steadiness,,
-Dynamic Flexibility,,
-Dynamic Strength,,
-Extent Flexibility,,
-Finger Dexterity,,
-Peripheral Vision,,
-Reaction Time,,
-Response Orientation,,
-Trunk Strength,,
-Wrist-Finger Speed,,
+Arm-Hand Steadiness,0.00,no benchmark observed (counted as zero)
+Dynamic Flexibility,0.00,no benchmark observed (counted as zero)
+Dynamic Strength,0.00,no benchmark observed (counted as zero)
+Extent Flexibility,0.00,no benchmark observed (counted as zero)
+Peripheral Vision,0.00,no benchmark observed (counted as zero)
+Reaction Time,0.00,no benchmark observed (counted as zero)
+Response Orientation,0.00,no benchmark observed (counted as zero)
+Trunk Strength,0.00,no benchmark observed (counted as zero)

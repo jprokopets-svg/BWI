@@ -13,7 +13,7 @@ Every table below renders in the browser; the CSV behind each is linked at the b
 | Section | Contents |
 |---|---|
 | [A. Occupation exposure](appendix/A_occupation_exposure.md) | All 894 occupations, 2020 to 2026, sorted by 2026 |
-| [B. Abilities](appendix/B_abilities.md) | All 52 abilities by year, unmeasured ones marked, and the abilities that enter the 2026 scores |
+| [B. Abilities](appendix/B_abilities.md) | All 52 abilities by year, the eight zero-filled abilities marked, and the abilities that enter the 2026 scores |
 | [C. Benchmarks](appendix/C_benchmarks.md) | Every selected benchmark with capability, transferability, year entered and carry-forward flag; resolution counts per year |
 | [D. Validation](appendix/D_validation.md) | Rank correlation with observed AI use in two waves, the prediction horse race, the Felten and Eloundou comparison, the capability-adoption quadrants, and a component ablation of the judge scores |
 | [E. Prompts](appendix/E_prompts.md) | The three prompts, verbatim |
@@ -22,26 +22,17 @@ Every table below renders in the browser; the CSV behind each is linked at the b
 
 ## How the index is built
 
-### Judge prompts, revised 7 October 2026
+All stages run on Claude Opus 5.5 for every year 2020 to 2026. For each ability and year the judge selects the single public benchmark that best measures the ability and extracts the strongest verifiable result by the cutoff (31 December for 2020 to 2025; 28 September 2026 for the 2026 vintage, which is therefore year-to-date). Each result is rated for capability on a 0 to 10 scale anchored on the median worker in a fixed reference population for that ability (5 = matches the median worker, 10 = above the entire population), with validity concerns recorded as flags rather than deducted. Each benchmark-ability pair is rated once for transferability on a 0 to 10 scale that asks how much a strong result on the benchmark demonstrates the ability as workers use it, with deductions only for construct contamination, narrow coverage and ceiling or floor effects; abstract or academic material is not penalised. Ability exposure is capability times transferability. Where a benchmarked ability has no verifiable 2026 result its 2025 value is carried forward (five abilities). Occupation exposure is the O*NET importance-times-level weighted mean of ability exposure over the highest-weighted abilities that together cover 90% of the available weight. The eight abilities that have no benchmark in any year count as zero exposure and take part in that weighting; abilities that are benchmarked in some year but have no value in a given year are left out of that year. The prompts are in `prompts/`.
 
-The capability and transferability prompts in `prompts/` are the revised versions used for the current data. Benchmark selection and score extraction (Step 1 and 2) are unchanged. Capability (Step 3) now scores against a fixed reference population per ability, records validity concerns as flags instead of deducting them from the score, and flags abilities where the median worker is near the benchmark ceiling. Transferability (Step 4) now asks whether strong performance on the benchmark shows the ability, with deductions only for construct contamination, narrow coverage and ceiling or floor effects; abstract or academic material is not a deduction. Against the earlier prompts, capability scores are nearly unchanged (rank correlation 0.97) and transferability scores are higher and more spread (mean 4.3 to 5.8, range 2.5 to 8.5), so ability and occupation exposures are higher in level; occupation rank order is 95% correlated with the previous data. Rank correlations with observed AI usage are unchanged to two decimals.
-
-### What changed from version 1
-
-- Benchmark selection and score extraction are one call per ability and year, made by Claude Opus 5.5 with live web search, using `prompts/step1_2_benchmark_selection_and_score_extraction.txt`. Each ability-year gets one selected benchmark or "no adequate benchmark".
-- Capability scores (0-10) are anchored to the median relevant human, rated by Claude Opus 5.5 with `prompts/step3_capability_rating.txt`.
-- Transferability (0-10, four factors) is rated by Claude Opus 5.5 with `prompts/step4_transferability.txt`, once per benchmark-ability pair.
-- Ability exposure is capability × transferability for the single selected benchmark. This is the per-benchmark form of the version 1 formula, which weighted several benchmarks by transferability; with one benchmark the weighting reduces to the product.
-- Where a mapped ability has no verifiable result in the current year, the most recent prior year's value is carried forward, as in earlier vintages (one year back only; abilities that were also unmeasured the year before, and abilities with no benchmark at all, stay empty). Carried cells are labelled `carry_forward_2025` in `resolution` and `exposure_source`.
-- Occupation aggregation is unchanged: O*NET importance × level weights, abilities without a value excluded, and only the highest-weighted abilities used until 90% of the available weight is covered. The share of an occupation's ability weight that has no measurement is reported alongside the score.
+Previous releases are in the git history: tag `v2.0-opus` (same pipeline, earlier capability and transferability prompts, unbenchmarked abilities left out of the occupation mean) and branch `v1-release`.
 
 ## What is in each file
 
 **data/benchmark_ability_year.csv** (364 rows, 52 abilities × 7 years). The selected benchmark for each ability and year, its selection rubric score, the extracted result (system, score, metric, provenance), the capability score with the human reference group the rater used, the transferability weight, and the resulting ability exposure. Rows with no benchmark are empty beyond the year.
 
-**data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `carry_forward_2025`, `no adequate benchmark`, `no extracted score`, or `ungradable`.
+**data/ability_year_exposure.csv** (364 rows). The exposure score per ability and year, the selected benchmark, and how the value was resolved: `single judge`, `carry_forward_2025`, `no adequate benchmark`, `no extracted score`, `ungradable`, or `no benchmark observed (counted as zero)` for the eight abilities with no benchmark in any year (exposure 0.0).
 
-**data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2026 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight that was unmeasured.
+**data/occupation_exposure.csv** (6,258 rows, 894 occupations × 7 years). `exposure_raw` on the 0-100 scale, three standardized versions (within year, anchored to the 2026 distribution, within SOC major group), the number of abilities used, and the share of the occupation's ability weight on abilities with no value that year (the eight zero-filled abilities count as measured).
 
 **data/onet_ability_weights.csv**. Normalized O*NET importance and level ratings and their product for every occupation and ability. Derived from the O*NET 30.3 Database; no raw O*NET files are included.
 

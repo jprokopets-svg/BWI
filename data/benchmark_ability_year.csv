@@ -20,30 +20,30 @@ Spatial Orientation,cognitive,2020,Habitat Challenge 2020 PointNav,31,DAN / SLAM
 Visualization,cognitive,2020,ShapeNet-SRN,24,pixelNeRF,23.72,"PSNR (dB), higher is better",verified,standard,3.5,"Adults employed in occupations where Visualization is important (O*NET importance 3 or higher); the typical worker, not spatial-ability specialists.",4.0,14.0,measured
 Selective Attention,cognitive,2020,Adversarial SQuAD,23,"InfoBERT (RoBERTa-large, standard training on SQuAD 1.1)",78.5,F1 (%) on the AddSent adversarial set,verified,standard,5.0,Adults employed in occupations where Selective Attention is important (O*NET importance 3 or higher); the median typical worker. Approximated by the crowdworker human evaluation in Jia & Liang (2017).,4.5,22.5,measured
 Time Sharing,cognitive,2020,,,,,,,,,,,,
-Arm-Hand Steadiness,psychomotor,2020,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2020,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2020,Robotic Grasping and Manipulation Competition,24,Team SDU (University of Southern Denmark) autonomous assembly workstation,317,"competition points (273 task points maximum, plus a time bonus)",verified,standard,4.5,"Adults employed in occupations where Manual Dexterity is important (O*NET importance 3 or higher), such as assemblers, machine operators and technicians: the typical worker, not elite performers.",6.0,27.0,measured
 Finger Dexterity,psychomotor,2020,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,22,Team SDU Robotics (University of Southern Denmark) robot system,317,"competition points (task maximum 273 = 92 disassembly + 181 assembly, plus a time bonus for finishing early)",verified,unknown,5.0,"Adults employed in occupations where Finger Dexterity is important (O*NET importance >=3), e.g. assemblers, technicians and machine operators: the typical worker, not elite performers.",5.5,27.5,measured
 Control Precision,psychomotor,2020,DeepMind Control Suite,26,,,episode return (0-1000 per task),verified,unknown,,,5.5,,
 Multilimb Coordination,psychomotor,2020,,,,,,,,,,,,
-Response Orientation,psychomotor,2020,,,,,,,,,,,,
+Response Orientation,psychomotor,2020,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2020,,,,,,,,,,,,
-Reaction Time,psychomotor,2020,,,,,,,,,,,,
+Reaction Time,psychomotor,2020,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2020,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2020,,,,,,,,,,,,
 Static Strength,physical,2020,,,,,,,,,,,,
 Explosive Strength,physical,2020,,,,,,,,,,,,
-Dynamic Strength,physical,2020,,,,,,,,,,,,
-Trunk Strength,physical,2020,,,,,,,,,,,,
+Dynamic Strength,physical,2020,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2020,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2020,,,,,,,,,,,,
-Extent Flexibility,physical,2020,,,,,,,,,,,,
-Dynamic Flexibility,physical,2020,,,,,,,,,,,,
+Extent Flexibility,physical,2020,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2020,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2020,DeepMind Control Suite,28,D4PG (low-dimensional state features),463.6,mean episode return on humanoid:run (0-1000 scale),verified,standard,4.0,"Median adult employed in occupations where Gross Body Coordination is important (O*NET importance ≥3), e.g. construction laborers, movers, firefighters and similar physically active workers; typical workers, not athletes.",5.0,20.0,measured
 Gross Body Equilibrium,physical,2020,,,,,,,,,,,,
 Near Vision,sensory,2020,MVTec AD,26,PaDiM (EfficientNet-B5 backbone),97.9,Mean image-level AUROC (%) across the 15 MVTec AD categories,verified,standard,5.0,"Adults employed in occupations where Near Vision is an important part of the job (O*NET importance 3 or higher): the typical worker in those jobs, not elite performers or specialists trained specifically in this ability.",5.5,27.5,measured
 Far Vision,sensory,2020,TinyPerson,26,"Faster R-CNN-FPN with Scale Match (RSM) COCO pretraining, ResNet-50",51.33,AP50-tiny (%) on the TinyPerson test set,verified,standard,4.0,"Adults employed in occupations where Far Vision is important (O*NET importance >=3), median worker",6.0,24.0,measured
 Visual Color Discrimination,sensory,2020,Colors in Context,20,"Monroe et al. 2017 blended pragmatic listener ensemble (Le), which combines an RNN literal listener with a speaker-derived pragmatic listener",86.98,"listener accuracy (%), test set, averaged over all conditions (far/split/close)",verified,standard,4.5,"Adults employed in occupations where Visual Color Discrimination is important (O*NET importance ≥3), median worker; approximated by the human listeners (MTurk adults) in the Colors in Context reference game",2.5,11.25,measured
 Night Vision,sensory,2020,Dark Zurich,30,"MGCDA (Map-Guided Curriculum Domain Adaptation, RefineNet ResNet-101 backbone)",42.5,mIoU (%) over 19 Cityscapes classes on Dark Zurich-test,verified,augmented,3.0,"Adults employed in occupations where Night Vision is important (O*NET importance ≥3), such as drivers, police and security officers, and transport workers. The typical worker, not night-vision specialists.",7.5,22.5,measured
-Peripheral Vision,sensory,2020,,,,,,,,,,,,
+Peripheral Vision,sensory,2020,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2020,KITTI Depth Prediction Benchmark,32,ViP-DeepLab,10.8,"SILog (scale-invariant logarithmic error ×100, on the official KITTI test server; lower is better)",verified,augmented,6.0,"Median adult employed in occupations where Depth Perception has O*NET importance of 3 or higher (e.g., drivers, equipment operators, construction trades), judging distances to scene contents in outdoor driving-type scenes from a single monocular image.",7.0,42.0,measured
 Glare Sensitivity,sensory,2020,,,,,,,,,,,,
 Hearing Sensitivity,sensory,2020,,,,,,,,,,,,
@@ -72,30 +72,30 @@ Spatial Orientation,cognitive,2021,Habitat Challenge 2021 PointNav,28,VO for Rea
 Visualization,cognitive,2021,SPARE3D,25,,,accuracy (%) per task; no single aggregate metric,,unknown,,,6.0,,
 Selective Attention,cognitive,2021,Distracting Control Suite,25,,,episode return (0-1000 per task); no single canonical aggregate,,unknown,,,4.5,,
 Time Sharing,cognitive,2021,,,,,,,,,,,,
-Arm-Hand Steadiness,psychomotor,2021,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2021,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2021,D4RL,22,,,"D4RL normalized score (0 = random policy, 100 = expert policy), reported per task",,unknown,,,3.5,,
 Finger Dexterity,psychomotor,2021,World Robot Summit Assembly Challenge,22,,,,,unknown,,,7.0,,
 Control Precision,psychomotor,2021,CARLA Leaderboard,27,"World on Rails (Rails), Chen & Koltun, UT Austin / Intel Labs",31.37,"CARLA Leaderboard 1.0 Driving Score (0-100, route completion × infraction penalty), SENSORS track",verified,standard,3.0,"Median adult employed in occupations where Control Precision is important (e.g., vehicle drivers, equipment and machine operators); no published human baseline, inferred from task difficulty",2.5,7.5,measured
 Multilimb Coordination,psychomotor,2021,,,,,,,,,,,,
-Response Orientation,psychomotor,2021,,,,,,,,,,,,
+Response Orientation,psychomotor,2021,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2021,Arcade Learning Environment,23,GDI-H3,9620.98,mean human-normalized score across 57 Atari games (%),verified,standard,9.0,"Adults employed in occupations where Rate Control is important (O*NET importance 3 or higher), the typical worker. Their median performance on Atari games is inferred to be at or below the ALE professional game-tester baseline (100% HNS).",3.0,27.0,measured
-Reaction Time,psychomotor,2021,,,,,,,,,,,,
+Reaction Time,psychomotor,2021,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2021,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2021,,,,,,,,,,,,
 Static Strength,physical,2021,,,,,,,,,,,,
 Explosive Strength,physical,2021,,,,,,,,,,,,
-Dynamic Strength,physical,2021,,,,,,,,,,,,
-Trunk Strength,physical,2021,,,,,,,,,,,,
+Dynamic Strength,physical,2021,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2021,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2021,,,,,,,,,,,,
-Extent Flexibility,physical,2021,,,,,,,,,,,,
-Dynamic Flexibility,physical,2021,,,,,,,,,,,,
+Extent Flexibility,physical,2021,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2021,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2021,DeepMind Control Suite,28,D4PG (state observations),463.6,mean episode return (0-1000 scale),verified,standard,3.5,"Median adult employed in occupations where Gross Body Coordination has O*NET importance of 3 or higher (e.g., construction laborers, firefighters, warehouse workers): typical, not elite, physical workers.",5.0,17.5,measured
 Gross Body Equilibrium,physical,2021,,,,,,,,,,,,
 Near Vision,sensory,2021,MVTec AD,26,FastFlow (CaiT backbone),99.4,mean image-level AUROC (%) across 15 MVTec AD categories,verified,standard,5.0,"Median adult employed in occupations where Near Vision has O*NET importance of 3 or higher (e.g., assemblers, inspectors, technicians, clerical and medical workers), not specialist trained QC inspectors.",5.5,27.5,measured
 Far Vision,sensory,2021,TinyPerson,28,Faster R-CNN-SSPNet (ResNet-50),59.13,"AP50 (tiny), percent",verified,standard,4.0,"Adults employed in occupations where Far Vision is important (O*NET importance >= 3), e.g., drivers, security and lifeguard staff, inspectors, equipment operators; the typical worker, not trained image analysts.",6.0,24.0,measured
 Visual Color Discrimination,sensory,2021,,,,,,,,,,,,
 Night Vision,sensory,2021,Dark Zurich,28,"DANIA (PSPNet, ResNet-101)",47.0,mIoU (%) over 19 classes on Dark Zurich-test,verified,standard,3.5,"Adults employed in occupations where Night Vision is important (O*NET importance ≥3), such as drivers, security and police officers, and transport and outdoor workers. The reference is the median worker, not a trained annotator or specialist.",7.5,26.25,measured
-Peripheral Vision,sensory,2021,,,,,,,,,,,,
+Peripheral Vision,sensory,2021,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2021,NYU Depth V2,32,"DPT-Hybrid (Dense Prediction Transformer, fine-tuned on NYUv2)",90.4,"δ1 threshold accuracy (% of pixels with max(pred/gt, gt/pred) < 1.25), NYU Depth V2 Eigen test split",verified,standard,5.0,"Adults employed in occupations where Depth Perception is important (O*NET importance ≥3), at the median: typical workers, not specialists",6.5,32.5,measured
 Glare Sensitivity,sensory,2021,WildDash,23,"MSeg-1080 (HRNet-W48 trained on MSeg composite, zero-shot to WildDash)",48.3,Meta Average mIoU (%),verified,standard,4.0,"Adults employed in occupations where Glare Sensitivity is important (O*NET importance >= 3), such as drivers, equipment operators and outdoor workers; the median worker, not trained annotators or vision specialists.",4.0,16.0,measured
 Hearing Sensitivity,sensory,2021,,,,,,,,,,,,
@@ -124,30 +124,30 @@ Spatial Orientation,cognitive,2022,"Habitat Challenge PointNav (Realistic PointN
 Visualization,cognitive,2022,CLEVR-MRT,20,The authors' self-supervised 3D contrastive volumetric encoder with a camera-conditioned FILM VQA head (Beckham et al.),86.01,VQA answer accuracy (%),verified,standard,4.5,"Adults employed in occupations where Visualization is important (O*NET importance >= 3), median worker",5.0,22.5,measured
 Selective Attention,cognitive,2022,,,,,,,,,,,,
 Time Sharing,cognitive,2022,,,,,,,,,,,,
-Arm-Hand Steadiness,psychomotor,2022,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2022,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2022,MyoChallenge,23,"Team stiff_finger (PPO-LSTM with a curriculum, final ensemble of policies), Baoding Balls track, Phase 2",55,"percent (the challenge's task score, i.e. share of evaluation episodes solved; effort, 0.03, was a secondary measure)",verified,standard,3.5,"Median adult employed in an occupation where Manual Dexterity has O*NET importance of 3 or higher (e.g., assemblers, technicians, food prep, trades). The comparison is to an equivalent physical task with the person's own hand, after brief familiarization.",5.5,19.25,measured
 Finger Dexterity,psychomotor,2022,World Robot Summit Assembly Challenge,23,"Top-scoring WRS 2020 team on the task-board task (team name not verified, so not given)",120,points (perfect score excluding time bonus = 100; this figure includes the time bonus),verified,standard,4.5,"Adults employed in occupations where Finger Dexterity is important (O*NET importance >= 3), e.g. assemblers, technicians and machine operators; the median typical worker, not elite performers.",7.0,31.5,measured
 Control Precision,psychomotor,2022,DeepMind Control Suite,27,,,,,unknown,,,5.5,,
 Multilimb Coordination,psychomotor,2022,,,,,,,,,,,,
-Response Orientation,psychomotor,2022,,,,,,,,,,,,
+Response Orientation,psychomotor,2022,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2022,,,,,,,,,,,,
-Reaction Time,psychomotor,2022,,,,,,,,,,,,
+Reaction Time,psychomotor,2022,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2022,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2022,,,,,,,,,,,,
 Static Strength,physical,2022,,,,,,,,,,,,
 Explosive Strength,physical,2022,,,,,,,,,,,,
-Dynamic Strength,physical,2022,,,,,,,,,,,,
-Trunk Strength,physical,2022,,,,,,,,,,,,
+Dynamic Strength,physical,2022,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2022,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2022,,,,,,,,,,,,
-Extent Flexibility,physical,2022,,,,,,,,,,,,
-Dynamic Flexibility,physical,2022,,,,,,,,,,,,
+Extent Flexibility,physical,2022,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2022,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2022,DeepMind Control Suite,27,D4PG (state observations),643.1,"mean episode return (0-1000 scale, 1000-step episode)",verified,standard,4.0,"Median adult employed in occupations where Gross Body Coordination has O*NET importance of 3 or higher, i.e. typical physically active workers, not athletes.",5.0,20.0,measured
 Gross Body Equilibrium,physical,2022,,,,,,,,,,,,
 Near Vision,sensory,2022,DocVQA,26,ERNIE-Layout (ensemble),88.41,"ANLS (Average Normalized Levenshtein Similarity) on the DocVQA test set, rescaled from 0–1 to 0–100 (0.8841 on the leaderboard)",verified,standard,4.0,"Adults employed in occupations where Near Vision is important (O*NET importance 3 or higher): the typical worker, not elite performers.",3.5,14.0,measured
 Far Vision,sensory,2022,VisDrone,28,VisDrone-DET2021 challenge first-place entry (the source does not name the team),39.43,"AP (%), averaged over IoU thresholds 0.50:0.95, on the VisDrone-DET test-challenge set",verified,unknown,4.0,"Adults employed in occupations where Far Vision is important (O*NET importance >= 3), median worker",4.0,16.0,measured
 Visual Color Discrimination,sensory,2022,,,,,,,,,,,,
 Night Vision,sensory,2022,Dark Zurich,29,"Refign-HRDA (Refign applied on top of HRDA, with Cityscapes-pretrained initialization)",63.9,"mIoU (%) on Dark Zurich-test, 19 classes",verified,standard,4.0,"Median adult employed in occupations where Night Vision is important (e.g., drivers, security, law enforcement, transport workers), judging static nighttime urban driving images",7.5,30.0,measured
-Peripheral Vision,sensory,2022,,,,,,,,,,,,
+Peripheral Vision,sensory,2022,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2022,NYU Depth V2,31,"MIM (SwinV2-L 1K-MIM, Xie et al. 2022)",94.9,"δ1 threshold accuracy (% of pixels with max(pred/gt, gt/pred) < 1.25), percentage",verified,standard,6.5,"Adults employed in occupations where Depth Perception is important (O*NET importance ≥3): the typical worker, not trained depth-estimation specialists",6.5,42.25,measured
 Glare Sensitivity,sensory,2022,,,,,,,,,,,,
 Hearing Sensitivity,sensory,2022,HEAR,27,CREPE (HEAR 2021 submission),90.0,"pitch accuracy (%), 88-class NSynth Pitch classification",verified,standard,7.0,"Adults employed in occupations where Hearing Sensitivity is important (O*NET importance >= 3): the typical worker, not trained musicians or absolute-pitch possessors.",5.0,35.0,measured
@@ -176,30 +176,30 @@ Spatial Orientation,cognitive,2023,SQA3D,29,3D-VisTA,48.5,EM@1 exact-match accur
 Visualization,cognitive,2023,SPARE3D,23,"Self-supervised spatial reasoning network (Xiang et al., CVPR 2022)",74.9,accuracy (%) on the SPARE3D 3-View to Isometric (T2I) 4-way multiple-choice task,verified,standard,4.5,"Adults employed in occupations where Visualization is important (O*NET importance >= 3), such as drafters, engineers, technicians, mechanics and designers. This is the typical worker, not a specialist.",6.0,27.0,measured
 Selective Attention,cognitive,2023,GSM-IC,23,,,micro accuracy (%),,,,,4.5,,
 Time Sharing,cognitive,2023,,,,,,,,,,,,
-Arm-Hand Steadiness,psychomotor,2023,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2023,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2023,ManiSkill2,29,GXU-LIPE (Guangxi University) two-stage fine-tuned policy,24.99,average success rate (%) across the challenge's rigid-body test tasks,verified,standard,3.0,"Median adult employed in occupations where Manual Dexterity has O*NET importance of 3 or higher (e.g., assemblers, technicians, food prep, trades workers), performing the physical equivalents of the tasks.",5.5,16.5,measured
 Finger Dexterity,psychomotor,2023,NIST Assembly Task Boards,23,Team SDU robotic assembly system (RGMC IROS 2020 Manufacturing Track),317,competition points (273 possible task points plus a time bonus; 92 for disassembly and 181 for assembly),verified,unknown,5.0,"Adults employed in occupations where Finger Dexterity is important (O*NET importance ≥3), e.g., assemblers, electronics/electrical equipment assemblers, machinists, technicians: the typical worker, not elite performers.",5.0,25.0,measured
 Control Precision,psychomotor,2023,CARLA Leaderboard,29,ReasonNet,79.95,Driving Score (0-100 composite: route completion × infraction penalty),verified,standard,4.0,"Median adult in jobs where Control Precision is important (O*NET importance ≥3), e.g. vehicle and equipment operators. Here proxied by a typical licensed driver doing closed-loop driving in simulation.",2.5,10.0,measured
 Multilimb Coordination,psychomotor,2023,Bi-DexHands,24,,,,,,,,6.0,,
-Response Orientation,psychomotor,2023,,,,,,,,,,,,
+Response Orientation,psychomotor,2023,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2023,Robot Air Hockey Challenge,27,AiRLIHockey (MPC/optimal-control planner distilled via imitation learning),73.8,"mean success rate (%) over the hit, defend and prepare qualifying subtasks, evaluated in the organizers' modified (sim-to-real-perturbed) simulator",verified,standard,4.5,"Adults employed in occupations where Rate Control is important (O*NET importance 3 or higher). They are imagined performing the equivalent air hockey subtasks (striking a slow puck into an empty goal, stopping an incoming shot, repositioning the puck) with their own arm and mallet, not teleoperating the robot.",7.0,31.5,measured
-Reaction Time,psychomotor,2023,,,,,,,,,,,,
+Reaction Time,psychomotor,2023,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2023,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2023,,,,,,,,,,,,
 Static Strength,physical,2023,,,,,,,,,,,,
 Explosive Strength,physical,2023,,,,,,,,,,,,
-Dynamic Strength,physical,2023,,,,,,,,,,,,
-Trunk Strength,physical,2023,,,,,,,,,,,,
+Dynamic Strength,physical,2023,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2023,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2023,,,,,,,,,,,,
-Extent Flexibility,physical,2023,,,,,,,,,,,,
-Dynamic Flexibility,physical,2023,,,,,,,,,,,,
+Extent Flexibility,physical,2023,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2023,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2023,,,,,,,,,,,,
 Gross Body Equilibrium,physical,2023,,,,,,,,,,,,
 Near Vision,sensory,2023,V*Bench,28,SEAL (LLaVA-7B-based MLLM with the V* LLM-guided visual search module),75.39,overall accuracy (%) on multiple-choice questions,verified,augmented,4.0,"Adults employed in occupations where Near Vision is important (O*NET importance 3+); typical worker, not specialists",7.0,28.0,measured
 Far Vision,sensory,2023,TinyPerson,27,SSPNet w/ BHResNet50 + WaveletPool,59.34,"mAP_tiny (%), meaning AP at IoU 0.5 on the tiny [2,20] px interval under the TinyPerson protocol",verified,standard,4.0,"Adults employed in occupations where Far Vision is important (O*NET importance ≥3), e.g. drivers, lifeguards, security and transport workers: the typical worker, not trained image analysts.",6.0,24.0,measured
 Visual Color Discrimination,sensory,2023,,,,,,,,,,,,
 Night Vision,sensory,2023,Dark Zurich,29,"CISS (Condition-Invariant Semantic Segmentation, built on HRDA)",60.7,"mIoU (%) on Dark Zurich-test, Cityscapes→Dark Zurich unsupervised domain adaptation",verified,standard,4.0,"Adults employed in occupations where Night Vision is important (O*NET importance ≥3), such as drivers, security staff, police and night-shift transport workers: the typical worker, not trained annotators or specialists.",7.5,30.0,measured
-Peripheral Vision,sensory,2023,,,,,,,,,,,,
+Peripheral Vision,sensory,2023,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2023,NYU Depth V2,30,"EVP (Enhanced Visual Perception, Stable Diffusion-based)",0.224,RMSE in meters (lower is better) on the NYU Depth V2 Eigen test split,verified,standard,6.5,"Adults employed in occupations where Depth Perception is important (O*NET importance 3 or higher), judged at the median worker rather than trained specialists.",6.5,42.25,measured
 Glare Sensitivity,sensory,2023,GLARE,23,Faster R-CNN (Swin-T Base backbone),45.2,mAP@0.5:0.95 (percentage points) on the GLARE test set,verified,standard,4.0,"Median adult employed in occupations where Glare Sensitivity is important (O*NET importance 3 or higher), such as drivers, equipment operators and outdoor workers. The comparison is their ability to spot and identify traffic signs in sun-glare dashcam images.",5.5,22.0,measured
 Hearing Sensitivity,sensory,2023,MARBLE,21,MAP-MERT-v1-330M,94.4,accuracy (%) on the NSynth Pitch classification task,verified,standard,7.0,"Adults employed in occupations where Hearing Sensitivity is important (O*NET importance >= 3): the typical worker, not trained musicians or absolute-pitch possessors",3.5,24.5,measured
@@ -228,30 +228,30 @@ Spatial Orientation,cognitive,2024,VSI-Bench,31,Gemini-1.5 Pro,45.4,average accu
 Visualization,cognitive,2024,SPACE,28,Claude 3.5 Sonnet,43.8,"average accuracy (%) across the 10 small-scale SPACE tasks, multimodal presentation; chance is below 25%",verified,standard,2.0,"Adults employed in occupations where Visualization is important (O*NET importance 3 or higher): the median typical worker, not specialists",6.5,13.0,measured
 Selective Attention,cognitive,2024,RULER,26,Gemini-1.5-Pro,95.8,"Average accuracy (%) over the 13 RULER tasks, averaged across context lengths 4K-128K",verified,standard,6.5,"Adults employed in occupations where Selective Attention is important (O*NET importance 3 or higher), represented by the median worker in those jobs, not elite performers.",5.5,35.75,measured
 Time Sharing,cognitive,2024,,,,,,,,,,,,
-Arm-Hand Steadiness,psychomotor,2024,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2024,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2024,FurnitureBench,27,"DPPO (Diffusion Policy Policy Optimization), trained in simulation and transferred zero-shot to a real Franka robot",80,"task success rate (%) on real-world FurnitureBench One-leg assembly, 20 hardware trials",verified,standard,3.5,"Median adult employed in occupations where Manual Dexterity has O*NET importance of 3 or higher (e.g., assemblers, packers, machine operators, technicians), not elite or specially trained performers.",7.0,24.5,measured
 Finger Dexterity,psychomotor,2024,Robotic Grasping and Manipulation Competition: Manufacturing Track,25,,,,,unknown,,,6.5,,
 Control Precision,psychomotor,2024,CARLA Leaderboard 2.0,28,CarLLaVA (LLM4AD),6.87,Driving Score (0-100 scale; route completion % multiplied by infraction penalty),verified,standard,2.0,"Median adult employed in occupations where Control Precision is important (O*NET >=3), e.g. drivers, equipment and machine operators; the typical licensed driver, not a professional racer or a specialist.",3.0,6.0,measured
 Multilimb Coordination,psychomotor,2024,RLBench2,27,PerAct-LF (leader-follower PerAct baseline),17.5,average task success rate (%) across 13 bimanual tasks,verified,standard,2.5,"Median adult employed in occupations where Multilimb Coordination has O*NET importance of 3 or higher (e.g., assemblers, machine operators, drivers, warehouse workers), performing simple two-handed tabletop tasks",5.5,13.75,measured
-Response Orientation,psychomotor,2024,,,,,,,,,,,,
+Response Orientation,psychomotor,2024,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2024,Robot Air Hockey Challenge,26,AiRLIHockey (sampling-based MPC combined with a learned contact planner and behavioral-cloning distillation),73.8,"Qualifying-stage aggregate score on a 0-100 scale, based on success rates across the Hit, Defend and Prepare tasks",verified,standard,4.5,"Adults employed in occupations where Rate Control is important (O*NET importance 3 or higher), such as drivers, equipment operators and assembly workers. The reference is the typical worker, not trained air-hockey players.",7.0,31.5,measured
-Reaction Time,psychomotor,2024,,,,,,,,,,,,
+Reaction Time,psychomotor,2024,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2024,RoboPianist,24,RoboPianist RL agent (DroQ with human fingering priors),79,"Average F1 across the 12 ETUDE-12 pieces, multiplied by 100 (original scale 0-1)",verified,standard,6.0,"Adults employed in occupations where Wrist-Finger Speed is important (O*NET importance 3 or higher), such as typists, assemblers, packers and cashiers. This is the typical worker, mostly without piano training.",3.5,21.0,measured
 Speed of Limb Movement,psychomotor,2024,,,,,,,,,,,,
 Static Strength,physical,2024,,,,,,,,,,,,
 Explosive Strength,physical,2024,,,,,,,,,,,,
-Dynamic Strength,physical,2024,,,,,,,,,,,,
-Trunk Strength,physical,2024,,,,,,,,,,,,
+Dynamic Strength,physical,2024,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2024,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2024,,,,,,,,,,,,
-Extent Flexibility,physical,2024,,,,,,,,,,,,
-Dynamic Flexibility,physical,2024,,,,,,,,,,,,
+Extent Flexibility,physical,2024,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2024,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2024,HumanoidBench,29,,,"per-task maximum episode return (task-specific scale, each task has its own success target)",verified,unknown,,,7.0,,
 Gross Body Equilibrium,physical,2024,HumanoidBench,29,SimBa (SAC with SimBa network architecture),337,"episode return on h1-balance-simple-v0 (success threshold 800, random baseline about 9.4), final average at 1M environment steps",verified,standard,3.0,"Median adult employed in occupations where Gross Body Equilibrium has O*NET importance of 3 or higher (e.g., construction laborers, roofers, ironworkers, firefighters, painters on ladders, athletes and coaches). This is the typical worker, not a trained balance specialist.",6.5,19.5,measured
 Near Vision,sensory,2024,V* Bench,26,SEAL (V* guided visual search + Vicuna-7B MLLM),75.39,"percent accuracy (overall multiple-choice, V* Bench)",verified,augmented,4.0,"Adults employed in occupations where Near Vision is important (O*NET importance 3 or higher); the typical worker, viewing the high-resolution images with normal ability to inspect and zoom.",7.0,28.0,measured
 Far Vision,sensory,2024,V* Bench,26,ZoomEye (training-free tree search) on LLaVA-OneVision-7B,90.6,"accuracy (%) - V* Bench overall, multiple-choice",verified,augmented,4.5,"Adults employed in occupations where Far Vision is important (O*NET importance 3 or higher): the typical worker, not trained specialists.",5.0,22.5,measured
 Visual Color Discrimination,sensory,2024,,,,,,,,,,,,
 Night Vision,sensory,2024,Dark Zurich,28,CISS (built on HRDA),60.7,mIoU (%) over 19 classes on Dark Zurich-test,verified,standard,4.0,"Adults employed in occupations where Night Vision is important (O*NET importance 3 or higher), such as drivers, security staff, police and some military or transport roles; the typical worker, not a specialist.",7.5,30.0,measured
-Peripheral Vision,sensory,2024,,,,,,,,,,,,
+Peripheral Vision,sensory,2024,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2024,KITTI Depth Prediction,31,DCDepth,9.6,"SILog, scale-invariant logarithmic error [log(m)*100]; lower is better",verified,standard,6.5,"Adults employed in occupations where Depth Perception is important (O*NET importance 3 or higher), such as drivers, equipment operators and construction trades. The median worker is the reference, judging distances from a single monocular photograph of a driving scene.",7.0,45.5,measured
 Glare Sensitivity,sensory,2024,,,,,,,,,,,,
 Hearing Sensitivity,sensory,2024,DeafTest,27,,,accuracy (%) on two-choice loudness-comparison and pitch-comparison tasks; 50% = chance,,unknown,,,7.0,,
@@ -280,30 +280,30 @@ Spatial Orientation,cognitive,2025,VSI-Bench,30,"SpaceMind (dual encoder: VGGT s
 Visualization,cognitive,2025,SpatialViz-Bench,32,Gemini-2.5-pro,44.66,"accuracy (%) on multiple-choice questions, averaged over all 1,180 items",verified,standard,3.0,"Adults employed in occupations where Visualization is important (O*NET importance 3 or higher); the typical worker, not spatial-reasoning specialists",8.5,25.5,measured
 Selective Attention,cognitive,2025,Vending-Bench 2,28,Gemini 3 Pro,5478.16,"US dollars (mean final bank balance after a 365-day simulation starting from $500, averaged over 5 runs)",verified,standard,5.0,"Adults employed in occupations where Selective Attention is important (O*NET importance 3 or higher): the typical worker, not business specialists or elite performers.",5.5,27.5,measured
 Time Sharing,cognitive,2025,StreamingBench,23,Gemini 1.5 Pro,67.07,"accuracy (%), overall average across all 18 StreamingBench tasks",verified,standard,3.5,"Adults employed in occupations where Time Sharing is important (O*NET importance >= 3); median typical worker. Proxied by the StreamingBench human baseline (91.66%), which comes from ordinary human annotators rather than specialists.",3.0,10.5,measured
-Arm-Hand Steadiness,psychomotor,2025,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2025,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2025,RoboTwin 2.0,29,Motus,87.02,"average success rate (%) over the 50 RoboTwin 2.0 tasks, randomized setting",verified,unknown,4.0,"Adults employed in occupations where Manual Dexterity is important (O*NET importance ≥3); typical worker, not elite performers",5.5,22.0,measured
 Finger Dexterity,psychomotor,2025,,,,,,,,,,,,
 Control Precision,psychomotor,2025,A2RL Drone Championship,22,TU Delft MAVLab autonomous drone (G&CNet direct motor-control policy),17,seconds to complete two laps of the 170 m course (lower is better),verified,standard,9.0,"Median adult employed in occupations where Control Precision has O*NET importance of 3 or higher (e.g., machine operators, drivers, equipment operators). This is the typical worker, not trained FPV drone-racing pilots.",6.5,58.5,measured
 Multilimb Coordination,psychomotor,2025,RoboTwin 2.0,29,Motus,88.66,"average task success rate (%) over 50 RoboTwin 2.0 tasks, Clean setting, 100 trials per task",verified,standard,4.0,"Adults employed in occupations where Multilimb Coordination is important (O*NET importance >= 3), the typical worker, not elite performers",6.0,24.0,measured
-Response Orientation,psychomotor,2025,,,,,,,,,,,,
+Response Orientation,psychomotor,2025,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2025,Arcade Learning Environment,22,LBC (Learnable Behavior Control),11236,"percent, mean human-normalized score (HNS) across the 57 Atari games",verified,standard,8.0,"Median adult worker in occupations where Rate Control is important (O*NET importance 3 or higher), such as drivers, equipment operators and machine tenders. This is not an elite or trained gamer. Analogy: such a worker playing Atari games with limited practice would likely score at or below the professional-tester baseline (HNS ≤100%) on most games.",3.0,24.0,measured
-Reaction Time,psychomotor,2025,,,,,,,,,,,,
+Reaction Time,psychomotor,2025,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2025,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2025,World Humanoid Robot Games 100m sprint,25,Tiangong Ultra (Beijing Humanoid Robot Innovation Center),21.5,seconds (100m finish time; lower is better),verified,unknown,3.0,"Adults employed in occupations where Speed of Limb Movement is an important part of the job (O*NET importance 3 or higher), median worker, not elite or sprint-trained.",6.0,18.0,measured
 Static Strength,physical,2025,,,,,,,,,,,,
 Explosive Strength,physical,2025,World Humanoid Robot Games,25,Robotera (Xingdong Era) Xingdong L7 humanoid robot,95.641,centimeters (standing high jump height),verified,unknown,4.5,"Median adult worker in occupations where Explosive Strength has O*NET importance 3 or higher (e.g., laborers, firefighters, police, construction and material-moving workers); not trained jumpers or sprinters",7.5,33.75,measured
-Dynamic Strength,physical,2025,,,,,,,,,,,,
-Trunk Strength,physical,2025,,,,,,,,,,,,
+Dynamic Strength,physical,2025,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2025,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2025,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),22,Tiangong Ultra (Beijing Humanoid Robot Innovation Center),160.7,"minutes, half-marathon finish time over 21.0975 km (lower is better); 2 h 40 min 42 s = 160.7 min",verified,augmented,5.0,"Median adult employed in occupations where Stamina has O*NET importance of 3 or higher (e.g., construction laborers, movers, firefighters, farmworkers, nursing aides). Typical workers, not trained distance runners.",5.5,27.5,measured
-Extent Flexibility,physical,2025,,,,,,,,,,,,
-Dynamic Flexibility,physical,2025,,,,,,,,,,,,
+Extent Flexibility,physical,2025,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2025,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2025,HumanoidBench,28,,,,,,,,7.0,,
 Gross Body Equilibrium,physical,2025,HumanoidBench,30,SimbaV2 (SAC with SimbaV2 architecture),143,episode return (task success threshold = 800; not a percentage),verified,standard,3.0,"Median adult employed in occupations where Gross Body Equilibrium has O*NET importance of 3 or higher (e.g., construction workers, roofers, firefighters, warehouse and material-moving workers): the typical worker, not trained balance specialists.",6.5,19.5,measured
 Near Vision,sensory,2025,HR-Bench,28,Qwen3-VL-235B-A22B (tool-augmented),82.3,accuracy (%) on HR-Bench 8K,verified,augmented,4.5,"Adults employed in occupations where Near Vision is important (O*NET importance >=3), median worker",7.0,31.5,measured
 Far Vision,sensory,2025,HR-Bench,28,"GRiP (7B, built on Qwen2.5-VL-7B)",75.0,"accuracy (%), HR-Bench 8K overall (average of FSP and FCP)",verified,augmented,4.0,"Median adult employed in occupations where Far Vision is important (O*NET importance ≥3). Assumed to view the 8K image on a normal display with the ability to zoom and pan, as a worker would with a high-resolution image.",6.0,24.0,measured
 Visual Color Discrimination,sensory,2025,ColorBench,28,Gemini-2-flash (CoT),59.6,accuracy (%) on the Color Perception & Reasoning tasks combined (multiple-choice),verified,augmented,3.5,Adults employed in occupations where Visual Color Discrimination is important (O*NET importance ≥3); the median typical worker,6.5,22.75,measured
 Night Vision,sensory,2025,ExDark,27,,,mAP@0.5 (%),,,,,7.0,,
-Peripheral Vision,sensory,2025,,,,,,,,,,,,
+Peripheral Vision,sensory,2025,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2025,DA-2K,25,Depth Anything V2 (ViT-G),97.4,accuracy (%) on pairwise relative-depth judgments,verified,standard,5.0,"Adults employed in occupations where Depth Perception is important (O*NET importance 3 or higher): the typical worker, judging relative depth of two marked points in a single photo",6.5,32.5,measured
 Glare Sensitivity,sensory,2025,GLARE,21,Faster-RCNN (Swin-T Base backbone),45.2,mAP@0.5:0.95 (percentage points) on the GLARE test set,verified,standard,3.5,"Adults employed in occupations where Glare Sensitivity is important (O*NET importance 3 or higher), such as drivers, equipment operators and outdoor workers. The reference is the typical worker, not a glare-trained specialist.",5.5,19.25,measured
 Hearing Sensitivity,sensory,2025,STAR-Bench,25,Gemini 2.5 Pro,46.64,"accuracy (%) on multiple-choice questions, Foundational Acoustic Perception average",verified,standard,3.0,"Adults employed in occupations where Hearing Sensitivity is important (O*NET importance >= 3); the typical worker, not trained audiologists or musicians.",6.5,19.5,measured
@@ -332,30 +332,30 @@ Spatial Orientation,cognitive,2026,VSI-Bench,29,Cambrian-P-7B (Qwen2.5-7B + SigL
 Visualization,cognitive,2026,SpatialViz-Bench,31,GPT-5 (gpt-5-2025-08-07),51.27,accuracy (%),verified,standard,3.5,"Adults employed in occupations where Visualization is important (O*NET importance >= 3), median worker",8.5,29.75,measured
 Selective Attention,cognitive,2026,Vending-Bench 2,29,GPT-6 Astra,15514.7,"US dollars (mean final bank balance after a 365-day simulation, averaged over multiple runs)",verified,unknown,6.0,"Median adult employed in occupations where Selective Attention is important (O*NET importance >= 3): typical workers, not trained operators or business specialists.",5.5,33.0,measured
 Time Sharing,cognitive,2026,AsyncTool,23,GPT-4.1,38.06,"AsyncTool overall score (composite of step, sub-task and task-level scores; appears to be on a 0-100 scale)",verified,standard,3.5,"Median adult employed in occupations where Time Sharing is important (O*NET importance ≥3), such as dispatchers, administrative coordinators, nurses and customer service staff, who routinely juggle several concurrent tasks while waiting on responses.",6.0,21.0,measured
-Arm-Hand Steadiness,psychomotor,2026,,,,,,,,,,,,
+Arm-Hand Steadiness,psychomotor,2026,,,,,,,,,,,0.0,zero_fill
 Manual Dexterity,psychomotor,2026,ManipulationNet,25,"InsertAnything (RL insertion policy trained only in simulation, using fingertip force feedback)",100,percent of the 20 ManipulationNet peg-in-hole tasks completed (5 hole shapes × 4 clearance levels); reported as 20/20,verified,unknown,5.0,"Adults employed in occupations where Manual Dexterity is important (O*NET importance ≥3), e.g. assemblers, machine operators, technicians: the median worker, not specialists",7.0,35.0,measured
 Finger Dexterity,psychomotor,2026,,,,,,,,,,,,
 Control Precision,psychomotor,2026,A2RL Drone Championship,24,TII Racing autonomous drone (Technology Innovation Institute),12.032,"seconds (fastest autonomous lap time, lower is better)",verified,standard,9.0,"Median adult employed in occupations where Control Precision has O*NET importance of 3 or higher (e.g., machine operators, drivers, equipment and crane operators). This is the typical worker, not an elite FPV racing pilot.",6.5,58.5,measured
 Multilimb Coordination,psychomotor,2026,RoboTwin 2.0,27,Riemann-1.0,94.3,"average task success rate (%) across 50 bimanual tasks, mean of Clean and Randomized settings",verified,standard,4.5,"Adults employed in occupations where Multilimb Coordination is important (O*NET importance >= 3), the typical worker rather than elite performers. Example roles: assemblers, machine operators, material handlers, drivers.",6.0,27.0,measured
-Response Orientation,psychomotor,2026,,,,,,,,,,,,
+Response Orientation,psychomotor,2026,,,,,,,,,,,0.0,zero_fill
 Rate Control,psychomotor,2026,Robot Air Hockey Challenge,26,AiRLIHockey (hybrid: optimal-control/MPC policy distilled via imitation learning),73.8,"mean success rate (%) over the three qualifying sub-tasks (Hit, Defend, Prepare), simulated, 2023 protocol",verified,standard,4.5,"Adults employed in occupations where Rate Control is important (O*NET importance 3 or higher), such as drivers, equipment operators and machine tenders: the typical worker, not trained air-hockey players.",7.0,31.5,measured
-Reaction Time,psychomotor,2026,,,,,,,,,,,,
+Reaction Time,psychomotor,2026,,,,,,,,,,,0.0,zero_fill
 Wrist-Finger Speed,psychomotor,2026,,,,,,,,,,,,
 Speed of Limb Movement,psychomotor,2026,World Humanoid Robot Games,25,Tiangong Ultra (Beijing Humanoid Robot Innovation Center),8.86,seconds (100 m sprint time; lower is better),verified,unknown,10.0,"Adults employed in occupations where Speed of Limb Movement has O*NET importance of 3 or higher (e.g., firefighters, police officers, construction laborers, athletic and recreation workers). This means the typical worker, not trained sprinters.",4.5,45.0,measured
 Static Strength,physical,2026,World Humanoid Robot Games Weightlifting,22,Beijing Humanoid–HUST United Team humanoid robot (specific robot name not given in reports),16,kg (heaviest successful lift),verified,unknown,2.5,"Adults employed in occupations where Static Strength is important (O*NET importance ≥3), e.g. construction laborers, warehouse/material movers, mechanics, farm workers. These are typical, mostly untrained-in-lifting workers.",7.0,17.5,measured
 Explosive Strength,physical,2026,World Humanoid Robot Games,27,Tiangong Ultra (Beijing Humanoid Robot Innovation Center),8.64,"seconds (100 m sprint time, large-size robot final; lower is better)",verified,unknown,10.0,"Adults employed in occupations where Explosive Strength is important (O*NET importance ≥3), such as firefighters, police officers, construction laborers and athletes-adjacent roles. The typical worker, not elite sprinters.",7.5,75.0,measured
-Dynamic Strength,physical,2026,,,,,,,,,,,,
-Trunk Strength,physical,2026,,,,,,,,,,,,
+Dynamic Strength,physical,2026,,,,,,,,,,,0.0,zero_fill
+Trunk Strength,physical,2026,,,,,,,,,,,0.0,zero_fill
 Stamina,physical,2026,,,,,,,,,,,27.5,carry_forward_2025
-Extent Flexibility,physical,2026,,,,,,,,,,,,
-Dynamic Flexibility,physical,2026,,,,,,,,,,,,
+Extent Flexibility,physical,2026,,,,,,,,,,,0.0,zero_fill
+Dynamic Flexibility,physical,2026,,,,,,,,,,,0.0,zero_fill
 Gross Body Coordination,physical,2026,HumanoidBench,29,DR.Q,53.4,"mean success-normalized score across the 14 h1hand tasks, as a percentage: (return - random) / (task success threshold - random) x 100. The paper reports 0.534, 95% CI [0.473, 0.595].",verified,standard,3.0,"Adults employed in occupations where Gross Body Coordination is important (O*NET importance >= 3), e.g. construction laborers, warehouse workers and firefighters. The typical worker, not elite athletes.",7.0,21.0,measured
 Gross Body Equilibrium,physical,2026,HumanoidBench,28,MRS.Q,407,"episode return (undiscounted; random agent about 9, authors' target success score 800)",verified,standard,3.0,"Adults employed in occupations where Gross Body Equilibrium is important (O*NET importance >= 3), such as construction workers, roofers, ironworkers and warehouse staff. The reference is the median worker in those jobs.",6.5,19.5,measured
 Near Vision,sensory,2026,HR-Bench,27,S1-VL-32B-RL,93.5,accuracy (%) on HR-Bench 8K,verified,augmented,6.0,"Adults employed in occupations where Near Vision is important (O*NET importance >= 3): the typical worker, not trained visual-inspection specialists",7.0,42.0,measured
 Far Vision,sensory,2026,HR-Bench,27,SCCM-based RFT model (built on a Pixel-Reasoner baseline),71.25,"accuracy (%), HR-Bench 8K overall (average of FSP and FCP)",verified,augmented,4.0,Adults employed in occupations where Far Vision is important (O*NET importance ≥3); the typical worker inspecting high-resolution 4K/8K images for fine details.,6.0,24.0,measured
 Visual Color Discrimination,sensory,2026,ColorBench,30,Gemini-2-flash (CoT),59.6,"accuracy (%) on Color Perception & Reasoning tasks, overall",verified,standard,4.0,"Adults employed in occupations where Visual Color Discrimination is important (O*NET importance >= 3): the typical worker, not color specialists.",6.5,26.0,measured
 Night Vision,sensory,2026,ExDark,28,FRBNet + TOOD,75.3,mAP@0.5 IoU (%),verified,standard,4.0,"Adults employed in occupations where Night Vision is important (O*NET importance 3 or higher), e.g. security guards, police patrol officers, drivers and pilots: the typical worker, viewing the same low-light images.",7.0,28.0,measured
-Peripheral Vision,sensory,2026,,,,,,,,,,,,
+Peripheral Vision,sensory,2026,,,,,,,,,,,0.0,zero_fill
 Depth Perception,sensory,2026,KITTI Depth Prediction Benchmark,30,,,"SILog, scale-invariant log error [log(m)*100], lower is better",,unknown,,,7.0,32.5,carry_forward_2025
 Glare Sensitivity,sensory,2026,,,,,,,,,,,19.25,carry_forward_2025
 Hearing Sensitivity,sensory,2026,SonicBench,26,Qwen3-Omni,72,"overall accuracy (%) averaged across all 12 attributes and both task types; chance is 50%, human average is 91%",verified,standard,3.5,"Adults employed in occupations where Hearing Sensitivity is important (O*NET importance ≥3): the typical worker, not trained psychoacousticians or musicians.",6.5,22.75,measured

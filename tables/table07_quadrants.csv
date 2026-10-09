@@ -1,41 +1,41 @@
 Panel,Occupation,BWI Rank,AEI Rank
-"Panel A: Latent exposure -- high BWI, low adoption",Genetic Counselors,42,328
-"Panel A: Latent exposure -- high BWI, low adoption","Tax Examiners and Collectors, and Revenue Agents",16,301
-"Panel A: Latent exposure -- high BWI, low adoption","Title Examiners, Abstractors, and Searchers",33,312
-"Panel A: Latent exposure -- high BWI, low adoption","Environmental Science Teachers, Postsecondary",34,307
-"Panel A: Latent exposure -- high BWI, low adoption",Financial Examiners,14,263
-"Panel A: Latent exposure -- high BWI, low adoption","Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",23,270
-"Panel A: Latent exposure -- high BWI, low adoption","Forestry and Conservation Science Teachers, Postsecondary",69,315
-"Panel A: Latent exposure -- high BWI, low adoption",Civil Engineers,93,334
-"Panel A: Latent exposure -- high BWI, low adoption",Remote Sensing Scientists and Technologists,36,277
-"Panel A: Latent exposure -- high BWI, low adoption",Historians,60,300
-"Panel B: Active transformation -- high BWI, high adoption",Customer Service Representatives,155,2
-"Panel B: Active transformation -- high BWI, high adoption","Office Clerks, General",161,20
-"Panel B: Active transformation -- high BWI, high adoption","Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",157,18
-"Panel B: Active transformation -- high BWI, high adoption",Travel Agents,168,31
-"Panel B: Active transformation -- high BWI, high adoption","Credit Authorizers, Checkers, and Clerks",18,155
+"Panel A: Latent exposure -- high BWI, low adoption",Genetic Counselors,34,328
+"Panel A: Latent exposure -- high BWI, low adoption","Environmental Science Teachers, Postsecondary",26,307
+"Panel A: Latent exposure -- high BWI, low adoption","Tax Examiners and Collectors, and Revenue Agents",27,301
+"Panel A: Latent exposure -- high BWI, low adoption","Title Examiners, Abstractors, and Searchers",40,312
+"Panel A: Latent exposure -- high BWI, low adoption","Forestry and Conservation Science Teachers, Postsecondary",59,315
+"Panel A: Latent exposure -- high BWI, low adoption",Financial Examiners,13,263
+"Panel A: Latent exposure -- high BWI, low adoption","Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",20,270
+"Panel A: Latent exposure -- high BWI, low adoption",Historians,51,300
+"Panel A: Latent exposure -- high BWI, low adoption",Remote Sensing Scientists and Technologists,31,277
+"Panel A: Latent exposure -- high BWI, low adoption",Actuaries,2,240
+"Panel B: Active transformation -- high BWI, high adoption","Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",165,6
+"Panel B: Active transformation -- high BWI, high adoption",Web Developers,161,11
+"Panel B: Active transformation -- high BWI, high adoption",Customer Service Representatives,151,2
+"Panel B: Active transformation -- high BWI, high adoption",Curators,168,29
+"Panel B: Active transformation -- high BWI, high adoption","Human Resources Assistants, Except Payroll and Timekeeping",169,32
+"Panel B: Active transformation -- high BWI, high adoption","Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",150,18
 "Panel B: Active transformation -- high BWI, high adoption",Credit Analysts,3,132
-"Panel B: Active transformation -- high BWI, high adoption",Technical Writers,128,13
-"Panel B: Active transformation -- high BWI, high adoption",Loan Officers,8,121
-"Panel B: Active transformation -- high BWI, high adoption",Social Science Research Assistants,131,22
-"Panel B: Active transformation -- high BWI, high adoption",Tutors,138,30
-"Panel C: Low pressure -- low BWI, low adoption",Choreographers,338,199
-"Panel C: Low pressure -- low BWI, low adoption",Flight Attendants,330,192
-"Panel C: Low pressure -- low BWI, low adoption","Anthropology and Archeology Teachers, Postsecondary",172,306
-"Panel C: Low pressure -- low BWI, low adoption",Actors,310,177
-"Panel C: Low pressure -- low BWI, low adoption",Electrical and Electronic Engineering Technologists and Technicians,189,317
-"Panel C: Low pressure -- low BWI, low adoption",Baggage Porters and Bellhops,336,210
-"Panel C: Low pressure -- low BWI, low adoption",Demonstrators and Product Promoters,324,201
-"Panel C: Low pressure -- low BWI, low adoption","Computer, Automated Teller, and Office Machine Repairers",290,170
-"Panel C: Low pressure -- low BWI, low adoption",Agricultural Technicians,222,337
-"Panel C: Low pressure -- low BWI, low adoption",Funeral Home Managers,218,332
-"Panel D: Adoption ahead -- low BWI, high adoption",Desktop Publishers,317,15
-"Panel D: Adoption ahead -- low BWI, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",332,45
-"Panel D: Adoption ahead -- low BWI, high adoption",Interpreters and Translators,301,26
-"Panel D: Adoption ahead -- low BWI, high adoption",Graphic Designers,314,40
-"Panel D: Adoption ahead -- low BWI, high adoption",Special Effects Artists and Animators,282,44
-"Panel D: Adoption ahead -- low BWI, high adoption","Switchboard Operators, Including Answering Service",269,35
-"Panel D: Adoption ahead -- low BWI, high adoption",Receptionists and Information Clerks,242,23
-"Panel D: Adoption ahead -- low BWI, high adoption",Public Relations Specialists,228,17
-"Panel D: Adoption ahead -- low BWI, high adoption",Photographers,327,117
-"Panel D: Adoption ahead -- low BWI, high adoption",Art Directors,309,108
+"Panel B: Active transformation -- high BWI, high adoption",Medical Transcriptionists,132,5
+"Panel B: Active transformation -- high BWI, high adoption","Credit Authorizers, Checkers, and Clerks",29,155
+"Panel B: Active transformation -- high BWI, high adoption","Office Clerks, General",142,20
+"Panel C: Low pressure -- low BWI, low adoption",Funeral Home Managers,178,332
+"Panel C: Low pressure -- low BWI, low adoption",Surveyors,185,339
+"Panel C: Low pressure -- low BWI, low adoption",Choreographers,337,199
+"Panel C: Low pressure -- low BWI, low adoption",Flight Attendants,320,192
+"Panel C: Low pressure -- low BWI, low adoption","Computer, Automated Teller, and Office Machine Repairers",291,170
+"Panel C: Low pressure -- low BWI, low adoption",Baggage Porters and Bellhops,330,210
+"Panel C: Low pressure -- low BWI, low adoption",Cargo and Freight Agents,204,324
+"Panel C: Low pressure -- low BWI, low adoption",Industrial Production Managers,214,327
+"Panel C: Low pressure -- low BWI, low adoption",Actors,283,177
+"Panel C: Low pressure -- low BWI, low adoption","First-Line Supervisors of Mechanics, Installers, and Repairers",279,176
+"Panel D: Adoption ahead -- low BWI, high adoption","Fine Artists, Including Painters, Sculptors, and Illustrators",315,45
+"Panel D: Adoption ahead -- low BWI, high adoption",Desktop Publishers,273,15
+"Panel D: Adoption ahead -- low BWI, high adoption",Graphic Designers,282,40
+"Panel D: Adoption ahead -- low BWI, high adoption",Interpreters and Translators,253,26
+"Panel D: Adoption ahead -- low BWI, high adoption",Special Effects Artists and Animators,261,44
+"Panel D: Adoption ahead -- low BWI, high adoption","Switchboard Operators, Including Answering Service",249,35
+"Panel D: Adoption ahead -- low BWI, high adoption",Computer User Support Specialists,216,14
+"Panel D: Adoption ahead -- low BWI, high adoption",Retail Salespersons,255,53
+"Panel D: Adoption ahead -- low BWI, high adoption",Data Entry Keyers,195,3
+"Panel D: Adoption ahead -- low BWI, high adoption",First-Line Supervisors of Retail Sales Workers,270,79

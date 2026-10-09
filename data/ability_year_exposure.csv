@@ -20,30 +20,30 @@ Spatial Orientation,cognitive,2020,24.5,Habitat Challenge 2020 PointNav,single j
 Visualization,cognitive,2020,14.0,ShapeNet-SRN,single judge,ShapeNet-SRN
 Selective Attention,cognitive,2020,22.5,Adversarial SQuAD,single judge,Adversarial SQuAD
 Time Sharing,cognitive,2020,,,no adequate benchmark,
-Arm-Hand Steadiness,psychomotor,2020,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2020,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2020,27.0,Robotic Grasping and Manipulation Competition,single judge,Robotic Grasping and Manipulation Competition
 Finger Dexterity,psychomotor,2020,27.5,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track,single judge,Robotic Grasping and Manipulation Competition (RGMC) Manufacturing Track
 Control Precision,psychomotor,2020,,DeepMind Control Suite,no extracted score,
 Multilimb Coordination,psychomotor,2020,,,no adequate benchmark,
-Response Orientation,psychomotor,2020,,,no adequate benchmark,
+Response Orientation,psychomotor,2020,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2020,,,no adequate benchmark,
-Reaction Time,psychomotor,2020,,,no adequate benchmark,
+Reaction Time,psychomotor,2020,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2020,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2020,,,no adequate benchmark,
 Static Strength,physical,2020,,,no adequate benchmark,
 Explosive Strength,physical,2020,,,no adequate benchmark,
-Dynamic Strength,physical,2020,,,no adequate benchmark,
-Trunk Strength,physical,2020,,,no adequate benchmark,
+Dynamic Strength,physical,2020,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2020,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2020,,,no adequate benchmark,
-Extent Flexibility,physical,2020,,,no adequate benchmark,
-Dynamic Flexibility,physical,2020,,,no adequate benchmark,
+Extent Flexibility,physical,2020,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2020,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2020,20.0,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2020,,,no adequate benchmark,
 Near Vision,sensory,2020,27.5,MVTec AD,single judge,MVTec AD
 Far Vision,sensory,2020,24.0,TinyPerson,single judge,TinyPerson
 Visual Color Discrimination,sensory,2020,11.25,Colors in Context,single judge,Colors in Context
 Night Vision,sensory,2020,22.5,Dark Zurich,single judge,Dark Zurich
-Peripheral Vision,sensory,2020,,,no adequate benchmark,
+Peripheral Vision,sensory,2020,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2020,42.0,KITTI Depth Prediction Benchmark,single judge,KITTI Depth Prediction Benchmark
 Glare Sensitivity,sensory,2020,,,no adequate benchmark,
 Hearing Sensitivity,sensory,2020,,,no adequate benchmark,
@@ -72,30 +72,30 @@ Spatial Orientation,cognitive,2021,45.5,Habitat Challenge 2021 PointNav,single j
 Visualization,cognitive,2021,,SPARE3D,no extracted score,
 Selective Attention,cognitive,2021,,Distracting Control Suite,no extracted score,
 Time Sharing,cognitive,2021,,,no adequate benchmark,
-Arm-Hand Steadiness,psychomotor,2021,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2021,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2021,,D4RL,no extracted score,
 Finger Dexterity,psychomotor,2021,,World Robot Summit Assembly Challenge,no extracted score,
 Control Precision,psychomotor,2021,7.5,CARLA Leaderboard,single judge,CARLA Leaderboard
 Multilimb Coordination,psychomotor,2021,,,no adequate benchmark,
-Response Orientation,psychomotor,2021,,,no adequate benchmark,
+Response Orientation,psychomotor,2021,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2021,27.0,Arcade Learning Environment,single judge,Arcade Learning Environment
-Reaction Time,psychomotor,2021,,,no adequate benchmark,
+Reaction Time,psychomotor,2021,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2021,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2021,,,no adequate benchmark,
 Static Strength,physical,2021,,,no adequate benchmark,
 Explosive Strength,physical,2021,,,no adequate benchmark,
-Dynamic Strength,physical,2021,,,no adequate benchmark,
-Trunk Strength,physical,2021,,,no adequate benchmark,
+Dynamic Strength,physical,2021,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2021,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2021,,,no adequate benchmark,
-Extent Flexibility,physical,2021,,,no adequate benchmark,
-Dynamic Flexibility,physical,2021,,,no adequate benchmark,
+Extent Flexibility,physical,2021,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2021,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2021,17.5,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2021,,,no adequate benchmark,
 Near Vision,sensory,2021,27.5,MVTec AD,single judge,MVTec AD
 Far Vision,sensory,2021,24.0,TinyPerson,single judge,TinyPerson
 Visual Color Discrimination,sensory,2021,,,no adequate benchmark,
 Night Vision,sensory,2021,26.25,Dark Zurich,single judge,Dark Zurich
-Peripheral Vision,sensory,2021,,,no adequate benchmark,
+Peripheral Vision,sensory,2021,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2021,32.5,NYU Depth V2,single judge,NYU Depth V2
 Glare Sensitivity,sensory,2021,16.0,WildDash,single judge,WildDash
 Hearing Sensitivity,sensory,2021,,,no adequate benchmark,
@@ -124,30 +124,30 @@ Spatial Orientation,cognitive,2022,42.25,"Habitat Challenge PointNav (Realistic 
 Visualization,cognitive,2022,22.5,CLEVR-MRT,single judge,CLEVR-MRT
 Selective Attention,cognitive,2022,,,no adequate benchmark,
 Time Sharing,cognitive,2022,,,no adequate benchmark,
-Arm-Hand Steadiness,psychomotor,2022,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2022,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2022,19.25,MyoChallenge,single judge,MyoChallenge
 Finger Dexterity,psychomotor,2022,31.5,World Robot Summit Assembly Challenge,single judge,World Robot Summit Assembly Challenge
 Control Precision,psychomotor,2022,,DeepMind Control Suite,no extracted score,
 Multilimb Coordination,psychomotor,2022,,,no adequate benchmark,
-Response Orientation,psychomotor,2022,,,no adequate benchmark,
+Response Orientation,psychomotor,2022,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2022,,,no adequate benchmark,
-Reaction Time,psychomotor,2022,,,no adequate benchmark,
+Reaction Time,psychomotor,2022,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2022,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2022,,,no adequate benchmark,
 Static Strength,physical,2022,,,no adequate benchmark,
 Explosive Strength,physical,2022,,,no adequate benchmark,
-Dynamic Strength,physical,2022,,,no adequate benchmark,
-Trunk Strength,physical,2022,,,no adequate benchmark,
+Dynamic Strength,physical,2022,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2022,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2022,,,no adequate benchmark,
-Extent Flexibility,physical,2022,,,no adequate benchmark,
-Dynamic Flexibility,physical,2022,,,no adequate benchmark,
+Extent Flexibility,physical,2022,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2022,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2022,20.0,DeepMind Control Suite,single judge,DeepMind Control Suite
 Gross Body Equilibrium,physical,2022,,,no adequate benchmark,
 Near Vision,sensory,2022,14.0,DocVQA,single judge,DocVQA
 Far Vision,sensory,2022,16.0,VisDrone,single judge,VisDrone
 Visual Color Discrimination,sensory,2022,,,no adequate benchmark,
 Night Vision,sensory,2022,30.0,Dark Zurich,single judge,Dark Zurich
-Peripheral Vision,sensory,2022,,,no adequate benchmark,
+Peripheral Vision,sensory,2022,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2022,42.25,NYU Depth V2,single judge,NYU Depth V2
 Glare Sensitivity,sensory,2022,,,no adequate benchmark,
 Hearing Sensitivity,sensory,2022,35.0,HEAR,single judge,HEAR
@@ -176,30 +176,30 @@ Spatial Orientation,cognitive,2023,18.0,SQA3D,single judge,SQA3D
 Visualization,cognitive,2023,27.0,SPARE3D,single judge,SPARE3D
 Selective Attention,cognitive,2023,,GSM-IC,no extracted score,
 Time Sharing,cognitive,2023,,,no adequate benchmark,
-Arm-Hand Steadiness,psychomotor,2023,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2023,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2023,16.5,ManiSkill2,single judge,ManiSkill2
 Finger Dexterity,psychomotor,2023,25.0,NIST Assembly Task Boards,single judge,NIST Assembly Task Boards
 Control Precision,psychomotor,2023,10.0,CARLA Leaderboard,single judge,CARLA Leaderboard
 Multilimb Coordination,psychomotor,2023,,Bi-DexHands,no extracted score,
-Response Orientation,psychomotor,2023,,,no adequate benchmark,
+Response Orientation,psychomotor,2023,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2023,31.5,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
-Reaction Time,psychomotor,2023,,,no adequate benchmark,
+Reaction Time,psychomotor,2023,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2023,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2023,,,no adequate benchmark,
 Static Strength,physical,2023,,,no adequate benchmark,
 Explosive Strength,physical,2023,,,no adequate benchmark,
-Dynamic Strength,physical,2023,,,no adequate benchmark,
-Trunk Strength,physical,2023,,,no adequate benchmark,
+Dynamic Strength,physical,2023,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2023,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2023,,,no adequate benchmark,
-Extent Flexibility,physical,2023,,,no adequate benchmark,
-Dynamic Flexibility,physical,2023,,,no adequate benchmark,
+Extent Flexibility,physical,2023,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2023,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2023,,,no adequate benchmark,
 Gross Body Equilibrium,physical,2023,,,no adequate benchmark,
 Near Vision,sensory,2023,28.0,V*Bench,single judge,V*Bench
 Far Vision,sensory,2023,24.0,TinyPerson,single judge,TinyPerson
 Visual Color Discrimination,sensory,2023,,,no adequate benchmark,
 Night Vision,sensory,2023,30.0,Dark Zurich,single judge,Dark Zurich
-Peripheral Vision,sensory,2023,,,no adequate benchmark,
+Peripheral Vision,sensory,2023,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2023,42.25,NYU Depth V2,single judge,NYU Depth V2
 Glare Sensitivity,sensory,2023,22.0,GLARE,single judge,GLARE
 Hearing Sensitivity,sensory,2023,24.5,MARBLE,single judge,MARBLE
@@ -228,30 +228,30 @@ Spatial Orientation,cognitive,2024,21.0,VSI-Bench,single judge,VSI-Bench
 Visualization,cognitive,2024,13.0,SPACE,single judge,SPACE
 Selective Attention,cognitive,2024,35.75,RULER,single judge,RULER
 Time Sharing,cognitive,2024,,,no adequate benchmark,
-Arm-Hand Steadiness,psychomotor,2024,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2024,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2024,24.5,FurnitureBench,single judge,FurnitureBench
 Finger Dexterity,psychomotor,2024,,Robotic Grasping and Manipulation Competition: Manufacturing Track,no extracted score,
 Control Precision,psychomotor,2024,6.0,CARLA Leaderboard 2.0,single judge,CARLA Leaderboard 2.0
 Multilimb Coordination,psychomotor,2024,13.75,RLBench2,single judge,RLBench2
-Response Orientation,psychomotor,2024,,,no adequate benchmark,
+Response Orientation,psychomotor,2024,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2024,31.5,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
-Reaction Time,psychomotor,2024,,,no adequate benchmark,
+Reaction Time,psychomotor,2024,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2024,21.0,RoboPianist,single judge,RoboPianist
 Speed of Limb Movement,psychomotor,2024,,,no adequate benchmark,
 Static Strength,physical,2024,,,no adequate benchmark,
 Explosive Strength,physical,2024,,,no adequate benchmark,
-Dynamic Strength,physical,2024,,,no adequate benchmark,
-Trunk Strength,physical,2024,,,no adequate benchmark,
+Dynamic Strength,physical,2024,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2024,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2024,,,no adequate benchmark,
-Extent Flexibility,physical,2024,,,no adequate benchmark,
-Dynamic Flexibility,physical,2024,,,no adequate benchmark,
+Extent Flexibility,physical,2024,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2024,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2024,,HumanoidBench,no extracted score,
 Gross Body Equilibrium,physical,2024,19.5,HumanoidBench,single judge,HumanoidBench
 Near Vision,sensory,2024,28.0,V* Bench,single judge,V* Bench
 Far Vision,sensory,2024,22.5,V* Bench,single judge,V* Bench
 Visual Color Discrimination,sensory,2024,,,no adequate benchmark,
 Night Vision,sensory,2024,30.0,Dark Zurich,single judge,Dark Zurich
-Peripheral Vision,sensory,2024,,,no adequate benchmark,
+Peripheral Vision,sensory,2024,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2024,45.5,KITTI Depth Prediction,single judge,KITTI Depth Prediction
 Glare Sensitivity,sensory,2024,,,no adequate benchmark,
 Hearing Sensitivity,sensory,2024,,DeafTest,no extracted score,
@@ -280,30 +280,30 @@ Spatial Orientation,cognitive,2025,28.0,VSI-Bench,single judge,VSI-Bench
 Visualization,cognitive,2025,25.5,SpatialViz-Bench,single judge,SpatialViz-Bench
 Selective Attention,cognitive,2025,27.5,Vending-Bench 2,single judge,Vending-Bench 2
 Time Sharing,cognitive,2025,10.5,StreamingBench,single judge,StreamingBench
-Arm-Hand Steadiness,psychomotor,2025,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2025,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2025,22.0,RoboTwin 2.0,single judge,RoboTwin 2.0
 Finger Dexterity,psychomotor,2025,,,no adequate benchmark,
 Control Precision,psychomotor,2025,58.5,A2RL Drone Championship,single judge,A2RL Drone Championship
 Multilimb Coordination,psychomotor,2025,24.0,RoboTwin 2.0,single judge,RoboTwin 2.0
-Response Orientation,psychomotor,2025,,,no adequate benchmark,
+Response Orientation,psychomotor,2025,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2025,24.0,Arcade Learning Environment,single judge,Arcade Learning Environment
-Reaction Time,psychomotor,2025,,,no adequate benchmark,
+Reaction Time,psychomotor,2025,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2025,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2025,18.0,World Humanoid Robot Games 100m sprint,single judge,World Humanoid Robot Games 100m sprint
 Static Strength,physical,2025,,,no adequate benchmark,
 Explosive Strength,physical,2025,33.75,World Humanoid Robot Games,single judge,World Humanoid Robot Games
-Dynamic Strength,physical,2025,,,no adequate benchmark,
-Trunk Strength,physical,2025,,,no adequate benchmark,
+Dynamic Strength,physical,2025,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2025,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2025,27.5,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon),single judge,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon)
-Extent Flexibility,physical,2025,,,no adequate benchmark,
-Dynamic Flexibility,physical,2025,,,no adequate benchmark,
+Extent Flexibility,physical,2025,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2025,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2025,,HumanoidBench,no extracted score,
 Gross Body Equilibrium,physical,2025,19.5,HumanoidBench,single judge,HumanoidBench
 Near Vision,sensory,2025,31.5,HR-Bench,single judge,HR-Bench
 Far Vision,sensory,2025,24.0,HR-Bench,single judge,HR-Bench
 Visual Color Discrimination,sensory,2025,22.75,ColorBench,single judge,ColorBench
 Night Vision,sensory,2025,,ExDark,no extracted score,
-Peripheral Vision,sensory,2025,,,no adequate benchmark,
+Peripheral Vision,sensory,2025,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2025,32.5,DA-2K,single judge,DA-2K
 Glare Sensitivity,sensory,2025,19.25,GLARE,single judge,GLARE
 Hearing Sensitivity,sensory,2025,19.5,STAR-Bench,single judge,STAR-Bench
@@ -332,30 +332,30 @@ Spatial Orientation,cognitive,2026,28.0,VSI-Bench,single judge,VSI-Bench
 Visualization,cognitive,2026,29.75,SpatialViz-Bench,single judge,SpatialViz-Bench
 Selective Attention,cognitive,2026,33.0,Vending-Bench 2,single judge,Vending-Bench 2
 Time Sharing,cognitive,2026,21.0,AsyncTool,single judge,AsyncTool
-Arm-Hand Steadiness,psychomotor,2026,,,no adequate benchmark,
+Arm-Hand Steadiness,psychomotor,2026,0.0,,no benchmark observed (counted as zero),
 Manual Dexterity,psychomotor,2026,35.0,ManipulationNet,single judge,ManipulationNet
 Finger Dexterity,psychomotor,2026,,,no adequate benchmark,
 Control Precision,psychomotor,2026,58.5,A2RL Drone Championship,single judge,A2RL Drone Championship
 Multilimb Coordination,psychomotor,2026,27.0,RoboTwin 2.0,single judge,RoboTwin 2.0
-Response Orientation,psychomotor,2026,,,no adequate benchmark,
+Response Orientation,psychomotor,2026,0.0,,no benchmark observed (counted as zero),
 Rate Control,psychomotor,2026,31.5,Robot Air Hockey Challenge,single judge,Robot Air Hockey Challenge
-Reaction Time,psychomotor,2026,,,no adequate benchmark,
+Reaction Time,psychomotor,2026,0.0,,no benchmark observed (counted as zero),
 Wrist-Finger Speed,psychomotor,2026,,,no adequate benchmark,
 Speed of Limb Movement,psychomotor,2026,45.0,World Humanoid Robot Games,single judge,World Humanoid Robot Games
 Static Strength,physical,2026,17.5,World Humanoid Robot Games Weightlifting,single judge,World Humanoid Robot Games Weightlifting
 Explosive Strength,physical,2026,75.0,World Humanoid Robot Games,single judge,World Humanoid Robot Games
-Dynamic Strength,physical,2026,,,no adequate benchmark,
-Trunk Strength,physical,2026,,,no adequate benchmark,
+Dynamic Strength,physical,2026,0.0,,no benchmark observed (counted as zero),
+Trunk Strength,physical,2026,0.0,,no benchmark observed (counted as zero),
 Stamina,physical,2026,27.5,,carry_forward_2025,Beijing E-Town Half-Marathon (Humanoid Robot Half-Marathon) (2025)
-Extent Flexibility,physical,2026,,,no adequate benchmark,
-Dynamic Flexibility,physical,2026,,,no adequate benchmark,
+Extent Flexibility,physical,2026,0.0,,no benchmark observed (counted as zero),
+Dynamic Flexibility,physical,2026,0.0,,no benchmark observed (counted as zero),
 Gross Body Coordination,physical,2026,21.0,HumanoidBench,single judge,HumanoidBench
 Gross Body Equilibrium,physical,2026,19.5,HumanoidBench,single judge,HumanoidBench
 Near Vision,sensory,2026,42.0,HR-Bench,single judge,HR-Bench
 Far Vision,sensory,2026,24.0,HR-Bench,single judge,HR-Bench
 Visual Color Discrimination,sensory,2026,26.0,ColorBench,single judge,ColorBench
 Night Vision,sensory,2026,28.0,ExDark,single judge,ExDark
-Peripheral Vision,sensory,2026,,,no adequate benchmark,
+Peripheral Vision,sensory,2026,0.0,,no benchmark observed (counted as zero),
 Depth Perception,sensory,2026,32.5,KITTI Depth Prediction Benchmark,carry_forward_2025,DA-2K (2025)
 Glare Sensitivity,sensory,2026,19.25,,carry_forward_2025,GLARE (2025)
 Hearing Sensitivity,sensory,2026,22.75,SonicBench,single judge,SonicBench

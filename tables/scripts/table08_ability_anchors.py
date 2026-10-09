@@ -1,13 +1,14 @@
 """Table 8: all 52 O*NET abilities with their 2026 exposure score and benchmark anchor.
-Measured abilities first (descending exposure, ties alphabetical), then abilities mapped but without a 2026 value, then never-mapped abilities."""
+Measured abilities first (descending exposure, ties alphabetical), then abilities mapped but without a 2026 value, then the eight abilities with no benchmark in any year, which enter the occupation scores at zero exposure."""
 from _common import *
+ZF = 'no benchmark observed (counted as zero)'
 def rows():
     ab = ability_exposure(LATEST); all52 = sorted({r['onet_ability'] for r in read('onet_ability_weights.csv')})
-    measured = [(a, float(ab[a]['exposure']), ab[a]['anchor_benchmark']) for a in all52 if a in ab and ab[a]['exposure'] != '']
+    measured = [(a, float(ab[a]['exposure']), ab[a]['anchor_benchmark']) for a in all52 if a in ab and ab[a]['exposure'] != '' and ab[a]['resolution'] != ZF]
     measured.sort(key=lambda x: (-x[1], x[0]))
     # abilities without a 2026 value: mapped-but-unscored first, then never mapped in 2026, each alphabetical
     null_mapped = [(a, None, None) for a in all52 if a in ab and ab[a]['exposure'] == '' and ab[a]['resolution'] != 'no adequate benchmark']
-    never = [(a, None, None) for a in all52 if a in ab and ab[a]['exposure'] == '' and ab[a]['resolution'] == 'no adequate benchmark']
+    never = [(a, 0.0, 'no benchmark observed (counted as zero)') for a in all52 if a in ab and ab[a]['resolution'] == ZF]
     return measured + null_mapped + never
 if __name__ == '__main__':
     R = rows(); write_csv('table08_ability_anchors.csv', ['Ability', f'Exposure {LATEST}', 'Benchmark Anchor'], [(a, '' if e is None else f'{e:.2f}', b or '') for a, e, b in R])

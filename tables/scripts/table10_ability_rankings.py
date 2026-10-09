@@ -1,8 +1,9 @@
-"""Table 10: O*NET abilities ranked by 2026 exposure (abilities without a 2026 value are excluded)."""
+"""Table 10: O*NET abilities ranked by 2026 exposure (abilities without a 2026 value are excluded; the eight abilities with no benchmark in any year enter the occupation scores at zero and are not ranked)."""
 from _common import *
+ZF = 'no benchmark observed (counted as zero)'
 CAT = {'cognitive': 'Cognitive', 'psychomotor': 'Psychomotor', 'physical': 'Physical', 'sensory': 'Sensory'}
 def rows():
-    ab = ability_exposure(LATEST); m = [(a, float(r['exposure']), CAT[r['ability_category']]) for a, r in ab.items() if r['exposure'] != '']
+    ab = ability_exposure(LATEST); m = [(a, float(r['exposure']), CAT[r['ability_category']]) for a, r in ab.items() if r['exposure'] != '' and r['resolution'] != ZF]
     m.sort(key=lambda x: (-x[1], x[0])); return [(i + 1, a, c, e) for i, (a, e, c) in enumerate(m)]
 if __name__ == '__main__':
     R = rows(); write_csv('table10_ability_rankings.csv', ['Rank', 'Ability', 'Category', f'Exposure {LATEST}'], R)
