@@ -35,7 +35,7 @@ prev={(r['onet_ability'],r['year']):r for r in B}; rows=[]
 for a in abil:
     for y in YEARS:
         r=prev.get((a,y))
-        if not r or not r['ability_exposure'] or not r['benchmark_name']: continue
+        if not r or not r['ability_exposure'] or r['exposure_source']=='zero_fill': continue
         q=prev[(a,'2025')] if r['exposure_source']=='carry_forward_2025' else r
         rows.append([a,y,q['benchmark_name'],fmt(q['human_comparative_score_0_10'],1),fmt(q['transferability_weight'],1),fmt(r['ability_exposure']),first[q['benchmark_name']],'yes' if r['exposure_source']=='carry_forward_2025' else ''])
 cnt=collections.Counter((r['year'],r['resolution']) for r in ab)
